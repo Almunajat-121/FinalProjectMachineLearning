@@ -164,7 +164,6 @@ __label__KEMAHASISWAAN __label__RENDAH sosialisasi kegiatan kemhsan tidak merata
 __label__FASILITAS __label__RENDAH gedung rektorat panas bgt soalnya bocor, susah konsen belajar
 __label__JARINGAN_IT __label__KRITIS server spada sering down waktu masa uts
 __label__LAINNYA __label__RENDAH transportasi parkiran tidak memadai, biaya transportasi jadi membebani
-__label__JARINGAN_IT __label__SEDANG wifi nya lemot
 __label__KEMAHASISWAAN __label__RENDAH senioritas di prodi sudah melewati batas, membuat mhs baru tertekan
 __label__KEMAHASISWAAN __label__RENDAH informasi lowongan magang tidak disebarkan merata, proses terhambat
 __label__LAINNYA __label__SEDANG transportasi akses transportasi umum susah, sering terlelet
@@ -603,7 +602,7 @@ __label__LAINNYA __label__SEDANG lapangan badminton ancur, mhs gabisa olahraga g
 __label__AKADEMIK __label__KRITIS sistem krs sering timeout terutama saat uas
 __label__FASILITAS __label__RENDAH ac di gedung b lantai 3 tidak berfungsi, jadi gerah minta ampun
 __label__KEMAHASISWAAN __label__RENDAH organisasi kampus tidak aktif, gaada wadah aspirasi mhs
-__label__FASILITAS __label__RENDAH itu hee sudah bagus maunya ada tempat dudukÂ² di lantai atas sama lantai bawah, cuma kurang colokan beh, maunya bgus sekali kalau colokan nya ada
+__label__FASILITAS __label__RENDAH itu hee sudah bagus maunya ada tempat duduk di lantai atas sama lantai bawah, cuma kurang colokan beh, maunya bgus sekali kalau colokan nya ada
 __label__KEMAHASISWAAN __label__RENDAH kegiatan lomba antar prodi informasinya tidak merata, pengurusan jadi bgt lama
 __label__AKADEMIK __label__RENDAH ruang kls tidak kondusif, mhs jadi malas
 __label__JARINGAN_IT __label__RENDAH jaringan di gedung b lantai 2 sering putus-putus, susah akses internet
@@ -1001,7 +1000,6 @@ __label__AKADEMIK __label__RENDAH informasi jadwal seminar mendadak, stress bgt 
 __label__FASILITAS __label__SEDANG lab matematika kondisinya pengap, mhs gabisa belajar maksimal
 __label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung d tidak sampai ke semua ruangan, terpaksa pakai kuota sendiri
 __label__KEMAHASISWAAN __label__RENDAH pengurusan transkip nilai sementara butuh berhari-hari, bgt lama
-__label__AKADEMIK __label__RENDAH lama merespon
 __label__KEMAHASISWAAN __label__RENDAH kegiatan lomba antar prodi waktunya tidak pas, mhs jadi tidak antusias
 __label__AKADEMIK __label__RENDAH dosen tidak beri feedback nilai, proses akademik terhambat
 __label__KEUANGAN __label__RENDAH pembayaran biaya praktikum gabisa online, menghambat proses akademik
@@ -1790,24 +1788,23 @@ __label__FASILITAS __label__RENDAH colokan di lab komputer mipa berbahaya, padah
 __label__AKADEMIK __label__RENDAH jadwal kls bentrok dengan mata kls lain, banyak yang ketinggalan informasi
 __label__JARINGAN_IT __label__SEDANG wifi perpus pusat lemot parah, gabisa akses spada
 __label__FASILITAS __label__RENDAH kursinya kadang gaada mejanya min
-__label__FASILITAS __label__RENDAH ac nya kurang dingin di gedung b lantai 3 
-__label__JARINGAN_IT __label__SEDANG etdah ini spada lemot parahh sa mau cari matkul dan kmpul tugas susahnya minta ampun dah 
+__label__FASILITAS __label__RENDAH ac nya kurang dingin di gedung b lantai 3
+__label__JARINGAN_IT __label__SEDANG etdah ini spada lemot parahh sa mau cari matkul dan kmpul tugas susahnya minta ampun dah
 __label__FASILITAS __label__RENDAH gedung b toiletnya kayak cuma pajangan
 __label__FASILITAS __label__RENDAH gedung alibas bgt panas
-__label__KEMAHASISWAAN __label__RENDAH senioritas diprodi masih bgt kental alangkah lebih baik edukasi untuk senioritas diadakan soalnya senioritas di kampus membuat beberapa mhs bisa tertekan 
-__label__FASILITAS __label__SEDANG min semua gedung punya wc bahkan tiap lantai.....,tapi cuma 1 wc yg bisa dipakai.....cuma wc di gedung a lantai 1 itupun cuma satu bilik yang bagus, bahkan kunci pintunya ancur, airnya kadang ngga nyala, lampunya redup. wc yang lain cuma pajangan karna airnya tidak mengalir pokoknya ancur gabisa digunakan, tidak layak pakai.....kan capek tuh kalo ada matkul dilantai 3 gedung b tapi kalo kebelet harus jauh jauh ke gedung a lantai 1 padahal setiap lantai ada wc tapi tidak bergunaðŸ˜‘. kursi tiap kelas juga kadang kurang, ada yg ancur, ac nya dibeberapa ruangan kadang tidak berfungsi dengan baik, terkadang kalo mau pakai lcd harus matikan ac duluðŸ˜­ sekianðŸ™ðŸ™
+__label__KEMAHASISWAAN __label__RENDAH senioritas diprodi masih bgt kental alangkah lebih baik edukasi untuk senioritas diadakan soalnya senioritas di kampus membuat beberapa mhs bisa tertekan
+__label__FASILITAS __label__SEDANG min semua gedung punya wc bahkan tiap lantai.....,tapi cuma 1 wc yg bisa dipakai.....cuma wc di gedung a lantai 1 itupun cuma satu bilik yang bagus, bahkan kunci pintunya ancur, airnya kadang ngga nyala, lampunya redup. wc yang lain cuma pajangan karna airnya tidak mengalir pokoknya ancur gabisa digunakan, tidak layak pakai.....kan capek tuh kalo ada matkul dilantai 3 gedung b tapi kalo kebelet harus jauh jauh ke gedung a lantai 1 padahal setiap lantai ada wc tapi tidak berguna. kursi tiap kelas juga kadang kurang, ada yg ancur, ac nya dibeberapa ruangan kadang tidak berfungsi dengan baik, terkadang kalo mau pakai lcd harus matikan ac dulu sekian
 __label__FASILITAS __label__SEDANG ac di lab.matematika gedung a lantai 3 nda menyala
-__label__FASILITAS __label__RENDAH perlengkapan di laboratorium khusus nya di laboratorium botani banyak yang kurang berfungsi dengan baik 
+__label__FASILITAS __label__RENDAH perlengkapan di laboratorium khusus nya di laboratorium botani banyak yang kurang berfungsi dengan baik
 __label__FASILITAS __label__RENDAH ac nya kurang dingin
 __label__FASILITAS __label__RENDAH wc gedung b gabisa dipakai
 __label__FASILITAS __label__RENDAH " ac di ruang kelas sering tidak berfungsi sehingga ruangan menjadi bgt panas sehingga kita merasa nda nyaman mohon untuk segera di perbaiki."
 __label__FASILITAS __label__RENDAH ruangan yang sempit
-__label__FASILITAS __label__RENDAH kecil ruangan
-__label__FASILITAS __label__RENDAH plafon di ruangan 1.2 gedung d sudah retak sehingga saya kurang konsen belajar soalnya khawatir plafonnya roboh 
-__label__FASILITAS __label__RENDAH ac dalam ruangannya tolong di nyalakan karna seringkali ac nya tda menyala jadinya kepanasan 
+__label__FASILITAS __label__RENDAH plafon di ruangan 1.2 gedung d sudah retak sehingga saya kurang konsen belajar soalnya khawatir plafonnya roboh
+__label__FASILITAS __label__RENDAH ac dalam ruangannya tolong di nyalakan karna seringkali ac nya tda menyala jadinya kepanasan
 __label__KEMAHASISWAAN __label__TINGGI 1. minimnya minat berorganisasi mhs di era modern ini, yang memicu kurangnya mengalisis masalah internal maupun eksternal kampus(mendiamkan masalah), sehingga menimbulkan kejanggalan dan masalah yang bermacam-macam sering terjadi di lingkungan eksternal maupun internal kampus.
-__label__FASILITAS __label__SEDANG parkiran motor yang masih kurang teratur dan banyak parkir sembarangan. alhasil terlelet kalau ada kelas karna waktunya habis untuk cari parkir dulu. 
-__label__LAINNYA __label__TINGGI web siaqad yang selalu setiap tahunnya eror bermasalah heran deh dan ada juga beberapa kelas fasilitas ac-nya tidak memadai apa lahi di ruangan lebih banyak mhs  hufff panasnya melarat sekali bahkan mau belajar pun tidak fokus 
+__label__FASILITAS __label__SEDANG parkiran motor yang masih kurang teratur dan banyak parkir sembarangan. alhasil terlelet kalau ada kelas karna waktunya habis untuk cari parkir dulu.
+__label__LAINNYA __label__TINGGI web siaqad yang selalu setiap tahunnya eror bermasalah heran deh dan ada juga beberapa kelas fasilitas ac-nya tidak memadai apa lahi di ruangan lebih banyak mhs hufff panasnya melarat sekali bahkan mau belajar pun tidak fokus
 __label__FASILITAS __label__RENDAH min, ac nya kurang dingin min
 __label__FASILITAS __label__SEDANG ruangan di gedung b hampir setiap kelas selalu ada kursi yang tidak punya meja atau mejanya ancur. kalau hanya duduk mungkin bisa, tapi untuk mencatat saat pembelajaran sedanh berlangsung itu bgt menyulitkan.
-__label__FASILITAS __label__SEDANG ac gedung a lantai tiga ruangan  matematika tolong di perbaiki 
+__label__FASILITAS __label__SEDANG ac gedung a lantai tiga ruangan matematika tolong di perbaiki
