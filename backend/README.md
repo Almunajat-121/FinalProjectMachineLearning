@@ -1,144 +1,58 @@
-# 🖥️ Smart Campus Helpdesk - Laravel Backend Service
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-Direktori ini dipersiapkan khusus untuk tim **Backend Lead** untuk meletakkan kodingan proyek **Laravel (PHP)**.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
----
+## About Laravel
 
-## 🛠️ Langkah Inisialisasi Proyek Laravel (Bagi Backend Developer)
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-Buka terminal di dalam folder `backend/` ini, lalu jalankan perintah berikut:
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-### 1. Inisialisasi Proyek Laravel Baru
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+
+In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+
+## Agentic Development
+
+Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+
 ```bash
-composer create-project laravel/laravel .
+composer require laravel/boost --dev
+
+php artisan boost:install
 ```
 
-### 2. Setup File `.env`
-Sesuaikan baris berikut pada file `.env` Anda untuk mengaktifkan koneksi database dan queue berbasis database:
-```env
-APP_NAME="SmartCampusHelpdesk"
-APP_ENV=local
+Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=smartcampus
-DB_USERNAME=root
-DB_PASSWORD=            # Isi password MySQL Anda jika ada
+## Contributing
 
-# GANTI INI UNTUK MENYALAKAN ANTRIAN ASINKRON LARAVEL
-QUEUE_CONNECTION=database
-```
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-### 3. Buat Database Baru di MySQL
-Jalankan di CLI MySQL atau phpMyAdmin Anda:
-```sql
-CREATE DATABASE smartcampus CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-```
+## Code of Conduct
 
-### 4. Buat Tabel Pekerjaan Antrian (Jobs Table)
-Jalankan perintah Laravel Artisan berikut untuk membuat tabel antrian:
-```bash
-php artisan queue:table
-```
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-### 5. Buat Model & Migration untuk Tiket
-Jalankan perintah berikut:
-```bash
-php artisan make:model Ticket -m
-```
+## Security Vulnerabilities
 
-Buka berkas file migration tiket yang baru saja terbuat di `database/migrations/xxxx_xx_xx_create_tickets_table.php`, lalu salin skema tabel dari berkas [docs/PROJECT_BREAKDOWN.md](file:///d:/kuliah/semester%206/ML/PROJEK%20AKHIR/FinalProjectMachineLearning/docs/PROJECT_BREAKDOWN.md) (Bab 4.1):
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-```php
-public function up(): void
-{
-    Schema::create('tickets', function (Blueprint $table) {
-        $table->uuid('id')->primary();
-        $table->text('raw_text');
-        $table->char('lang_hint', 2)->default('id');
-        
-        // Hasil NLP (async)
-        $table->enum('category', ['FASILITAS', 'AKADEMIK', 'JARINGAN_IT', 'KEUANGAN', 'KEMAHASISWAAN', 'LAINNYA'])->nullable();
-        $table->enum('urgency', ['RENDAH', 'SEDANG', 'TINGGI', 'KRITIS'])->nullable();
-        $table->decimal('category_score', 4, 3)->nullable();
-        $table->decimal('urgency_score', 4, 3)->nullable();
-        $table->json('keywords')->nullable();
-        
-        // Status lifecycle
-        $table->enum('status', ['PENDING_NLP', 'OPEN', 'IN_PROGRESS', 'RESOLVED', 'CLOSED', 'FAILED'])->default('PENDING_NLP');
-        
-        // Cursor untuk lazy load
-        $table->bigIncrements('cursor_id');
-        
-        $table->timestamps();
-        $table->timestamp('resolved_at')->nullable();
-        $table->text('admin_note')->nullable();
-        
-        // Indexes
-        $table->index(['status', 'cursor_id']);
-        $table->index(['urgency', 'cursor_id']);
-        $table->index(['category', 'cursor_id']);
-    });
-}
-```
+## License
 
-### 6. Jalankan Migrasi
-```bash
-php artisan migrate
-```
-
----
-
-## 📡 Integrasi Antrian Pekerjaan (Job Laravel Database Queue)
-
-Buat Job asinkron untuk memanggil FastAPI Python:
-```bash
-php artisan make:job AnalyzeTicketJob
-```
-
-Buka file `app/Jobs/AnalyzeTicketJob.php` dan buatlah fungsi `handle()` memanggil URL API FastAPI Python di port `8000`:
-```php
-use Illuminate\Support\Facades\Http;
-use App\Models\Ticket;
-
-public function handle(): void
-{
-    $ticket = Ticket::findOrFail($this->ticketId);
-
-    try {
-        // Panggil endpoint FastAPI Python
-        $response = Http::timeout(30)->post('http://localhost:8000/analyze', [
-            'ticket_id' => $ticket->id,
-            'text'      => $ticket->raw_text,
-        ]);
-
-        $result = $response->json();
-
-        // Update tiket dengan hasil AI
-        $ticket->update([
-            'category'        => $result['category'],
-            'urgency'         => $result['urgency'],
-            'category_score'  => $result['confidence']['category_score'],
-            'urgency_score'   => $result['confidence']['urgency_score'],
-            'keywords'        => json_encode($result['keywords_extracted']),
-            'status'          => 'OPEN', # Siap dikelola admin
-        ]);
-
-    } catch (\Exception $e) {
-        $ticket->update(['status' => 'FAILED']);
-    }
-}
-```
-
-Jalankan server Laravel Anda:
-```bash
-php artisan serve
-```
-
-Jalankan worker antrian Anda pada terminal terpisah (agar job dieksekusi secara asinkron):
-```bash
-php artisan queue:work --sleep=1 --tries=1
-```
-
-Sukses mengintegrasikan backend! 🚀
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
