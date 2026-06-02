@@ -1,0 +1,1813 @@
+__label__KEMAHASISWAAN __label__RENDAH gaada mentor atau pembimbing untuk mhs baru di himpunan
+__label__LAINNYA __label__SEDANG lapangan voli gaada penerangan malam, gabisa dimanfaatkan optimal
+__label__LAINNYA __label__TINGGI lapangan futsal tidak terawat, mhs gabisa olahraga gratis
+__label__LAINNYA __label__RENDAH keamanan lingkungan sekitar kampus gaada satpam, tidak kondusif malam hari
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi hak dan kewajiban mhs gaada pengumuman resmi, banyak yang terlewat informasinya
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi hak dan kewajiban mhs tidak merata, banyak yang ketinggalan
+__label__JARINGAN_IT __label__SEDANG internet di prodi matematika lemot parah, gabisa kumpul tugas online
+__label__AKADEMIK __label__RENDAH siakad gabisa diakses saat jam kls, mhs rugi bgt
+__label__KEUANGAN __label__TINGGI prosedur pengajuan keringanan ukt bgt rumit, menghambat akademik
+__label__FASILITAS __label__RENDAH wc fakultas ekonomi airnya tidak mengalir sudah lama bgt, harus nahan lama bgt
+__label__JARINGAN_IT __label__RENDAH sinyal seluler di perpus bgt lemah, harus keluar dulu baru bisa internetan
+__label__FASILITAS __label__RENDAH kebersihan gedung a lantai 2 gaada petugas kebersihan, bisa jadi sumber penyakit
+__label__JARINGAN_IT __label__RENDAH wifi kampus bapuk ga stabil apalagi kalau banyak yang konek
+__label__KEUANGAN __label__SEDANG pengumuman perubahan biaya mendadak bgt, mhs jadi bingung
+__label__AKADEMIK __label__SEDANG jadwal kls informasinya tidak jelas, mhs jadi bingung
+__label__KEUANGAN __label__RENDAH pengumuman perubahan biaya tidak diinformasikan dengan jelas, mhs yang urgent jadi kesusahan
+__label__AKADEMIK __label__TINGGI website sistem krs ui-nya outdated bgt, nilai terancam
+__label__KEMAHASISWAAN __label__RENDAH staff layanan administrasi mhs tidak membantu sama sekali, mhs jadi tidak nyaman
+__label__AKADEMIK __label__RENDAH spada loadingnya lama bgt, susah akses materi kls
+__label__JARINGAN_IT __label__TINGGI wifi gedung a lantai 2 sering disconnect, susah download materi kls
+__label__AKADEMIK __label__TINGGI krs sering eror, mhs dirugikan
+__label__KEMAHASISWAAN __label__RENDAH kegiatan program mentoring informasinya tidak merata, proses administrasi terhambat
+__label__AKADEMIK __label__TINGGI revisi skripsi responnya lama bgt, mhs dirugikan
+__label__JARINGAN_IT __label__SEDANG hotspot kampus lemot parah, terpaksa habiskan kuota sendiri
+__label__FASILITAS __label__TINGGI kamar mandi gedung b lantai 2 ancur total, tidak nyaman sama sekali apalagi kalau kebelet
+__label__AKADEMIK __label__RENDAH sistem portal mhs ui-nya terlalu ribet, proses akademik terhambat
+__label__KEMAHASISWAAN __label__TINGGI bem kurang aktif menyuarakan aspirasi mhs soal program beasiswa
+__label__KEUANGAN __label__TINGGI prosedur pengajuan keringanan ukt tidak transparan, prosesnya bgt lama
+__label__FASILITAS __label__RENDAH kursi di aula gedung c kayunya sudah lapuk, susah nulis waktu kls
+__label__LAINNYA __label__RENDAH kantin dekat gedung fisip harganya mahal, gaada pilihan sehat
+__label__AKADEMIK __label__RENDAH bahan ajar susah dicari, capek bgt dikelas
+__label__JARINGAN_IT __label__TINGGI wifi gedung c gabisa dipakai, susah download materi kls
+__label__AKADEMIK __label__TINGGI spada sering eror, susah download bahan ajar
+__label__LAINNYA __label__RENDAH gerbang gerbang 3 gaada satpam, tidak aman soalnya siapa saja bisa masuk
+__label__KEUANGAN __label__RENDAH ada pungutan di luar ketentuan yang tidak semestinya
+__label__FASILITAS __label__RENDAH banyak kursi di lab komputer yang sudah tidak layak pakai, gabisa fokus
+__label__KEUANGAN __label__TINGGI ukt prosedur keringanan susah, tapi ac-nya ancur semua
+__label__AKADEMIK __label__RENDAH dosen jarang masuk, mhs rugi bgt
+__label__LAINNYA __label__RENDAH area koridor antar gedung gaada tempat duduk, tidak nyaman buat mhs
+__label__FASILITAS __label__SEDANG min semua gedung punya wc bahkan tiap lantai.....,tapi cuma 1 wc yg bisa dipakai.....cuma wc di gedung a lantai 1 itupun cuma satu bilik yang bagus, bahkan kunci pintunya ancur, airnya kadang ngga nyala, lampunya redup. wc yang lain cuma pajangan karna airnya tidak mengalir pokoknya ancur gabisa digunakan, tidak layak pakai.....kan capek tuh kalo ada matkul dilantai 3 gedung b tapi kalo kebelet harus jauh jauh ke gedung a lantai 1 padahal setiap lantai ada wc tapi tidak berguna. kursi tiap kelas juga kadang kurang, ada yg ancur, ac nya dibeberapa ruangan kadang tidak berfungsi dengan baik, terkadang kalo mau pakai lcd harus matikan ac dulu sekian
+__label__FASILITAS __label__RENDAH ac di gedung c berisik bgt, jadi mhs tidak konsen belajar
+__label__FASILITAS __label__RENDAH wc perpus pusat airnya tidak mengalir sudah seminggu lebih, terpaksa ke gedung lain yang jauh
+__label__AKADEMIK __label__TINGGI jadwal syarat wisuda tidak sampai ke semua mhs, banyak mhs yang tidak tahu
+__label__AKADEMIK __label__SEDANG nilai ada yang salah input, mhs jadi bingung
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung a lantai 3 hilang timbul, gabisa akses internet sama sekali
+__label__AKADEMIK __label__TINGGI sistem sistem krs ui-nya susah dinavigasi, proses akademik terhambat
+__label__KEMAHASISWAAN __label__RENDAH kegiatan seminar mhs informasinya tidak merata, proses administrasi terhambat
+__label__FASILITAS __label__RENDAH lab kimia panas bgt soalnya netes airnya, mhs jadi malas masuk kls
+__label__JARINGAN_IT __label__SEDANG etdah ini spada lemot parahh sa mau cari matkul dan kmpul tugas susahnya minta ampun dah
+__label__KEMAHASISWAAN __label__TINGGI pengurusan dokumen beasiswa harus bolak-balik, mhs jadi kesal
+__label__LAINNYA __label__RENDAH gaada transportasi kampus, mhs kesulitan mobilitas
+__label__KEMAHASISWAAN __label__TINGGI kegiatan program mentoring tidak terorganisir, mhs jadi tidak antusias
+__label__FASILITAS __label__RENDAH banyak kursi di gedung a lantai 1 yang rodanya hilang, gabisa fokus
+__label__JARINGAN_IT __label__KRITIS spada down terus saat masa uts/uas
+__label__KEUANGAN __label__RENDAH dana praktikum jumlahnya tidak sesuai, mhs dirugikan
+__label__AKADEMIK __label__TINGGI informasi prosedur skripsi hanya dari mulut ke mulut, stress bgt ngurusnya
+__label__JARINGAN_IT __label__RENDAH sinyal di lab kimia gabisa untuk data seluler, kls online jadi terganggu
+__label__JARINGAN_IT __label__SEDANG spada lemot bgt saat pagi hari
+__label__KEUANGAN __label__RENDAH dana penelitian mhs tidak transparan penggunaannya, mhs dirugikan
+__label__FASILITAS __label__RENDAH lahan parkir di gedung d sempit bgt jadi sering telat kls
+__label__LAINNYA __label__RENDAH jalan di area parkir utama gaada lampu penerang malam hari, berbahaya buat motor
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung d hanya di spot tertentu, kls online terganggu
+__label__KEMAHASISWAAN __label__RENDAH staff sekretariat tidak responsif, tidak enak kalau harus ke sana
+__label__FASILITAS __label__RENDAH pintu wc fakultas hukum gabisa dikunci, bgt tidak nyaman
+__label__FASILITAS __label__RENDAH kebersihan gedung b lantai 2 jarang dibersihkan, bisa jadi sumber penyakit
+__label__KEMAHASISWAAN __label__RENDAH senioritas di prodi masih membuat tidak nyaman, mhs baru jadi tertekan
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang rapat mhs tidak layak, proses administrasi terhambat
+__label__KEUANGAN __label__TINGGI gaada info resmi tentang distribusi beasiswa, mhs hanya dengar dari mulut ke mulut
+__label__AKADEMIK __label__RENDAH dosen metode mengajarnya membosankan, proses akademik terhambat
+__label__FASILITAS __label__SEDANG parkiran gedung d gada atapnya, kendaraan bisa catnya jadi ancur
+__label__KEUANGAN __label__RENDAH dana kkn jumlahnya tidak sesuai, mhs yang kena dampaknya
+__label__KEUANGAN __label__TINGGI beasiswa distribusinya tidak merata dan hanya yang punya koneksi yang dapat
+__label__KEUANGAN __label__TINGGI biaya wisuda terlalu mahal dan prosedurnya tidak jelas alurnya
+__label__FASILITAS __label__RENDAH kursi di gedung d udah lama sudah tidak layak pakai, kapan diganti?
+__label__LAINNYA __label__SEDANG area ruang tunggu kotor tidak terawat, tidak nyaman buat mhs
+__label__JARINGAN_IT __label__SEDANG wifi kampus lemot parah apalagi kalau acara kampus
+__label__LAINNYA __label__SEDANG penerangan jalan di belakang rektorat gaada, berbahaya malam hari
+__label__FASILITAS __label__RENDAH remot ac prodi akuntansi cuma 2 buat semua lantai, susah hidupinnya
+__label__AKADEMIK __label__RENDAH ruang kls terlalu sempit, gabisa fokus
+__label__LAINNYA __label__RENDAH sampah di kampus kalau hari libur banyak sekali
+__label__KEMAHASISWAAN __label__RENDAH informasi kompetisi mhs tidak disosialisasikan dengan baik, mhs banyak yang tidak tahu
+__label__KEUANGAN __label__TINGGI transparansi distribusi beasiswa kurang, mhs tidak tahu bagaimana seleksinya
+__label__KEUANGAN __label__RENDAH ada pungutan di luar ketentuan yang memberatkan mhs
+__label__KEUANGAN __label__TINGGI keringanan ukt susah diajukan, prosedurnya bgt rumit
+__label__FASILITAS __label__SEDANG ruang seminar kursinya banyak yang hilang dan proyektornya ancur
+__label__FASILITAS __label__RENDAH lab komputer mipa kursinya mejanya patah dan papan tulisnya gabisa dibaca
+__label__JARINGAN_IT __label__RENDAH koneksi di gedung a lantai 3 gabisa diandalkan padahal butuh buat kumpul tugas
+__label__KEUANGAN __label__RENDAH gaada info resmi tentang biaya resmi kampus, mhs hanya dengar dari mulut ke mulut
+__label__AKADEMIK __label__RENDAH bahan ajar sudah outdated, nilai bisa jelek soalnya tidak konsen
+__label__LAINNYA __label__RENDAH sampah di area kantin menumpuk saat hari libur
+__label__KEMAHASISWAAN __label__RENDAH fasilitas lapangan olahraga tidak layak, banyak yang tidak terlayani
+__label__LAINNYA __label__RENDAH keamanan gedung saat weekend kurang terjaga, tidak kondusif untuk kegiatan malam
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat keterangan mhs aktif butuh lebih dari 2 minggu, bgt lama
+__label__JARINGAN_IT __label__RENDAH zoom kls online sering lag soalnya wifi gedung a lantai 2 kurang untuk semua mhs
+__label__KEUANGAN __label__RENDAH penggunaan dana kegiatan mhs tidak transparan, mhs tidak tahu kemana uangnya
+__label__JARINGAN_IT __label__RENDAH sinyal di auditorium bgt lemah, gabisa akses internet sama sekali
+__label__KEUANGAN __label__RENDAH pengumuman perubahan biaya mendadak bgt, prosesnya jadi bgt lama
+__label__AKADEMIK __label__RENDAH gaada feedback nilai dari dosen, stress ngurusnya
+__label__LAINNYA __label__TINGGI atm/ bank kampus sering eror, tidak praktis
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus kurang untuk semua mhs, terpaksa pakai kuota sendiri
+__label__KEUANGAN __label__RENDAH ada biaya tambahan yang tidak resmi yang tidak semestinya
+__label__FASILITAS __label__SEDANG gaada tempat duduk di prodi matematika, padahal bgt dibutuhkan
+__label__KEMAHASISWAAN __label__RENDAH layanan bagian kemhsan tidak konsisten, banyak yang tidak terlayani
+__label__JARINGAN_IT __label__KRITIS spada gabisa diakses saat deadline pengumpulan tugas
+__label__FASILITAS __label__RENDAH kebersihan gedung fisip gaada petugas kebersihan, bisa jadi sumber penyakit
+__label__LAINNYA __label__RENDAH gaada jalur sepeda di area kampus, padahal bgt dibutuhkan
+__label__KEMAHASISWAAN __label__RENDAH unit kemhsan sering tutup saat mhs butuh bantuan
+__label__AKADEMIK __label__RENDAH dosen jarang masuk, belajar jadi terganggu
+__label__KEUANGAN __label__TINGGI pengumuman syarat keringanan ukt tidak diinformasikan jelas, mhs kaget
+__label__AKADEMIK __label__TINGGI revisi skripsi bimbingannya tidak terjadwal, mhs dirugikan
+__label__LAINNYA __label__RENDAH sampah di sekitar parkiran menumpuk beberapa hari
+__label__KEMAHASISWAAN __label__RENDAH program pertukaran mhs tidak merata distribusinya, mhs kurang diuntungkan
+__label__AKADEMIK __label__KRITIS sistem krs sering timeout terus waktu deadline pengumpulan tugas
+__label__KEUANGAN __label__TINGGI seleksi beasiswa tidak transparan, hanya orang tertentu yang tahu
+__label__KEUANGAN __label__RENDAH transparansi biaya-biaya resmi kampus kurang, mhs tidak tahu apa saja biaya yang resmi
+__label__FASILITAS __label__RENDAH tolong ac gedung b lantai 2 segera diperbaiki, kurang dingin dan kita kepanasan parah
+__label__LAINNYA __label__RENDAH atm/ bank kampus sering kosong uangnya, tidak praktis
+__label__AKADEMIK __label__TINGGI revisi skripsi dosennya susah ditemui, mhs jadi bingung
+__label__AKADEMIK __label__RENDAH bahan ajar tidak lengkap, nilai bisa jelek soalnya tidak konsen
+__label__FASILITAS __label__RENDAH wc gedung fh airnya tidak mengalir sudah berhari-hari, harus nahan lama bgt
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi kegiatan kemhsan tidak merata, banyak yang ketinggalan
+__label__FASILITAS __label__SEDANG min, wc di prodi matematika kondisinya jorok bgt, tolong segera diperbaiki
+__label__LAINNYA __label__RENDAH sampah di area kantin menumpuk beberapa hari
+__label__KEMAHASISWAAN __label__RENDAH pengurusan ktm makan waktu berhari-hari, bgt tidak efisien
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi perpus tidak sampai semua ruangan, harus geser-geser cari sinyal
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi kegiatan kemhsan gaada pengumuman resmi, banyak yang terlewat informasinya
+__label__FASILITAS __label__SEDANG parkiran gedung b lantai 3 gada atapnya, kendaraan bisa catnya jadi ancur
+__label__AKADEMIK __label__TINGGI web akademik sering eror parah waktu masa krs
+__label__FASILITAS __label__RENDAH wc gedung a lantai 3 airnya tidak mengalir sudah lama bgt, jadi malas kls
+__label__KEUANGAN __label__RENDAH transparansi biaya-biaya resmi kampus kurang, mhs tidak tahu bagaimana seleksinya
+__label__JARINGAN_IT __label__RENDAH gaada wifi sama sekali di gedung c, kls online terganggu
+__label__LAINNYA __label__SEDANG lingkungan sekitar prodi matematika minim fasilitas publik, panas bgt siang hari
+__label__KEUANGAN __label__TINGGI seleksi beasiswa tidak transparan, mhs layak tidak dapat
+__label__FASILITAS __label__RENDAH lampu di ruang kelas b2 sering turun saklarnya, mata cepat lelah
+__label__FASILITAS __label__RENDAH kursi di fakultas teknik udah lama mejanya patah, kapan diganti?
+__label__KEMAHASISWAAN __label__RENDAH layanan layanan administrasi jarang beroperasi, pengurusan jadi lama
+__label__AKADEMIK __label__SEDANG gaada feedback nilai dari dosen, proses jadi terlelet
+__label__AKADEMIK __label__RENDAH dosen tidak responsif di grup, proses akademik terhambat
+__label__FASILITAS __label__RENDAH banyak kursi di gedung fh yang mejanya patah, mhs jadi malas masuk kls
+__label__AKADEMIK __label__RENDAH jadwal jadwal kls pengganti mendadak bgt, banyak mhs yang tidak tahu
+__label__FASILITAS __label__SEDANG ruang kls lantai 2 kursinya gaada mejanya dan acnya juga mati
+__label__KEUANGAN __label__RENDAH pembayaran biaya praktikum harus datang langsung berkali-kali, prosesnya jadi bgt lama
+__label__AKADEMIK __label__TINGGI krs gabisa tambah matkul, stress ngurusnya
+__label__JARINGAN_IT __label__RENDAH upload tugas di spada gagal terus soalnya internet gedung fisip gabisa konek
+__label__AKADEMIK __label__RENDAH ruang kls tidak sesuai kapasitas mhs, belajarnya terganggu
+__label__FASILITAS __label__RENDAH min, wc di gedung a lantai 2 kondisinya airnya tidak mengalir, tolong segera diperbaiki
+__label__KEMAHASISWAAN __label__RENDAH layanan layanan administrasi mhs pelayanannya kurang baik, pengurusan jadi bgt lama
+__label__LAINNYA __label__RENDAH lingkungan sekitar prodi akuntansi gersang gaada pohon teduh, tidak mendukung kreativitas mhs
+__label__KEUANGAN __label__TINGGI keringanan ukt susah diajukan, prosedurnya memakan waktu lama
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi kegiatan kemhsan hanya di grup tertentu, banyak yang ketinggalan
+__label__LAINNYA __label__SEDANG gerbang gerbang 1 sering macet di satu pintu saja, sering terlelet kls
+__label__AKADEMIK __label__RENDAH dosen pilih kasih dalam penilaian, mhs dirugikan
+__label__KEUANGAN __label__TINGGI informasi beasiswa tidak disosialisasikan dengan baik, hanya orang tertentu yang tahu
+__label__LAINNYA __label__RENDAH lapangan badminton tidak terawat, mhs gabisa olahraga gratis
+__label__KEUANGAN __label__RENDAH penggunaan dana penelitian mhs tidak transparan, mhs tidak tahu kemana uangnya
+__label__LAINNYA __label__SEDANG gerbang gerbang 1 gaada sistem akses sehingga antrean panjang
+__label__JARINGAN_IT __label__TINGGI internet di gedung a lantai 3 sering putus, susah download materi kls
+__label__KEUANGAN __label__TINGGI beasiswa seleksinya tidak transparan, banyak yang berhak tapi tidak dapat
+__label__KEMAHASISWAAN __label__RENDAH program magang kampus merdeka prosedur pendaftarannya ribet, mhs kurang diuntungkan
+__label__AKADEMIK __label__TINGGI krs gabisa diakses saat masa pengisian, proses akademik jadi terlelet
+__label__JARINGAN_IT __label__TINGGI koneksi di prodi matematika lemot parah padahal butuh buat download materi
+__label__FASILITAS __label__RENDAH ac di prodi akuntansi berisik bgt, jadi mhs tidak konsen belajar
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi kegiatan kemhsan tidak merata, banyak yang terlewat informasinya
+__label__FASILITAS __label__RENDAH gedung rektorat panas bgt soalnya bocor, susah konsen belajar
+__label__JARINGAN_IT __label__KRITIS server spada sering down waktu masa uts
+__label__LAINNYA __label__RENDAH transportasi parkiran tidak memadai, biaya transportasi jadi membebani
+__label__JARINGAN_IT __label__SEDANG wifi nya lemot
+__label__KEMAHASISWAAN __label__RENDAH senioritas di prodi sudah melewati batas, membuat mhs baru tertekan
+__label__KEMAHASISWAAN __label__RENDAH informasi lowongan magang tidak disebarkan merata, proses terhambat
+__label__LAINNYA __label__SEDANG transportasi akses transportasi umum susah, sering terlelet
+__label__KEMAHASISWAAN __label__RENDAH layanan hima sering tutup, proses administrasi terhambat
+__label__JARINGAN_IT __label__RENDAH server spada bapuk ga stabil waktu pengumuman nilai
+__label__FASILITAS __label__RENDAH wc gedung b lantai 2 airnya tidak mengalir sudah berhari-hari, terpaksa ke gedung lain yang jauh
+__label__LAINNYA __label__TINGGI lapangan futsal gaada penerangan malam hari, gaada wadah kegiatan olahraga mhs
+__label__FASILITAS __label__RENDAH wc gedung mipa airnya tidak mengalir dari kemarin, mhs jadi susah kalau kebelet
+__label__JARINGAN_IT __label__TINGGI spada down terus saat saat banyak pengguna
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus kurang untuk semua mhs, gabisa kumpul tugas online
+__label__KEMAHASISWAAN __label__RENDAH pengurusan transkip nilai sementara harus bolak-balik, proses terhambat
+__label__KEMAHASISWAAN __label__RENDAH informasi program pertukaran pelajar mendadak, mhs banyak yang tidak tahu
+__label__AKADEMIK __label__TINGGI krs sering eror, proses jadi terlelet
+__label__LAINNYA __label__SEDANG kebersihan area kantin bgt kotor, citra kampus buruk
+__label__FASILITAS __label__RENDAH wc lab kimia airnya tidak mengalir sudah berhari-hari, tidak nyaman sama sekali
+__label__LAINNYA __label__SEDANG gaada transportasi kampus, sering terlelet
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi gedung b lantai 1 tidak luas, harus geser-geser cari sinyal
+__label__FASILITAS __label__RENDAH ac dalam ruangannya tolong di nyalakan karna seringkali ac nya tda menyala jadinya kepanasan
+__label__KEUANGAN __label__TINGGI transparansi penggunaan dana ukt bgt minim, mhs tidak tahu siapa yang berhak
+__label__LAINNYA __label__RENDAH jalan di belakang rektorat sempit, banjir waktu hujan
+__label__KEMAHASISWAAN __label__SEDANG unit kemhsan responnya lelet saat mhs butuh bantuan
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung c gersang gaada pohon, panas bgt siang hari
+__label__LAINNYA __label__SEDANG jalan di dekat auditorium gaada penerangan malam, banjir waktu hujan
+__label__LAINNYA __label__KRITIS keamanan gedung saat weekend rawan tindak kriminal, mhs tidak merasa aman
+__label__AKADEMIK __label__RENDAH ruang kls terlalu panas, gabisa fokus
+__label__LAINNYA __label__RENDAH transportasi gaada jalur sepeda, tidak ramah lingkungan
+__label__KEMAHASISWAAN __label__RENDAH program bimbingan karir kuota yang terlalu sedikit, mhs kurang diuntungkan
+__label__LAINNYA __label__RENDAH lingkungan sekitar perpus pusat kurang terawat, tidak mendukung kreativitas mhs
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi fakultas teknik tidak sampai ke semua ruangan, susah download materi kls
+__label__FASILITAS __label__RENDAH ruang kls lantai 2 kursinya sudah tidak layak pakai dan lampunya remang
+__label__LAINNYA __label__SEDANG atm dalam kampus hanya satu dan antrean panjang, terpaksa keluar kampus
+__label__FASILITAS __label__RENDAH saklar di perpus pusat sering turun, jadi ruangan jadi gelap
+__label__KEUANGAN __label__RENDAH penggunaan dana praktikum tidak transparan, mhs tidak tahu kemana uangnya
+__label__AKADEMIK __label__KRITIS web akademik sering datanya hilang waktu saat uts/uas
+__label__KEUANGAN __label__TINGGI beasiswa distribusinya tidak merata dan banyak mhs yang berhak tapi tidak dapat
+__label__LAINNYA __label__RENDAH keamanan area parkir gaada satpam, sering kehilangan barang
+__label__AKADEMIK __label__KRITIS sistem krs gabisa diakses saat saat uts, tugas jadi terlelet
+__label__KEMAHASISWAAN __label__RENDAH kegiatan ospek informasinya tidak merata, mhs jadi kesal
+__label__KEMAHASISWAAN __label__RENDAH hak mhs dalam hak dan kewajiban mhs kurang disosialisasikan
+__label__KEUANGAN __label__RENDAH pembayaran biaya praktikum gabisa online, prosesnya jadi bgt lama
+__label__KEUANGAN __label__RENDAH prosedur administrasi keuangan bgt rumit, menghambat akademik
+__label__JARINGAN_IT __label__TINGGI koneksi internet gedung fisip gabisa diandalkan, susah download materi
+__label__JARINGAN_IT __label__RENDAH sinyal seluler di gedung b lantai 3 hilang timbul, harus keluar dulu baru bisa internetan
+__label__AKADEMIK __label__TINGGI bimbingan skripsi bimbingan tidak terjadwal, proses wisuda jadi molor
+__label__FASILITAS __label__RENDAH parkiran gedung a lantai 1 gada atapnya, kendaraan bisa lecet-lecet
+__label__KEMAHASISWAAN __label__RENDAH kegiatan ospek kurang dukungan kampus, mhs jadi tidak antusias
+__label__AKADEMIK __label__KRITIS web akademik sering gabisa diakses waktu saat uts/uas
+__label__AKADEMIK __label__TINGGI informasi prosedur skripsi mendadak bgt, stress bgt ngurusnya
+__label__FASILITAS __label__RENDAH kursi di lab biologi udah lama sudah tidak layak pakai, kapan diganti?
+__label__LAINNYA __label__SEDANG gerbang pintu masuk utama gaada sistem akses, sering terlelet kls
+__label__KEMAHASISWAAN __label__RENDAH informasi lowongan magang mendadak, mhs banyak yang tidak tahu
+__label__AKADEMIK __label__TINGGI spada lemot parah, susah download bahan ajar
+__label__KEUANGAN __label__TINGGI pengumuman pengumuman beasiswa tidak sampai ke semua mhs, mhs kaget
+__label__KEUANGAN __label__RENDAH dana kegiatan mhs prosesnya berbelit-belit, mhs dirugikan
+__label__AKADEMIK __label__RENDAH ruang kls tidak sesuai kapasitas mhs, mhs jadi malas masuk kls
+__label__JARINGAN_IT __label__RENDAH spada gabisa diakses saat saat banyak pengguna
+__label__FASILITAS __label__TINGGI fasilitas gedung a lantai 2 tidak memadai, kami sudah bayar ukt tepat waktu
+__label__LAINNYA __label__RENDAH kantin belakang gedung b pilihannya sedikit, mhs susah makan siang
+__label__KEMAHASISWAAN __label__RENDAH kegiatan lomba antar prodi informasinya tidak merata, mhs jadi tidak antusias
+__label__AKADEMIK __label__RENDAH dosen tidak tepat waktu, belajar jadi terganggu
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung a lantai 1 kurang terawat, gaada tempat untuk bersantai
+__label__KEUANGAN __label__TINGGI ukt naik setiap tahun, tapi wifi-nya gabisa diandalkan
+__label__LAINNYA __label__SEDANG atm/ bank kampus hanya satu dan sering antre, tidak praktis
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung fisip gabisa diandalkan, susah akses internet
+__label__LAINNYA __label__RENDAH transportasi parkiran tidak memadai, mhs kesulitan mobilitas
+__label__AKADEMIK __label__RENDAH siakad uho terkadang gabisa di akses
+__label__FASILITAS __label__RENDAH kebersihan gedung a lantai 2 sampahnya menumpuk, baunya tidak enak
+__label__KEUANGAN __label__TINGGI beasiswa distribusinya tidak merata, banyak yang berhak tapi tidak dapat
+__label__FASILITAS __label__SEDANG tolong ac gedung fisip segera diperbaiki, sudah ancur dan gerah minta ampun
+__label__KEMAHASISWAAN __label__RENDAH senioritas di prodi masih melewati batas, mhs baru jadi tertekan
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung c terbatas bgt, gabisa kumpul tugas online
+__label__KEMAHASISWAAN __label__RENDAH senioritas di organisasi kampus sudah melewati batas, membuat mhs baru tertekan
+__label__LAINNYA __label__TINGGI lapangan futsal sempit, lapangan gabisa dimanfaatkan optimal
+__label__KEMAHASISWAAN __label__RENDAH staff hima tidak responsif, malas mengurus keperluan ke sana
+__label__AKADEMIK __label__SEDANG informasi informasi kkn mendadak, proses akademik jadi terlelet
+__label__KEUANGAN __label__TINGGI beasiswa prosesnya tidak jelas dan banyak mhs yang berhak tapi tidak dapat
+__label__KEUANGAN __label__TINGGI keringanan ukt susah diajukan, prosedurnya tidak transparan
+__label__JARINGAN_IT __label__RENDAH jangkauan wifinya terlalu pendek
+__label__AKADEMIK __label__TINGGI revisi skripsi acc-nya lama, banyak yang ketinggalan informasi
+__label__KEMAHASISWAAN __label__RENDAH kegiatan program mentoring waktunya tidak pas, mhs jadi tidak antusias
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi lab biologi terbatas bgt, kls online terganggu
+__label__KEUANGAN __label__RENDAH pembayaran biaya praktikum prosedurnya rumit, menghambat proses akademik
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung fisip tidak sampai ke semua ruangan, gabisa akses spada
+__label__KEUANGAN __label__TINGGI pengumuman syarat keringanan ukt tidak diinformasikan dengan jelas, prosesnya jadi bgt lama
+__label__LAINNYA __label__SEDANG area area belajar outdoor kotor dan tidak terawat, kurang nyaman buat mhs
+__label__KEMAHASISWAAN __label__RENDAH senioritas di fakultas membuat mhs baru tidak nyaman, membuat mhs baru tertekan
+__label__FASILITAS __label__KRITIS toilet di gedung b lantai 3 airnya mati total. selain itu, ac di kelas lantai yang sama juga sering kurang dingin kalau siang, jadi mhs kurang konsen belajar soalnya gerah
+__label__KEMAHASISWAAN __label__RENDAH kegiatan ospek informasinya tidak merata, mhs jadi tidak antusias
+__label__JARINGAN_IT __label__SEDANG koneksi di prodi informatika bapuk ga stabil padahal butuh buat akses spada
+__label__AKADEMIK __label__RENDAH bahan ajar tidak lengkap, gabisa fokus
+__label__AKADEMIK __label__TINGGI revisi skripsi bimbingannya tidak terjadwal, proses akademik jadi terlelet
+__label__LAINNYA __label__RENDAH lapangan basket dikenakan biaya masuk yang tidak semestinya, gaada wadah kegiatan olahraga mhs
+__label__KEMAHASISWAAN __label__RENDAH info lowongan magang cuma nyebar di grup tertentu, yang lain tidak tahu
+__label__FASILITAS __label__SEDANG tolong ac fakultas hukum segera diperbaiki, sudah ancur dan ruangan jadi gerah bgt
+__label__KEUANGAN __label__TINGGI transparansi distribusi beasiswa kurang, mhs tidak tahu apa saja biaya yang resmi
+__label__AKADEMIK __label__SEDANG dosen tidak memberikan feedback nilai, tugas jadi terlelet dikumpulkan
+__label__KEUANGAN __label__TINGGI pengumuman syarat keringanan ukt tidak sampai ke semua mhs, mhs kaget
+__label__JARINGAN_IT __label__RENDAH sinyal seluler di lab komputer gaada sama sekali, harus keluar dulu baru bisa internetan
+__label__FASILITAS __label__SEDANG pintu wc prodi matematika gabisa dikunci, bgt tidak nyaman
+__label__JARINGAN_IT __label__KRITIS spada lemot bgt saat deadline pengumpulan tugas
+__label__AKADEMIK __label__SEDANG jadwal kls gaada pemberitahuan resmi, mhs jadi bingung
+__label__KEUANGAN __label__TINGGI ukt naik setiap tahun tapi wifi gabisa diandalkan
+__label__KEMAHASISWAAN __label__RENDAH organisasi kegiatannya monoton, gaada wadah aspirasi mhs
+__label__KEUANGAN __label__RENDAH ada biaya tambahan tidak resmi yang memberatkan mhs
+__label__KEUANGAN __label__RENDAH dana penelitian mhs prosesnya berbelit-belit, mhs dirugikan
+__label__KEMAHASISWAAN __label__RENDAH jika mengurus surat di layanan kemhsan itu butuh berhari-hari bahkan seminggu baru selesai
+__label__AKADEMIK __label__TINGGI informasi jadwal ujian hanya dari mulut ke mulut, mhs jadi bingung
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung fh kurang terawat, tidak nyaman aktivitas luar
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung d sering putus-putus, susah akses internet
+__label__KEMAHASISWAAN __label__RENDAH organisasi kurang dukungan dari kampus, mhs jadi tidak berkembang
+__label__AKADEMIK __label__TINGGI sistem spada ui-nya terlalu ribet, nilai terancam
+__label__KEMAHASISWAAN __label__RENDAH senioritas di fakultas masih membuat tidak nyaman, mhs baru jadi tertekan
+__label__KEMAHASISWAAN __label__RENDAH organisasi gaada regenerasi yang baik, mhs jadi tidak berkembang
+__label__KEUANGAN __label__TINGGI beasiswa informasinya tidak merata, banyak yang berhak tapi tidak dapat
+__label__KEMAHASISWAAN __label__RENDAH informasi kegiatan kemhsan tidak merata, mhs banyak yang tidak tahu
+__label__AKADEMIK __label__TINGGI informasi prosedur skripsi tidak diinformasikan jelas, mhs dirugikan
+__label__KEMAHASISWAAN __label__RENDAH program pertukaran mhs prosedur pendaftarannya ribet, mhs kurang diuntungkan
+__label__AKADEMIK __label__RENDAH ruang kls tidak sesuai kapasitas mhs, gabisa fokus
+__label__LAINNYA __label__RENDAH kantin pusat tempatnya sempit dan panas, antriannya panjang bgt
+__label__LAINNYA __label__RENDAH gaada ruang baca outdoor di area kampus, padahal bgt dibutuhkan
+__label__AKADEMIK __label__TINGGI web akademik sering timeout terus waktu masa krs
+__label__LAINNYA __label__SEDANG jalan di dekat auditorium gaada penerangan malam, berbahaya buat motor
+__label__AKADEMIK __label__SEDANG informasi jadwal kls pengganti mendadak, mhs jadi bingung
+__label__AKADEMIK __label__RENDAH portal mhs sering gabisa diakses waktu pengumuman nilai
+__label__JARINGAN_IT __label__SEDANG sinyal di prodi matematika hilang timbul, gabisa upload tugas
+__label__AKADEMIK __label__TINGGI siakad gabisa diakses saat pengumuman nilai, nilai terancam
+__label__KEMAHASISWAAN __label__RENDAH senioritas di lingkungan kampus tidak ditangani dengan baik, membuat mhs baru tertekan
+__label__JARINGAN_IT __label__TINGGI koneksi di lab komputer putus-putus saat masa uas
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi hak dan kewajiban mhs gaada pengumuman resmi, banyak yang ketinggalan
+__label__JARINGAN_IT __label__RENDAH wifi lab kimia gabisa konek, terpaksa pakai kuota sendiri
+__label__FASILITAS __label__SEDANG aula gedung c kursinya sudah tidak layak pakai dan proyektornya ancur
+__label__KEUANGAN __label__RENDAH dosen mewajibkan beli buku tertentu, kalau tidak beli nilai bisa jelek
+__label__AKADEMIK __label__RENDAH bahan ajar tidak diberikan oleh dosen, gabisa fokus
+__label__AKADEMIK __label__RENDAH spada nge-lag terus, susah akses forum diskusi
+__label__AKADEMIK __label__KRITIS portal mhs sering timeout terus waktu deadline pengumpulan tugas
+__label__JARINGAN_IT __label__SEDANG wifi kampus lemot parah apalagi kalau semua mhs pakai
+__label__JARINGAN_IT __label__TINGGI koneksi di gedung fh putus-putus saat masa uas
+__label__AKADEMIK __label__TINGGI bimbingan skripsi dosennya susah ditemui, proses wisuda jadi molor
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus tidak memadai, gabisa akses spada
+__label__KEUANGAN __label__TINGGI pengumuman syarat keringanan ukt hanya dari mulut ke mulut, mhs kaget
+__label__KEMAHASISWAAN __label__TINGGI kegiatan kegiatan ukm tidak terorganisir, mhs jadi tidak antusias
+__label__KEUANGAN __label__TINGGI biaya wisuda terlalu mahal dan prosedurnya bgt rumit
+__label__LAINNYA __label__RENDAH lapangan badminton bayar 10 ribu padahal mhs uho, gabisa dimanfaatkan optimal
+__label__FASILITAS __label__RENDAH gedung a lantai 1 panas bgt soalnya kurang dingin, mhs jadi malas masuk kls
+__label__KEUANGAN __label__RENDAH biaya buku dosen seharusnya tidak dibebankan ke mhs
+__label__KEMAHASISWAAN __label__TINGGI informasi program beasiswa tidak disebarkan merata, pengurusan jadi lama
+__label__LAINNYA __label__RENDAH kantin dekat gedung fisip jamnya terlalu singkat, mhs susah makan siang
+__label__KEUANGAN __label__TINGGI untuk pengurusan/ informasi beasiswa kurang di sosialisasi ke mhs akhirnya yang tahu informasi hanya yang punya hubungan dengan pengurus kampus
+__label__KEMAHASISWAAN __label__RENDAH unit kemhsan pelayanannya kurang saat mhs butuh bantuan
+__label__KEUANGAN __label__RENDAH biaya biaya kegiatan wajib dibebankan ke mhs, seharusnya tidak
+__label__FASILITAS __label__TINGGI fasilitas auditorium tidak memadai, masa bayar ukt tapi fasilitas gini
+__label__FASILITAS __label__RENDAH remot ac di gedung b hanya ada 2, seharusnya di perbanyak lagi minimal 2 remote dalam 1 lantai, akhirnya jika remotnya di lantai 1 ac untuk lantai 3 tidak hidup
+__label__LAINNYA __label__SEDANG atm/ bank kampus hanya satu dan sering antre, mhs harus keluar kampus untuk ke atm
+__label__JARINGAN_IT __label__SEDANG upload tugas di spada gagal terus soalnya internet perpus lemot parah
+__label__FASILITAS __label__RENDAH colokan di lab botani tidak berfungsi, padahal butuh buat ngecas
+__label__FASILITAS __label__RENDAH lahan parkir di gedung b lantai 2 sempit bgt jadi sering telat kls
+__label__AKADEMIK __label__RENDAH bahan ajar tidak diberikan oleh dosen, mhs jadi malas masuk kls
+__label__KEUANGAN __label__TINGGI beasiswa informasinya tidak merata dan banyak mhs yang berhak tapi tidak dapat
+__label__KEMAHASISWAAN __label__RENDAH senioritas di unit kemhsan tidak ditangani dengan baik, membuat mhs baru tertekan
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung b lantai 3 gersang gaada pohon, tidak nyaman aktivitas luar
+__label__LAINNYA __label__SEDANG lapangan bola gaada penerangan malam hari, gaada wadah kegiatan olahraga mhs
+__label__KEUANGAN __label__RENDAH transparansi anggaran kegiatan mhs kurang, mhs tidak tahu siapa yang berhak
+__label__KEMAHASISWAAN __label__RENDAH fasilitas sekretariat bem fasilitasnya minim, pengurusan jadi bgt lama
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus bgt terbatas, tidak cukup untuk semua mhs
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi prosedur pengajuan dokumen tidak merata, banyak yang terlewat informasinya
+__label__KEUANGAN __label__RENDAH ada dosen menjual buku wajib beli yang memberatkan mhs
+__label__KEUANGAN __label__TINGGI biaya wisuda terlalu mahal dan prosedurnya memakan waktu lama
+__label__LAINNYA __label__RENDAH taman kampus tidak terawat, panas bgt siang hari
+__label__KEMAHASISWAAN __label__RENDAH senioritas di lingkungan kampus membuat mhs baru tidak nyaman, membuat mhs baru tertekan
+__label__LAINNYA __label__RENDAH atm/ bank kampus gaada di dalam kampus, mhs harus keluar kampus untuk ke atm
+__label__KEUANGAN __label__TINGGI pengumuman deadline pembayaran ukt tidak diinformasikan dengan jelas, mhs yang urgent jadi kesusahan
+__label__AKADEMIK __label__RENDAH nilai tidak sesuai ekspektasi tanpa penjelasan, mhs dirugikan
+__label__AKADEMIK __label__TINGGI spada sering down, susah kumpul tugas
+__label__KEUANGAN __label__RENDAH transparansi biaya resmi kampus bgt minim, mhs tidak tahu kemana uangnya pergi
+__label__AKADEMIK __label__TINGGI krs gabisa diakses saat masa pengisian, mhs dirugikan
+__label__AKADEMIK __label__TINGGI jadwal jadwal ujian hanya dari mulut ke mulut, banyak mhs yang tidak tahu
+__label__KEMAHASISWAAN __label__RENDAH organisasi kampus gaada regenerasi baik, gaada wadah aspirasi mhs
+__label__FASILITAS __label__SEDANG banyak kursi di gedung rektorat yang ancur, capek bgt dikelas
+__label__FASILITAS __label__RENDAH jendela ruangan 1.1 gabisa ditutup, silau bgt saat kls
+__label__AKADEMIK __label__SEDANG nilai di portal gaada penjelasan, mhs jadi bingung
+__label__JARINGAN_IT __label__RENDAH koneksi di auditorium bapuk ga stabil padahal butuh buat video conference dengan dosen
+__label__AKADEMIK __label__RENDAH spada gabisa diakses, susah akses forum diskusi
+__label__AKADEMIK __label__TINGGI siakad sering eror parah waktu masa krs
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung a lantai 3 bgt lemah, gabisa upload tugas
+__label__AKADEMIK __label__KRITIS spada nge-lag waktu saat uas, susah download bahan ajar
+__label__KEMAHASISWAAN __label__TINGGI kegiatan kegiatan sosial kampus tidak terorganisir dengan baik, proses administrasi terhambat
+__label__LAINNYA __label__RENDAH kantin dekat gedung fisip tempatnya sempit dan panas, mhs susah makan siang
+__label__FASILITAS __label__RENDAH lahan parkir di gedung a lantai 2 berantakan jadi sering telat kls
+__label__JARINGAN_IT __label__RENDAH upload tugas di spada gagal terus soalnya internet gedung fh nge-lag
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat keterangan mhs aktif butuh seminggu lebih, bgt lama
+__label__KEMAHASISWAAN __label__RENDAH senioritas di unit kemhsan sudah melewati batas, membuat mhs baru tertekan
+__label__AKADEMIK __label__TINGGI kls online terganggu soalnya sistem krs sering eror
+__label__LAINNYA __label__RENDAH jalan di belakang rektorat licin waktu hujan, berbahaya buat motor
+__label__KEUANGAN __label__TINGGI beasiswa seleksinya tidak transparan dan banyak mhs yang berhak tapi tidak dapat
+__label__JARINGAN_IT __label__RENDAH koneksi di fakultas ekonomi sering putus padahal butuh buat kls online
+__label__FASILITAS __label__RENDAH kebersihan gedung fh jarang dibersihkan, tidak nyaman berada di sini
+__label__FASILITAS __label__RENDAH wc lab komputer tidak terawat, terpaksa ke gedung lain yang jauh
+__label__FASILITAS __label__RENDAH wc gedung rektorat airnya tidak mengalir sudah seminggu lebih, terpaksa ke gedung lain yang jauh
+__label__KEUANGAN __label__TINGGI keringanan ukt susah diajukan, prosedurnya tidak jelas alurnya
+__label__LAINNYA __label__KRITIS jalan di belakang rektorat ancur parah berlubang, bisa bikin kecelakaan
+__label__KEMAHASISWAAN __label__RENDAH senioritas di himpunan tidak ditangani dengan baik, membuat mhs baru tertekan
+__label__FASILITAS __label__SEDANG musola di fakultas teknik tempat wudhunya ancur, tolong diperhatikan
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung b lantai 2 minim fasilitas publik, gaada tempat bersantai
+__label__KEUANGAN __label__TINGGI informasi beasiswa tidak disosialisasikan baik, mhs layak tidak dapat
+__label__AKADEMIK __label__TINGGI informasi syarat wisuda hanya dari mulut ke mulut, proses jadi terlelet
+__label__JARINGAN_IT __label__SEDANG koneksi di gedung rektorat lemot parah padahal butuh buat akses spada
+__label__JARINGAN_IT __label__KRITIS server spada gabisa diakses waktu masa uts
+__label__FASILITAS __label__RENDAH tolong ac gedung mipa segera diperbaiki, netes airnya dan badan rasanya mau pingsan
+__label__AKADEMIK __label__TINGGI website web akademik sering eror, proses akademik terhambat
+__label__JARINGAN_IT __label__RENDAH koneksi internet gedung fisip gabisa diandalkan, gabisa akses spada
+__label__KEMAHASISWAAN __label__TINGGI pengurusan dokumen beasiswa butuh seminggu lebih, bgt lama
+__label__KEMAHASISWAAN __label__RENDAH staff bem tidak responsif, pelayanan publik yang buruk
+__label__LAINNYA __label__RENDAH kantin belakang gedung b jamnya terlalu singkat, gaada pilihan sehat
+__label__KEMAHASISWAAN __label__RENDAH bem kurang aktif menyuarakan aspirasi mhs soal hak dan kewajiban mhs
+__label__LAINNYA __label__TINGGI atm dalam kampus sering eror, terpaksa keluar kampus
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung fisip gaada sama sekali, harus keluar ruangan dulu
+__label__KEUANGAN __label__TINGGI transparansi penggunaan dana ukt kurang, mhs tidak tahu apa saja biaya yang resmi
+__label__FASILITAS __label__RENDAH banyak kursi di fakultas teknik yang kayunya sudah lapuk, capek bgt dikelas
+__label__AKADEMIK __label__TINGGI krs gabisa tambah matkul, banyak yang ketinggalan info
+__label__AKADEMIK __label__RENDAH spada sering crash tiba-tiba waktu saat jam sibuk
+__label__KEMAHASISWAAN __label__RENDAH senioritas diprodi masih bgt kental alangkah lebih baik edukasi untuk senioritas diadakan soalnya senioritas di kampus membuat beberapa mhs bisa tertekan
+__label__KEMAHASISWAAN __label__RENDAH senioritas di fakultas masih bgt kental, membuat mhs baru tertekan
+__label__JARINGAN_IT __label__SEDANG sinyal di prodi informatika gabisa untuk data seluler, kls online jadi terganggu
+__label__KEUANGAN __label__RENDAH ada dosen yang menjual buku wajib dibeli yang tidak semestinya
+__label__JARINGAN_IT __label__KRITIS server siakad sering down waktu deadline tugas
+__label__AKADEMIK __label__RENDAH website portal mhs ui-nya outdated bgt, mhs rugi bgt
+__label__LAINNYA __label__RENDAH gaada gazebo belajar di area kampus, padahal bgt dibutuhkan
+__label__JARINGAN_IT __label__RENDAH koneksi di gedung a lantai 1 bapuk ga stabil padahal butuh buat akses spada
+__label__KEUANGAN __label__RENDAH dana kkn tidak cair tepat waktu, mhs dirugikan
+__label__LAINNYA __label__RENDAH keamanan area kampus malam kurang terjaga, tidak kondusif malam hari
+__label__AKADEMIK __label__TINGGI informasi prosedur skripsi tidak diinformasikan dengan jelas, proses akademik jadi terlelet
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi lab komputer tidak luas, harus geser-geser cari sinyal
+__label__JARINGAN_IT __label__TINGGI server portal akademik sering down pas masa krs, terpaksa pakai kuota sendiri
+__label__LAINNYA __label__RENDAH area ruang tunggu panas dan tidak teduh, kurang nyaman buat mhs
+__label__LAINNYA __label__KRITIS keamanan lingkungan sekitar kampus cctv-nya tidak berfungsi, sering ada kehilangan motor
+__label__AKADEMIK __label__RENDAH ada dosen yang menjual buku wajib beli ke mhs, itu tidak profesional
+__label__LAINNYA __label__SEDANG pintu masuk utama pintunya ancur, tidak aman
+__label__KEMAHASISWAAN __label__RENDAH staff bagian kemhsan melayani dengan malas, tidak enak kalau harus ke sana
+__label__AKADEMIK __label__SEDANG spada lemot parah, susah ikut kuis
+__label__KEMAHASISWAAN __label__RENDAH program wirausaha mhs sosialisasinya kurang, mhs banyak yang tidak tahu
+__label__JARINGAN_IT __label__RENDAH koneksi di ruang seminar putus-putus saat jam kls
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung a lantai 2 gaada sama sekali, gabisa upload tugas
+__label__FASILITAS __label__RENDAH ruangan 2.3 kursinya mejanya patah dan papan tulisnya gabisa dibaca
+__label__FASILITAS __label__RENDAH toilet di gedung b lantai 2 airnya tidak mengalir dan airnya gaada
+__label__AKADEMIK __label__KRITIS spada lemot parah waktu saat uts, susah kumpul tugas
+__label__LAINNYA __label__SEDANG jalan di belakang rektorat ancur parah berlubang, banjir waktu hujan
+__label__KEUANGAN __label__KRITIS prosedur pengajuan keringanan ukt bgt rumit dan berbelit, mhs yang urgent jadi kesusahan
+__label__KEUANGAN __label__TINGGI transparansi penggunaan dana ukt kurang, mhs tidak tahu siapa yang berhak
+__label__AKADEMIK __label__TINGGI spada sering down waktu jam kls, susah akses materi
+__label__KEMAHASISWAAN __label__RENDAH unit kemhsan jarang beroperasi saat mhs butuh bantuan
+__label__KEMAHASISWAAN __label__SEDANG layanan unit kemhsan responnya lelet, mhs jadi kesal
+__label__KEUANGAN __label__RENDAH transparansi biaya resmi kampus bgt minim, mhs tidak tahu siapa yang berhak
+__label__AKADEMIK __label__RENDAH dosen sering tidak masuk tanpa keterangan, mhs dirugikan
+__label__LAINNYA __label__KRITIS keamanan lingkungan sekitar kampus rawan kriminal, mhs tidak merasa aman
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung c tidak sampai ke semua ruangan, kls online terganggu
+__label__FASILITAS __label__RENDAH saklar di gedung a lantai 3 sering turun, jadi kls terganggu
+__label__KEMAHASISWAAN __label__RENDAH staff layanan administrasi mhs tidak responsif, tidak sesuai standar pelayanan
+__label__KEUANGAN __label__TINGGI ukt sudah mahal, tapi wc-nya gabisa dipakai
+__label__KEUANGAN __label__TINGGI ukt sudah mahal, tapi fasilitasnya jauh dari layak
+__label__AKADEMIK __label__RENDAH ada dosen yang pilih kasih dalam penilaian, itu tidak profesional
+__label__LAINNYA __label__RENDAH keamanan lingkungan sekitar kampus sering ada kehilangan barang, orang luar bebas masuk
+__label__KEMAHASISWAAN __label__RENDAH program magang kampus merdeka tidak merata distribusinya, mhs kurang diuntungkan
+__label__AKADEMIK __label__TINGGI sistem krs sering eror parah waktu saat jam sibuk
+__label__LAINNYA __label__TINGGI atm/ bank kampus sering eror, merepotkan saat butuh dana mendadak
+__label__JARINGAN_IT __label__RENDAH wifi kampus nge-lag terus apalagi kalau acara kampus
+__label__KEMAHASISWAAN __label__TINGGI informasi program beasiswa tidak disebarkan merata, mhs jadi kesal
+__label__LAINNYA __label__SEDANG lapangan bola gaada penerangan malam, gabisa dimanfaatkan optimal
+__label__KEMAHASISWAAN __label__RENDAH kegiatan seminar mhs waktunya tidak pas, proses administrasi terhambat
+__label__AKADEMIK __label__RENDAH nilai di portal belum keluar padahal sudah lama, banyak yang ketinggalan info
+__label__AKADEMIK __label__RENDAH nilai gabisa diakses di portal, stress bgt ngurusnya
+__label__LAINNYA __label__SEDANG gerbang gerbang 3 pintunya ancur, tidak efisien
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung fh bising dari luar kampus, tidak mendukung kreativitas mhs
+__label__AKADEMIK __label__RENDAH ada dosen yang memberi nilai buruk kalau tidak beli bukunya, itu tidak profesional
+__label__FASILITAS __label__RENDAH min, wc di auditorium kondisinya cuma pajangan, tolong segera diperbaiki
+__label__LAINNYA __label__RENDAH kantin area food court kampus harganya kemahalan, antriannya panjang bgt
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi kegiatan kemhsan bgt kurang, banyak yang terlewat informasinya
+__label__LAINNYA __label__RENDAH transportasi gaada shuttle bus kampus, tidak ramah lingkungan
+__label__FASILITAS __label__RENDAH musola di perpus pusat tidak terawat, tolong diperhatikan
+__label__KEUANGAN __label__RENDAH biaya seragam praktikum dibebankan ke mhs, seharusnya tidak
+__label__KEUANGAN __label__RENDAH dana praktikum prosesnya berbelit-belit, mhs dirugikan
+__label__LAINNYA __label__RENDAH lingkungan sekitar perpus gersang gaada pohon, gaada tempat bersantai
+__label__KEMAHASISWAAN __label__RENDAH program mentoring akademik prosedur pendaftarannya ribet, mhs kurang diuntungkan
+__label__FASILITAS __label__RENDAH pipa saluran ac di ruang kls lantai 2 bocor, lantai jadi basah
+__label__FASILITAS __label__RENDAH wc fakultas teknik jorok bgt, mhs jadi susah kalau kebelet
+__label__JARINGAN_IT __label__RENDAH wifi gedung mipa nge-lag terus, gabisa akses spada
+__label__LAINNYA __label__KRITIS jalan di belakang rektorat sempit bgt, bisa bikin kecelakaan
+__label__AKADEMIK __label__RENDAH bahan ajar tidak diberikan oleh dosen, capek bgt dikelas
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus sering habis di jam sibuk, gabisa akses spada
+__label__JARINGAN_IT __label__TINGGI bandwidth wifi kampus kurang untuk semua mhs, tidak produktif di kampus
+__label__JARINGAN_IT __label__TINGGI bandwidth wifi kampus sering habis di jam sibuk, susah download materi kls
+__label__FASILITAS __label__RENDAH tangga fakultas ekonomi gaada pegangan, bahaya kalau terpeleset
+__label__KEUANGAN __label__TINGGI transparansi penggunaan dana ukt kurang, mhs tidak tahu kemana uangnya pergi
+__label__FASILITAS __label__RENDAH fakultas ekonomi panas bgt soalnya panasnya parah, gabisa fokus
+__label__FASILITAS __label__RENDAH lahan parkir di gedung a lantai 1 banyak yang parkir sembarangan jadi sering telat kls
+__label__FASILITAS __label__SEDANG min, wc di gedung a lantai 1 kondisinya kotor parah, tolong segera diperbaiki
+__label__KEUANGAN __label__TINGGI seleksi beasiswa tidak transparan, prosesnya tidak adil
+__label__LAINNYA __label__RENDAH transportasi akses transportasi umum susah, biaya transportasi jadi membebani
+__label__KEUANGAN __label__RENDAH masih terdapat pungli, seperti dosen menjual buku, yang tidak beli buku nilainya jelek
+__label__KEUANGAN __label__TINGGI informasi beasiswa tidak transparan, mhs layak tidak dapat
+__label__FASILITAS __label__RENDAH plafon ruangan 1.1 jelek parah, khawatir mhs tidak nyaman
+__label__JARINGAN_IT __label__SEDANG jaringan di lab biologi lemot parah, susah akses internet
+__label__LAINNYA __label__SEDANG gerbang gerbang 1 pintunya ancur, antrean masuk kampus panjang
+__label__LAINNYA __label__RENDAH keamanan area parkir kurang terjaga, tidak kondusif untuk kegiatan malam
+__label__LAINNYA __label__SEDANG jalan di dekat auditorium sempit, kendaraan jadi ancur
+__label__KEUANGAN __label__RENDAH dana kegiatan mhs tidak cair tepat waktu, mhs dirugikan
+__label__FASILITAS __label__RENDAH min, wc di fakultas hukum kondisinya jorok bgt, tolong segera diperbaiki
+__label__JARINGAN_IT __label__RENDAH wifi kampus gabisa konek apalagi kalau banyak yang konek
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat keterangan aktif makan waktu berminggu-minggu, bgt tidak efisien
+__label__KEMAHASISWAAN __label__RENDAH kegiatan ospek kurang dukungan kampus, mhs jadi kesal
+__label__FASILITAS __label__RENDAH tolong ac fakultas teknik segera diperbaiki, nda menyala dan belajarnya tidak nyaman
+__label__JARINGAN_IT __label__RENDAH wifi perpus pusat bapuk ga stabil, terpaksa pakai kuota sendiri
+__label__AKADEMIK __label__RENDAH nilai belum keluar padahal sudah lama, stress bgt ngurusnya
+__label__LAINNYA __label__RENDAH kebersihan sekitar parkiran kumuh, tidak nyaman untuk beraktivitas
+__label__AKADEMIK __label__RENDAH bahan ajar susah dicari, nilai bisa jelek soalnya tidak konsen
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi hak dan kewajiban mhs hanya melalui grup tertentu, banyak yang terlewat informasinya
+__label__AKADEMIK __label__RENDAH nilai ada yang salah input, banyak yang ketinggalan informasi
+__label__FASILITAS __label__RENDAH banyak kursi di gedung a lantai 3 yang mejanya patah, nilai bisa jelek soalnya tidak konsen
+__label__JARINGAN_IT __label__TINGGI server portal akademik sering down waktu jam kls
+__label__AKADEMIK __label__TINGGI krs sering eror, proses akademik jadi terlelet
+__label__FASILITAS __label__RENDAH tolong ac gedung fisip segera diperbaiki, cuma pajangan dan susah fokus
+__label__JARINGAN_IT __label__RENDAH sinyal di fakultas hukum gabisa untuk data seluler, kls online jadi terganggu
+__label__FASILITAS __label__SEDANG parkiran motor yang masih kurang teratur dan banyak parkir sembarangan. alhasil terlelet kalau ada kelas karna waktunya habis untuk cari parkir dulu.
+__label__LAINNYA __label__SEDANG penerangan jalan di dekat auditorium gaada, berbahaya malam hari
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang ukm tidak memadai, mhs jadi kesal
+__label__JARINGAN_IT __label__RENDAH sinyal di lab biologi gaada sama sekali, kls online jadi terganggu
+__label__KEMAHASISWAAN __label__RENDAH senioritas di himpunan masih bgt kental, membuat mhs baru tertekan
+__label__KEUANGAN __label__TINGGI pengumuman pengumuman beasiswa tidak diinformasikan dengan jelas, mhs jadi bingung
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat izin kegiatan makan waktu lebih dari 2 minggu, bgt tidak efisien
+__label__AKADEMIK __label__RENDAH dosen tidak tepat waktu, proses akademik terhambat
+__label__LAINNYA __label__RENDAH kantin area food court harganya mahal, susah makan siang
+__label__KEMAHASISWAAN __label__RENDAH senioritas di unit kemhsan masih melewati batas, mhs baru jadi tertekan
+__label__LAINNYA __label__RENDAH lingkungan sekitar fakultas ekonomi gersang gaada pohon teduh, tidak nyaman buat aktivitas luar
+__label__JARINGAN_IT __label__SEDANG jangkauan wifi prodi matematika tidak sampai ke semua ruangan, kls online terganggu
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung c hanya di spot tertentu, harus geser-geser cari sinyal
+__label__KEUANGAN __label__RENDAH biaya biaya kegiatan wajib seharusnya tidak dibebankan ke mhs
+__label__FASILITAS __label__RENDAH gedung d panas bgt soalnya tidak berfungsi, belajarnya terganggu
+__label__FASILITAS __label__RENDAH plafon ruang kelas b2 bocor saat hujan, khawatir celaka kalau tiba-tiba jatuh
+__label__LAINNYA __label__SEDANG penerangan jalan di area antar gedung gaada, berbahaya malam hari
+__label__KEUANGAN __label__TINGGI ukt naik setiap tahun tapi fasilitasnya jauh dari layak
+__label__LAINNYA __label__RENDAH area koridor antar gedung gaada tempat duduk, kurang nyaman buat mhs
+__label__JARINGAN_IT __label__TINGGI koneksi di lab komputer lemot parah padahal butuh buat download materi
+__label__KEUANGAN __label__TINGGI ukt sudah mahal tapi ac-nya ancur semua
+__label__KEUANGAN __label__TINGGI prosedur pengajuan keringanan ukt tidak jelas alurnya, mhs jadi bingung
+__label__JARINGAN_IT __label__KRITIS server portal akademik sering down waktu deadline tugas
+__label__FASILITAS __label__RENDAH kursi di gedung b lantai 3 udah lama mejanya patah, kapan diganti?
+__label__AKADEMIK __label__RENDAH sistem spada outdated bgt, mhs rugi bgt
+__label__AKADEMIK __label__RENDAH jadwal kls gaada pemberitahuan resmi, banyak yang ketinggalan informasi
+__label__FASILITAS __label__RENDAH kebersihan lab biologi jarang dibersihkan, bisa jadi sumber penyakit
+__label__KEMAHASISWAAN __label__RENDAH senioritas di organisasi kampus membuat mhs baru tidak nyaman, membuat mhs baru tertekan
+__label__FASILITAS __label__RENDAH gaada tempat duduk di lab biologi, padahal bgt dibutuhkan
+__label__AKADEMIK __label__TINGGI informasi prosedur skripsi mendadak, mhs dirugikan
+__label__FASILITAS __label__RENDAH ruangan terasa panas ac tidak berfungsi soalnya gaada remotnya
+__label__AKADEMIK __label__RENDAH beberapa alat atau bahan praktikum, masa di sediakan praktikan, bukankah semuanya di sediakan dari kampus?
+__label__LAINNYA __label__RENDAH kantin pusat tidak higienis, terpaksa keluar kampus
+__label__AKADEMIK __label__TINGGI revisi skripsi prosedurnya ribet, stress bgt ngurusnya
+__label__AKADEMIK __label__RENDAH spada loadingnya lama bgt, susah ikut kuis
+__label__KEUANGAN __label__RENDAH dana kkn jumlahnya tidak sesuai, mhs dirugikan
+__label__JARINGAN_IT __label__TINGGI bandwidth wifi kampus sering habis di jam sibuk, tidak produktif di kampus
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi gedung fh tidak luas, harus geser-geser cari sinyal
+__label__KEUANGAN __label__TINGGI transparansi penggunaan dana ukt kurang, mhs tidak tahu bagaimana seleksinya
+__label__KEUANGAN __label__TINGGI pengumuman deadline pembayaran ukt tidak sampai ke semua mhs, prosesnya jadi bgt lama
+__label__KEMAHASISWAAN __label__RENDAH fasilitas lapangan olahraga tidak layak, proses administrasi terhambat
+__label__FASILITAS __label__SEDANG parkiran prodi matematika gada atapnya, kendaraan bisa catnya jadi ancur
+__label__LAINNYA __label__RENDAH jalan di area parkir utama sempit, berbahaya buat motor
+__label__JARINGAN_IT __label__RENDAH jaringan di prodi akuntansi sering putus-putus, susah akses internet
+__label__LAINNYA __label__RENDAH sampah di sekitar parkiran menumpuk kalau gaada petugas
+__label__FASILITAS __label__SEDANG gedung b lantai 2-3 sering turun saklar lampu, jadi ruangan panas, lcd mati, dll. paling parah pas setiap masuk matakls hm
+__label__AKADEMIK __label__TINGGI informasi jadwal ujian hanya dari mulut ke mulut, banyak yang ketinggalan informasi
+__label__FASILITAS __label__RENDAH kursi di gedung a lantai 3 udah lama rodanya hilang, kapan diganti?
+__label__FASILITAS __label__RENDAH min, parkiran gedung b lantai 2 banyak yang parkir sembarangan tolong diatur lebih baik
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung b lantai 3 kurang terawat, tidak nyaman buat aktivitas luar
+__label__AKADEMIK __label__SEDANG ruang kls proyektornya ancur, belajarnya terganggu
+__label__FASILITAS __label__TINGGI ac gedung a lantai 2 cuma pajangan, berisik bgt padahal masa bayar ukt tapi fasilitas gini
+__label__FASILITAS __label__RENDAH wc gedung b lantai 3 tidak terawat, bgt mengganggu aktivitas
+__label__FASILITAS __label__RENDAH tolong ac gedung d segera diperbaiki, kurang dingin dan badan rasanya mau pingsan
+__label__FASILITAS __label__RENDAH wc gedung d airnya tidak mengalir sudah seminggu lebih, harus nahan lama bgt
+__label__JARINGAN_IT __label__RENDAH hotspot kampus kayak tidak dibayar, terpaksa habiskan kuota sendiri
+__label__FASILITAS __label__SEDANG parkiran auditorium gada atapnya, kendaraan bisa catnya jadi ancur
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi auditorium terbatas bgt, gabisa akses spada
+__label__FASILITAS __label__RENDAH tolong ac gedung b lantai 3 segera diperbaiki, cuma pajangan dan mhs tidak konsen belajar
+__label__KEUANGAN __label__TINGGI beasiswa prosesnya tidak jelas dan hanya yang punya koneksi yang dapat
+__label__KEMAHASISWAAN __label__RENDAH fasilitas sekretariat bem tidak layak, proses administrasi terhambat
+__label__FASILITAS __label__KRITIS ac lab kimia cuma pajangan, mati total padahal ukt mahal tapi fasilitas tidak sesuai
+__label__AKADEMIK __label__RENDAH bahan ajar harus beli sendiri, mhs jadi malas masuk kls
+__label__KEMAHASISWAAN __label__RENDAH kegiatan kegiatan sosial kampus waktunya tidak pas, banyak yang tidak terlayani
+__label__JARINGAN_IT __label__RENDAH wifi kampus gabisa konek apalagi kalau semua mhs pakai
+__label__LAINNYA __label__RENDAH kantin dekat gedung fisip tempatnya sempit, susah makan siang
+__label__LAINNYA __label__RENDAH lingkungan sekitar ruang seminar gersang gaada pohon, panas bgt siang hari
+__label__LAINNYA __label__TINGGI lapangan futsal dikenakan biaya masuk yang tidak semestinya, lapangan gabisa dimanfaatkan optimal
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung a lantai 1 sering putus-putus, susah akses internet
+__label__AKADEMIK __label__RENDAH jadwal kls informasinya tidak jelas, stress bgt ngurusnya
+__label__FASILITAS __label__RENDAH tolong ac fakultas hukum segera diperbaiki, cuma pajangan dan gerah minta ampun
+__label__FASILITAS __label__RENDAH kebersihan fakultas teknik gaada petugas kebersihan, baunya tidak enak
+__label__AKADEMIK __label__TINGGI website sistem krs sering eror, belajar jadi terganggu
+__label__KEMAHASISWAAN __label__RENDAH organisasi gaada regenerasi yang baik, potensi mhs tersia-sia
+__label__LAINNYA __label__RENDAH taman kampus tidak terawat, tidak nyaman aktivitas luar
+__label__AKADEMIK __label__TINGGI bimbingan skripsi responnya bgt lama, proses wisuda jadi molor
+__label__KEMAHASISWAAN __label__RENDAH layanan hima sering tutup, pengurusan jadi bgt lama
+__label__KEMAHASISWAAN __label__RENDAH organisasi kampus kegiatannya monoton, gaada wadah aspirasi mhs
+__label__AKADEMIK __label__TINGGI website spada sering eror, belajar jadi terganggu
+__label__FASILITAS __label__TINGGI fasilitas prodi informatika tidak memadai, masa bayar ukt tapi fasilitas gini
+__label__KEUANGAN __label__TINGGI ukt naik setiap tahun, tapi ac-nya ancur semua
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi gedung fisip tidak luas, tidak produktif di kampus
+__label__KEMAHASISWAAN __label__RENDAH program pertukaran mhs sosialisasinya kurang, mhs banyak yang tidak tahu
+__label__LAINNYA __label__RENDAH lingkungan sekitar aula kurang terawat, gaada tempat bersantai
+__label__FASILITAS __label__RENDAH kursi di gedung b lantai 3 udah lama goyang terus, kapan diganti?
+__label__KEUANGAN __label__TINGGI informasi beasiswa informasinya tidak transparan, hanya orang tertentu yang tahu
+__label__LAINNYA __label__RENDAH area taman kampus gaada tempat duduk, tidak nyaman buat mhs
+__label__AKADEMIK __label__TINGGI sistem krs sering eror parah terutama jam kls
+__label__KEUANGAN __label__TINGGI pembayaran ukt harus datang langsung berkali-kali, mhs jadi bingung
+__label__LAINNYA __label__RENDAH lapangan bola tidak terawat, gaada wadah kegiatan olahraga mhs
+__label__JARINGAN_IT __label__RENDAH sinyal di perpus pusat gaada sama sekali, gabisa upload tugas
+__label__LAINNYA __label__SEDANG jalan di jalan masuk kampus gaada penerangan malam, berbahaya buat motor
+__label__FASILITAS __label__TINGGI fasilitas auditorium sudah bgt ketinggalan, padahal kita sudah bayar ukt
+__label__FASILITAS __label__RENDAH min, parkiran gedung a lantai 2 gaada petugas tolong diatur lebih baik
+__label__KEMAHASISWAAN __label__TINGGI informasi program beasiswa tidak disosialisasikan dengan baik, mhs banyak yang tidak tahu
+__label__KEUANGAN __label__RENDAH prosedur pengembalian dana tidak transparan, menghambat proses akademik
+__label__FASILITAS __label__RENDAH kursi di gedung mipa udah lama sudah tidak layak pakai, kapan diganti?
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus tidak memadai, tidak cukup untuk semua mhs
+__label__AKADEMIK __label__TINGGI portal mhs sering datanya hilang waktu masa krs
+__label__LAINNYA __label__SEDANG pintu masuk utama pintunya ancur, sering terlelet kls
+__label__LAINNYA __label__SEDANG gerbang 2 pintunya ancur, sering terlelet kls
+__label__FASILITAS __label__RENDAH kursi di gedung a lantai 1 udah lama kayunya sudah lapuk, kapan diganti?
+__label__FASILITAS __label__RENDAH ac di ruang kls lantai 2 udah lama nda diperbaiki, kurang dingin
+__label__JARINGAN_IT __label__RENDAH wifi di gedung fh sering disconnect apalagi semua mhs pakai
+__label__JARINGAN_IT __label__RENDAH internet di gedung a lantai 2 gabisa diandalkan padahal butuh buat kumpul tugas
+__label__KEMAHASISWAAN __label__RENDAH senioritas di prodi masih bgt kental, membuat mhs baru tertekan
+__label__KEUANGAN __label__RENDAH transparansi anggaran kegiatan mhs bgt minim, mhs tidak tahu bagaimana seleksinya
+__label__KEMAHASISWAAN __label__RENDAH layanan unit kemhsan sering tutup, pengurusan jadi bgt lama
+__label__FASILITAS __label__RENDAH kebersihan prodi akuntansi sampahnya menumpuk, tidak nyaman berada di sini
+__label__KEUANGAN __label__RENDAH dana kegiatan mhs tidak transparan penggunaannya, mhs dirugikan
+__label__JARINGAN_IT __label__SEDANG jaringan di prodi matematika bapuk ga stabil, susah akses internet
+__label__FASILITAS __label__RENDAH gaada ruang istirahat di gedung b lantai 3, padahal bgt dibutuhkan
+__label__LAINNYA __label__RENDAH lapangan bola tidak terawat, mhs gabisa olahraga gratis
+__label__LAINNYA __label__SEDANG lapangan badminton ancur, mhs gabisa olahraga gratis
+__label__AKADEMIK __label__KRITIS sistem krs sering timeout terutama saat uas
+__label__FASILITAS __label__RENDAH ac di gedung b lantai 3 tidak berfungsi, jadi gerah minta ampun
+__label__KEMAHASISWAAN __label__RENDAH organisasi kampus tidak aktif, gaada wadah aspirasi mhs
+__label__FASILITAS __label__RENDAH itu hee sudah bagus maunya ada tempat dudukÂ² di lantai atas sama lantai bawah, cuma kurang colokan beh, maunya bgus sekali kalau colokan nya ada
+__label__KEMAHASISWAAN __label__RENDAH kegiatan lomba antar prodi informasinya tidak merata, pengurusan jadi bgt lama
+__label__AKADEMIK __label__RENDAH ruang kls tidak kondusif, mhs jadi malas
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung b lantai 2 sering putus-putus, susah akses internet
+__label__KEUANGAN __label__RENDAH transparansi anggaran kegiatan mhs bgt minim, mhs tidak tahu siapa yang berhak
+__label__KEMAHASISWAAN __label__TINGGI informasi program beasiswa hanya di grup tertentu, mhs banyak yang tidak tahu
+__label__AKADEMIK __label__SEDANG nilai gabisa diakses di portal, proses akademik jadi terlelet
+__label__LAINNYA __label__RENDAH gerbang gerbang 1 gaada sistem akses, tidak aman soalnya siapa saja bisa masuk
+__label__JARINGAN_IT __label__SEDANG wifi kampus lemot parah apalagi kalau jam kls
+__label__FASILITAS __label__RENDAH min, wc di auditorium kondisinya tidak terawat, tolong segera diperbaiki
+__label__JARINGAN_IT __label__RENDAH wifi gedung b lantai 2 sering disconnect, kls online terganggu
+__label__FASILITAS __label__RENDAH parkiran prodi akuntansi tidak muat, sering ada yang ditabrak
+__label__JARINGAN_IT __label__TINGGI wifi gedung a lantai 1 gabisa dipakai, susah download materi kls
+__label__JARINGAN_IT __label__KRITIS spada gabisa diakses saat masa uts/uas
+__label__FASILITAS __label__RENDAH plafon ruangan 1.2 sudah retak, khawatir mhs tidak nyaman
+__label__JARINGAN_IT __label__TINGGI koneksi di gedung b lantai 1 putus-putus saat masa krs
+__label__JARINGAN_IT __label__SEDANG wifi kampus lemot parah apalagi kalau banyak yang konek
+__label__AKADEMIK __label__SEDANG nilai di portal gaada penjelasan, proses jadi terlelet
+__label__AKADEMIK __label__SEDANG spada lemot parah, susah akses forum diskusi
+__label__FASILITAS __label__RENDAH remot ac gedung b lantai 1 cuma 1 untuk 3 lantai, susah hidupinnya
+__label__LAINNYA __label__RENDAH area koridor antar gedung gaada fasilitas, tidak nyaman buat mhs
+__label__LAINNYA __label__RENDAH kantin belakang gedung b tidak higienis, mhs susah makan siang
+__label__KEMAHASISWAAN __label__RENDAH pengurusan transkip nilai sementara butuh lebih dari 2 minggu, bgt lama
+__label__KEMAHASISWAAN __label__RENDAH layanan bem jarang beroperasi, proses administrasi terhambat
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi prosedur dokumen hanya di grup tertentu, banyak yang ketinggalan
+__label__KEUANGAN __label__TINGGI ukt tidak sebanding fasilitas tapi fasilitasnya jauh dari layak
+__label__FASILITAS __label__RENDAH banyak kursi di lab kimia yang gaada mejanya, belajarnya terganggu
+__label__LAINNYA __label__RENDAH gerbang gerbang 1 jarang dibuka, tidak efisien
+__label__FASILITAS __label__SEDANG parkiran gedung fh gada atapnya, kendaraan bisa catnya jadi ancur
+__label__KEUANGAN __label__RENDAH biaya penggunaan lapangan dibebankan ke mhs, seharusnya tidak
+__label__FASILITAS __label__RENDAH min, gedung bersama di fisip udah ada kipasnya, tpi ga bisa ngilangin kegerahan kalau siang hari, soalnya kipasnya cuma 1. wi-fi? ga ada, jadi kalau nunggu dosen bosan bgt, gatau mau ngapain
+__label__FASILITAS __label__RENDAH kamar mandi gedung a lantai 1 gabisa dipakai, jadi malas kls apalagi kalau kebelet
+__label__KEUANGAN __label__RENDAH lapangan bola yang sudah di percantik dikenakan pembayaran 10 ribu per sekali masuk walaupun itu mhs uho, seharusnya gratis
+__label__LAINNYA __label__RENDAH kebersihan koridor gedung jarang dibersihkan, mencerminkan citra kampus yang buruk
+__label__AKADEMIK __label__TINGGI dosen sering reschedule mendadak, nilai terancam
+__label__AKADEMIK __label__TINGGI informasi jadwal ujian mendadak, stress bgt ngurusnya
+__label__KEMAHASISWAAN __label__RENDAH informasi kompetisi mhs tidak disebarkan merata, pengurusan jadi lama
+__label__FASILITAS __label__TINGGI fasilitas prodi matematika sudah bgt ketinggalan, kami sudah bayar ukt tepat waktu
+__label__AKADEMIK __label__TINGGI spada sering down waktu masa krs, susah akses materi
+__label__LAINNYA __label__KRITIS keamanan gedung saat weekend gaada satpam, sering ada kehilangan motor
+__label__FASILITAS __label__RENDAH gedung fh panas bgt soalnya cuma pajangan, capek bgt dikelas
+__label__KEUANGAN __label__RENDAH dana penelitian mhs tidak transparan penggunaannya, mhs yang kena dampaknya
+__label__KEUANGAN __label__RENDAH transparansi biaya resmi kampus bgt minim, mhs tidak tahu apa saja biaya resmi
+__label__JARINGAN_IT __label__RENDAH koneksi internet gedung c gabisa diandalkan, gabisa akses spada
+__label__KEMAHASISWAAN __label__RENDAH respon staf kurang menyenangkan seperti julid
+__label__KEMAHASISWAAN __label__RENDAH fasilitas lapangan olahraga terlalu kecil, mhs jadi kesal
+__label__KEMAHASISWAAN __label__RENDAH informasi program pertukaran pelajar hanya di grup tertentu, mhs banyak yang tidak tahu
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang rapat mhs tidak memadai, proses administrasi terhambat
+__label__LAINNYA __label__RENDAH atm/ bank kampus sering kosong uangnya, mhs harus keluar kampus untuk ke atm
+__label__KEUANGAN __label__RENDAH dana praktikum tidak cair tepat waktu, mhs dirugikan
+__label__KEUANGAN __label__RENDAH prosedur administrasi keuangan tidak transparan, mhs urgent kesusahan
+__label__FASILITAS __label__RENDAH lahan parkir di lab kimia sempit bgt jadi sering telat kls
+__label__FASILITAS __label__SEDANG kamar mandi gedung b lantai 1 airnya mati, terpaksa ke gedung lain yang jauh apalagi kalau kebelet
+__label__KEUANGAN __label__TINGGI pengumuman pengumuman beasiswa tidak diinformasikan jelas, mhs kaget
+__label__LAINNYA __label__RENDAH keamanan gedung saat weekend gaada satpam, mhs tidak merasa aman
+__label__AKADEMIK __label__TINGGI krs matkul yang tersedia tidak sesuai kurikulum, banyak yang ketinggalan informasi
+__label__KEMAHASISWAAN __label__RENDAH kegiatan ospek kurang dukungan kampus, pengurusan jadi bgt lama
+__label__FASILITAS __label__RENDAH banyak kursi di gedung fh yang banyak yang hilang, nilai bisa jelek soalnya tidak konsen
+__label__JARINGAN_IT __label__RENDAH wifi kampus gabisa dipakai apalagi kalau semua mhs pakai
+__label__JARINGAN_IT __label__SEDANG wifi prodi informatika sering disconnect, gabisa akses spada
+__label__LAINNYA __label__SEDANG area taman kampus kotor dan tidak terawat, kurang nyaman buat mhs
+__label__KEMAHASISWAAN __label__RENDAH kegiatan lomba antar prodi kurang dukungan kampus, pengurusan jadi bgt lama
+__label__FASILITAS __label__RENDAH lahan parkir di gedung c tidak teratur jadi sering telat kls
+__label__KEMAHASISWAAN __label__RENDAH kegiatan lomba antar prodi kurang dukungan kampus, banyak yang tidak terlayani
+__label__KEMAHASISWAAN __label__TINGGI informasi program beasiswa tidak disebarkan merata, proses terhambat
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung a lantai 2 bgt buruk, susah akses internet
+__label__LAINNYA __label__SEDANG transportasi gaada jalur sepeda, sering terlelet
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung c kurang terawat, tidak mendukung kreativitas mhs
+__label__FASILITAS __label__RENDAH kursi di auditorium udah lama sudah tidak layak pakai, kapan diganti?
+__label__FASILITAS __label__RENDAH jendela aula gedung c gaada gordennya, silau bgt saat kls
+__label__LAINNYA __label__RENDAH area koridor antar gedung gaada fasilitas pendukung, kurang nyaman buat mhs
+__label__FASILITAS __label__TINGGI fasilitas gedung mipa sudah bgt ketinggalan, kami sudah bayar ukt tepat waktu
+__label__JARINGAN_IT __label__RENDAH zoom kls online sering lag soalnya wifi gedung b lantai 2 kurang untuk semua mhs
+__label__FASILITAS __label__RENDAH lab komputer mipa kondisinya pengap, gabisa praktik dengan benar
+__label__FASILITAS __label__RENDAH jendela ruang kelas b2 gaada gordennya, hujan masuk ke kelas
+__label__FASILITAS __label__RENDAH kebersihan gedung a lantai 1 sampahnya menumpuk, baunya tidak enak
+__label__JARINGAN_IT __label__SEDANG wifi fakultas ekonomi lemot parah, terpaksa pakai kuota sendiri
+__label__FASILITAS __label__RENDAH colokan di ruangan 3.2 tidak berfungsi, padahal butuh buat ngecas
+__label__AKADEMIK __label__RENDAH nilai tidak sesuai ekspektasi tanpa penjelasan, stress bgt ngurusnya
+__label__FASILITAS __label__TINGGI ac fakultas hukum hanya pajangan, sebgian sudah di perbaiki sih cuma masih belum maksimal, kami sudha bayar ukt kewajiban kami sudah kami penuhi. fakultas sudh menerima hak dan tolong kewajibannya segera di penuhi (penyediaan fasilitas yang memadai buat seluruh mhs fh uho)
+__label__KEUANGAN __label__TINGGI pembayaran ukt prosedurnya rumit, mhs jadi bingung
+__label__JARINGAN_IT __label__RENDAH koneksi di gedung rektorat sering putus padahal butuh buat akses spada
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi hak dan kewajiban mhs bgt kurang, banyak yang ketinggalan
+__label__LAINNYA __label__RENDAH sampah di koridor gedung menumpuk setiap akhir pekan
+__label__KEUANGAN __label__RENDAH biaya parkir di area kampus seharusnya tidak dibebankan ke mhs
+__label__FASILITAS __label__SEDANG parkiran prodi informatika gada atapnya, kendaraan bisa lecet-lecet
+__label__LAINNYA __label__RENDAH kebersihan koridor gedung jarang dibersihkan, bisa jadi sumber penyakit
+__label__FASILITAS __label__SEDANG lab matematika kondisinya tidak terawat, gabisa praktik dengan benar
+__label__LAINNYA __label__RENDAH gaada atm di area kampus, padahal bgt dibutuhkan
+__label__JARINGAN_IT __label__TINGGI server sistem informasi kampus sering down waktu masa krs
+__label__LAINNYA __label__RENDAH atm/ bank kampus sering kosong uangnya, merepotkan saat butuh dana mendadak
+__label__AKADEMIK __label__SEDANG sistem siakad ui-nya membingungkan, tugas jadi terlelet dikumpulkan
+__label__LAINNYA __label__SEDANG kantin pusat jamnya singkat, antrean panjang
+__label__FASILITAS __label__RENDAH plafon ruangan 1.2 sudah retak, khawatir celaka kalau tiba-tiba jatuh
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi fakultas ekonomi tidak luas, terpaksa pakai kuota sendiri
+__label__FASILITAS __label__RENDAH lahan parkir di gedung a lantai 3 berantakan jadi sering telat kls
+__label__KEMAHASISWAAN __label__RENDAH info kompetisi mhs cuma nyebar di grup tertentu, yang lain tidak tahu
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang ukm terlalu kecil, proses administrasi terhambat
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus habis di jam sibuk, tidak cukup untuk semua mhs
+__label__KEMAHASISWAAN __label__RENDAH senioritas di fakultas sudah melewati batas, membuat mhs baru tertekan
+__label__FASILITAS __label__RENDAH pipa saluran ac di ruang kls lantai 2 bocor, colokan jadi bahaya kena air
+__label__AKADEMIK __label__RENDAH ruang kls tidak kondusif, susah konsen belajar
+__label__AKADEMIK __label__TINGGI website sistem krs sering eror, nilai terancam
+__label__JARINGAN_IT __label__RENDAH gaada wifi sama sekali di gedung b lantai 2, kls online terganggu
+__label__FASILITAS __label__TINGGI ac prodi akuntansi cuma pajangan, gak optimal padahal masa bayar ukt tapi fasilitas gini
+__label__FASILITAS __label__TINGGI prodi matematika panas bgt soalnya mati total, nilai bisa jelek soalnya tidak konsen
+__label__JARINGAN_IT __label__RENDAH zoom kls online sering lag soalnya wifi lab komputer tidak memadai
+__label__JARINGAN_IT __label__RENDAH zoom kls online sering lag soalnya wifi gedung b lantai 1 bgt terbatas
+__label__LAINNYA __label__SEDANG gerbang gerbang 2 gaada satpam sehingga antrean panjang
+__label__LAINNYA __label__RENDAH transportasi akses transportasi umum susah, tidak ramah lingkungan
+__label__LAINNYA __label__SEDANG lapangan basket ancur, gabisa dimanfaatkan optimal
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi hak dan kewajiban mhs tidak merata, banyak yang terlewat informasinya
+__label__JARINGAN_IT __label__TINGGI portal akademik timeout terus soalnya sering down
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung c minim fasilitas publik, tidak mendukung kreativitas mhs
+__label__AKADEMIK __label__TINGGI krs gabisa diakses saat masa pengisian, banyak yang ketinggalan info
+__label__AKADEMIK __label__TINGGI web akademik sering crash tiba-tiba waktu masa krs
+__label__KEMAHASISWAAN __label__RENDAH organisasi kegiatannya monoton, potensi mhs tersia-sia
+__label__KEMAHASISWAAN __label__RENDAH senioritas di organisasi kampus tidak ditangani dengan baik, membuat mhs baru tertekan
+__label__FASILITAS __label__SEDANG parkiran prodi matematika tidak teratur, sering ada yang ditabrak
+__label__FASILITAS __label__SEDANG tangga gedung rektorat beberapa anak tangganya ancur, sering ada yang jatuh
+__label__KEUANGAN __label__TINGGI prosedur pembayaran wisuda tidak jelas alurnya, mhs jadi bingung
+__label__KEMAHASISWAAN __label__RENDAH informasi kegiatan kemhsan tidak disebarkan merata, mhs jadi kesal
+__label__KEMAHASISWAAN __label__SEDANG layanan layanan administrasi mhs responnya lelet, pengurusan jadi bgt lama
+__label__JARINGAN_IT __label__RENDAH wifi di gedung b lantai 1 kayak tidak dibayar apalagi siang hari
+__label__AKADEMIK __label__TINGGI informasi prosedur skripsi mendadak, proses akademik jadi terlelet
+__label__FASILITAS __label__RENDAH gaada ruang istirahat di gedung mipa, padahal bgt dibutuhkan
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat rekomendasi makan waktu berhari-hari, bgt tidak efisien
+__label__JARINGAN_IT __label__TINGGI internet di perpus sering putus padahal butuh buat download materi
+__label__FASILITAS __label__RENDAH wc gedung b lantai 3 airnya tidak mengalir, mhs jadi susah kalau kebelet
+__label__FASILITAS __label__RENDAH gedung b lantai 3 panas bgt soalnya netes airnya, capek bgt dikelas
+__label__FASILITAS __label__RENDAH lahan parkir di fakultas ekonomi tidak muat jadi sering telat kls
+__label__KEUANGAN __label__KRITIS pengumuman deadline pembayaran ukt tidak sampai ke semua mhs, mhs kaget
+__label__AKADEMIK __label__RENDAH sistem portal mhs ui-nya bgt tidak user-friendly, proses akademik terhambat
+__label__JARINGAN_IT __label__TINGGI koneksi di perpus putus-putus saat masa uas
+__label__KEMAHASISWAAN __label__RENDAH pengurusan ktm butuh seminggu lebih, bgt lama
+__label__AKADEMIK __label__TINGGI sistem krs sering gabisa diakses waktu masa krs
+__label__LAINNYA __label__RENDAH kebersihan area kampus jarang dibersihkan, tidak nyaman beraktivitas
+__label__FASILITAS __label__SEDANG gaada atm di prodi informatika, padahal bgt dibutuhkan
+__label__KEMAHASISWAAN __label__TINGGI pengurusan dokumen beasiswa makan waktu berminggu-minggu, bgt tidak efisien
+__label__LAINNYA __label__RENDAH pintu masuk utama gaada sistem akses, tidak aman
+__label__KEMAHASISWAAN __label__RENDAH staff hima julidnya keterlaluan, tidak sesuai standar pelayanan
+__label__FASILITAS __label__RENDAH plafon ruang seminar hampir roboh, khawatir mhs tidak nyaman
+__label__LAINNYA __label__RENDAH kebersihan sekitar parkiran kumuh, baunya tidak enak
+__label__JARINGAN_IT __label__RENDAH upload tugas di spada gagal terus soalnya internet lab komputer gabisa konek
+__label__FASILITAS __label__RENDAH gaada lift/eskalator di gedung fisip, padahal bgt dibutuhkan
+__label__KEMAHASISWAAN __label__RENDAH fasilitas lapangan olahraga terlalu kecil, pengurusan jadi bgt lama
+__label__KEMAHASISWAAN __label__RENDAH organisasi tidak aktif, mhs jadi tidak berkembang
+__label__LAINNYA __label__SEDANG gerbang pintu masuk utama sering macet di satu pintu saja, sering terlelet kls
+__label__LAINNYA __label__RENDAH kebersihan area kantin kumuh, bisa jadi sumber penyakit
+__label__JARINGAN_IT __label__SEDANG jaringan di prodi matematika lemot parah, susah akses internet
+__label__FASILITAS __label__TINGGI ac gedung a lantai 3 cuma pajangan, gak optimal padahal masa bayar ukt tapi fasilitas gini
+__label__LAINNYA __label__RENDAH keamanan area parkir kurang terjaga, orang luar bebas masuk
+__label__KEUANGAN __label__RENDAH pembayaran biaya praktikum terjadi kesalahan administrasi, menghambat proses akademik
+__label__JARINGAN_IT __label__KRITIS server spada lelet bgt waktu masa uas
+__label__FASILITAS __label__SEDANG tolong ac prodi informatika segera diperbaiki, gak optimal dan mhs tidak konsen belajar
+__label__KEMAHASISWAAN __label__RENDAH kegiatan ospek waktunya tidak pas, mhs jadi tidak antusias
+__label__LAINNYA __label__RENDAH kantin pusat jamnya singkat, terpaksa keluar kampus
+__label__FASILITAS __label__RENDAH remot ac fakultas hukum cuma 1 untuk 3 lantai, susah hidupinnya
+__label__FASILITAS __label__SEDANG banyak kursi di gedung a lantai 1 yang ancur, mhs jadi malas masuk kls
+__label__FASILITAS __label__RENDAH tolong ac fakultas teknik segera diperbaiki, netes airnya dan belajarnya tidak nyaman
+__label__FASILITAS __label__TINGGI fasilitas lab kimia tidak memadai, padahal kita sudah bayar ukt
+__label__LAINNYA __label__RENDAH kebersihan area kampus gaada tempat sampah, tidak nyaman untuk beraktivitas
+__label__LAINNYA __label__RENDAH area area belajar outdoor gaada fasilitas pendukung, kurang nyaman buat mhs
+__label__KEMAHASISWAAN __label__RENDAH bem kurang aktif menyuarakan aspirasi mhs soal prosedur dokumen
+__label__FASILITAS __label__RENDAH lampu di lab komputer mipa sering turun saklarnya, ruangan jadi gelap
+__label__LAINNYA __label__RENDAH keamanan area kampus malam gaada satpam, sering kehilangan barang
+__label__JARINGAN_IT __label__KRITIS server sistem informasi kampus bapuk ga stabil pas masa uts, kls online terganggu
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat keterangan lulus butuh lebih dari 2 minggu, bgt lama
+__label__LAINNYA __label__RENDAH kantin area food court kampus tempatnya sempit dan panas, mhs susah makan siang
+__label__AKADEMIK __label__KRITIS spada gabisa diakses saat saat uas, nilai terancam
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi gedung a lantai 1 tidak luas, susah download materi kls
+__label__FASILITAS __label__RENDAH min, parkiran gedung b lantai 1 tidak teratur tolong diatur lebih baik
+__label__KEUANGAN __label__TINGGI prosedur pembayaran ukt tidak jelas alurnya, mhs jadi bingung
+__label__LAINNYA __label__RENDAH keamanan area parkir cctv tidak berfungsi, tidak kondusif malam hari
+__label__LAINNYA __label__SEDANG kebersihan area kantin bgt kotor, tidak nyaman beraktivitas
+__label__LAINNYA __label__TINGGI lapangan futsal gaada penerangan malam, gabisa dimanfaatkan optimal
+__label__FASILITAS __label__SEDANG kamar mandi gedung a lantai 1 kotor parah, jadi malas kls apalagi kalau kebelet
+__label__AKADEMIK __label__TINGGI siakad sering crash tiba-tiba waktu masa krs
+__label__FASILITAS __label__RENDAH wc gedung d airnya tidak mengalir, mhs jadi susah kalau kebelet
+__label__AKADEMIK __label__RENDAH sistem spada terlalu ribet, proses akademik terhambat
+__label__LAINNYA __label__TINGGI web siaqad yang selalu setiap tahunnya eror bermasalah heran deh. dan ada juga beberapa kelas fasilitas ac-nya tidak memadai apa lagi di ruangan lebih banyak mhs panasnya melarat sekali bahkan mau belajar pun tidak fokus
+__label__AKADEMIK __label__TINGGI krs matkul yang tersedia tidak sesuai kurikulum, mhs dirugikan
+__label__JARINGAN_IT __label__RENDAH wifi gedung b lantai 3 bapuk ga stabil, terpaksa pakai kuota sendiri
+__label__AKADEMIK __label__RENDAH website portal mhs gabisa diakses, proses akademik terhambat
+__label__LAINNYA __label__RENDAH keamanan area parkir gaada satpam, mhs tidak merasa aman
+__label__LAINNYA __label__RENDAH jalan di uho dekat auditorium baru jelek berlubang
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat keterangan aktif makan waktu lebih dari 2 minggu, bgt tidak efisien
+__label__AKADEMIK __label__RENDAH informasi jadwal seminar mendadak, banyak yang ketinggalan informasi
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi gedung a lantai 3 hanya di spot tertentu, susah download materi kls
+__label__AKADEMIK __label__TINGGI sistem krs sering gabisa diakses waktu saat jam sibuk
+__label__LAINNYA __label__RENDAH kebersihan koridor gedung jarang dibersihkan, baunya tidak enak
+__label__AKADEMIK __label__RENDAH dosen sering reschedule mendadak, proses akademik terhambat
+__label__KEMAHASISWAAN __label__RENDAH program mentoring akademik kuota yang terlalu sedikit, mhs kurang diuntungkan
+__label__AKADEMIK __label__TINGGI informasi prosedur skripsi mendadak bgt, mhs dirugikan
+__label__LAINNYA __label__TINGGI lapangan futsal tidak terawat, gaada wadah kegiatan olahraga mhs
+__label__KEMAHASISWAAN __label__RENDAH senioritas di himpunan membuat mhs baru tidak nyaman, membuat mhs baru tertekan
+__label__LAINNYA __label__RENDAH keamanan gedung saat weekend cctv tidak berfungsi, tidak kondusif malam hari
+__label__KEUANGAN __label__RENDAH ada biaya tidak jelas untuk kegiatan tertentu yang tidak semestinya
+__label__KEMAHASISWAAN __label__RENDAH staff bagian kemhsan tidak responsif, mhs jadi tidak nyaman
+__label__LAINNYA __label__RENDAH area ruang tunggu gaada fasilitas pendukung, kurang nyaman buat mhs
+__label__LAINNYA __label__RENDAH jalan di dekat auditorium sempit bgt, berbahaya buat motor
+__label__FASILITAS __label__RENDAH colokan di ruang kls lantai 2 tidak berfungsi, padahal butuh buat ngecas
+__label__FASILITAS __label__RENDAH tolong ac fakultas ekonomi segera diperbaiki, panasnya parah dan belajarnya tidak nyaman
+__label__FASILITAS __label__RENDAH tolong ac gedung d segera diperbaiki, netes airnya dan ruangan jadi gerah bgt
+__label__FASILITAS __label__RENDAH pipa saluran ac di lab komputer mipa bocor, colokan jadi bahaya kena air
+__label__KEMAHASISWAAN __label__RENDAH unit kemhsan tidak konsisten saat mhs butuh bantuan
+__label__AKADEMIK __label__TINGGI sistem krs sering datanya hilang terutama masa krs
+__label__FASILITAS __label__TINGGI fasilitas fakultas teknik sudah bgt ketinggalan, kami sudah bayar ukt tepat waktu
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung b lantai 1 gaada sama sekali, harus keluar ruangan dulu
+__label__KEUANGAN __label__RENDAH penggunaan dana kkn tidak transparan, mhs tidak tahu kemana uangnya
+__label__KEMAHASISWAAN __label__RENDAH senioritas di unit kemhsan masih bgt kental, membuat mhs baru tertekan
+__label__KEMAHASISWAAN __label__RENDAH kegiatan program mentoring kurang dukungan kampus, mhs jadi kesal
+__label__LAINNYA __label__SEDANG gerbang pintu masuk utama pintunya ancur, sering terlelet kls
+__label__AKADEMIK __label__TINGGI sistem sistem krs membingungkan, tugas jadi terlelet
+__label__JARINGAN_IT __label__RENDAH internet di prodi akuntansi sering putus, gabisa kumpul tugas online
+__label__LAINNYA __label__KRITIS keamanan area kampus malam hari sering ada kehilangan barang, sering ada kehilangan motor
+__label__KEMAHASISWAAN __label__RENDAH layanan sekretariat sering tutup, proses terhambat
+__label__JARINGAN_IT __label__TINGGI wifi fakultas ekonomi lemot parah, susah download materi kls
+__label__KEUANGAN __label__TINGGI informasi beasiswa susah diakses informasinya, mhs kurang mampu jadi dirugikan
+__label__JARINGAN_IT __label__TINGGI wifi gedung b lantai 1 sering disconnect, tidak produktif di kampus
+__label__LAINNYA __label__TINGGI lapangan futsal ancur, lapangan gabisa dimanfaatkan optimal
+__label__KEUANGAN __label__TINGGI informasi beasiswa mendadak diumumkan, hanya orang tertentu yang tahu
+__label__LAINNYA __label__RENDAH tempat parkiran panas kendaraan bisa terjemur
+__label__AKADEMIK __label__SEDANG nilai gabisa diakses di portal, mhs jadi bingung
+__label__KEUANGAN __label__RENDAH prosedur pengembalian dana tidak transparan, prosesnya jadi bgt lama
+__label__KEUANGAN __label__TINGGI pengumuman deadline pembayaran ukt mendadak bgt, mhs yang urgent jadi kesusahan
+__label__JARINGAN_IT __label__RENDAH jaringan di fakultas ekonomi bapuk ga stabil, susah akses internet
+__label__KEMAHASISWAAN __label__RENDAH senioritas di himpunan masih melewati batas, mhs baru jadi tertekan
+__label__KEMAHASISWAAN __label__RENDAH staff layanan administrasi mhs tidak responsif, mhs jadi tidak nyaman
+__label__KEMAHASISWAAN __label__RENDAH staff bagian kemhsan melayani dengan malas-malasan, mhs jadi tidak nyaman
+__label__FASILITAS __label__RENDAH saklar di gedung b lantai 2 sering turun, jadi kls terganggu
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat rekomendasi butuh seminggu lebih, bgt lama
+__label__LAINNYA __label__RENDAH transportasi gaada shuttle bus kampus, biaya transportasi jadi membebani
+__label__KEMAHASISWAAN __label__RENDAH kegiatan program mentoring kurang dukungan kampus, proses administrasi terhambat
+__label__LAINNYA __label__RENDAH area ruang tunggu panas tidak teduh, tidak nyaman buat mhs
+__label__JARINGAN_IT __label__KRITIS server sistem informasi kampus bapuk ga stabil pas deadline tugas, kls online terganggu
+__label__FASILITAS __label__RENDAH plafon ruangan 2.3 sudah retak, khawatir celaka kalau tiba-tiba jatuh
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi lab biologi terbatas bgt, gabisa akses spada
+__label__AKADEMIK __label__SEDANG gaada feedback nilai dari dosen, mhs jadi bingung
+__label__JARINGAN_IT __label__TINGGI wifi gedung a lantai 3 gabisa dipakai, tidak produktif di kampus
+__label__JARINGAN_IT __label__RENDAH sinyal di fakultas teknik hilang timbul, kls online jadi terganggu
+__label__FASILITAS __label__SEDANG wc prodi matematika gabisa dipakai, harus nahan lama bgt
+__label__KEMAHASISWAAN __label__RENDAH layanan bagian kemhsan pelayanannya kurang baik, proses administrasi terhambat
+__label__KEUANGAN __label__TINGGI prosedur pengajuan keringanan ukt tidak transparan, menghambat proses akademik
+__label__AKADEMIK __label__RENDAH materi kls sudah outdated, mhs susah belajar mandiri
+__label__FASILITAS __label__SEDANG parkiran gedung a lantai 2 gada atapnya, kendaraan bisa catnya jadi ancur
+__label__JARINGAN_IT __label__RENDAH wifi kampus gabisa konek apalagi kalau acara kampus
+__label__KEMAHASISWAAN __label__RENDAH staff layanan administrasi mhs tidak responsif, pelayanan publik yang buruk
+__label__KEMAHASISWAAN __label__RENDAH informasi kompetisi mhs tidak disebarkan merata, proses terhambat
+__label__FASILITAS __label__RENDAH lampu di ruang kelas b2 tidak berfungsi, gabisa presentasi pakai proyektor
+__label__FASILITAS __label__SEDANG ruangan di gedung b hampir setiap kelas selalu ada kursi yang tidak punya meja atau mejanya ancur. kalau hanya duduk mungkin bisa, tapi untuk mencatat saat pembelajaran sedang berlangsung itu bgt menyulitkan.
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung fh bgt buruk, susah akses internet
+__label__FASILITAS __label__RENDAH pintu wc gedung rektorat gabisa dikunci, bgt tidak nyaman
+__label__KEUANGAN __label__TINGGI pembayaran ukt terjadi kesalahan administrasi, prosesnya jadi bgt lama
+__label__KEUANGAN __label__RENDAH transparansi biaya-biaya resmi kampus kurang, mhs tidak tahu siapa yang berhak
+__label__AKADEMIK __label__TINGGI sistem portal mhs ui-nya susah dinavigasi, nilai terancam
+__label__KEMAHASISWAAN __label__RENDAH staff layanan administrasi mhs kurang ramah, malas mengurus keperluan ke sana
+__label__FASILITAS __label__RENDAH kursi di ruangan 3.1 kayunya sudah lapuk, susah nulis waktu kls
+__label__KEMAHASISWAAN __label__RENDAH program mentoring akademik tidak merata distribusinya, mhs kurang diuntungkan
+__label__JARINGAN_IT __label__RENDAH jaringan di fakultas teknik bgt buruk, susah akses internet
+__label__KEMAHASISWAAN __label__SEDANG layanan hima responnya lelet, proses administrasi terhambat
+__label__AKADEMIK __label__SEDANG jadwal kls bentrok dengan mata kls lain, proses akademik jadi terlelet
+__label__FASILITAS __label__KRITIS gedung a lantai 3 panas bgt soalnya mati total, susah konsen belajar
+__label__AKADEMIK __label__RENDAH ada dosen yang sering tidak masuk tanpa keterangan, itu tidak profesional
+__label__KEUANGAN __label__RENDAH dana penelitian mhs tidak cair tepat waktu, mhs dirugikan
+__label__AKADEMIK __label__TINGGI website portal mhs sering eror, tugas jadi terlelet dikumpulkan
+__label__LAINNYA __label__SEDANG gerbang gerbang 3 gaada sistem akses sehingga antrean panjang
+__label__LAINNYA __label__RENDAH jalan di belakang rektorat bergelombang, banjir waktu hujan
+__label__JARINGAN_IT __label__SEDANG internet di lab kimia lemot parah, terpaksa pakai kuota sendiri
+__label__JARINGAN_IT __label__RENDAH internet di gedung c bapuk ga stabil padahal butuh buat kls online
+__label__AKADEMIK __label__TINGGI sistem sistem krs ui-nya outdated, belajar jadi terganggu
+__label__LAINNYA __label__RENDAH lapangan bola dikenakan biaya masuk yang tidak semestinya, mhs gabisa olahraga gratis
+__label__AKADEMIK __label__TINGGI website siakad sering down, belajar jadi terganggu
+__label__AKADEMIK __label__RENDAH web akademik sering gabisa diakses waktu pengumuman nilai
+__label__FASILITAS __label__RENDAH kebersihan fakultas ekonomi sampahnya menumpuk, baunya tidak enak
+__label__AKADEMIK __label__TINGGI spada gabisa diakses saat masa krs, belajar jadi terganggu
+__label__KEUANGAN __label__TINGGI biaya wisuda terlalu mahal dan prosedurnya tidak transparan
+__label__LAINNYA __label__TINGGI lapangan futsal dikenakan biaya masuk yang tidak semestinya, gaada wadah kegiatan olahraga mhs
+__label__KEUANGAN __label__TINGGI ukt naik setiap tahun, tapi fasilitasnya jauh dari layak
+__label__KEUANGAN __label__KRITIS pengumuman deadline pembayaran ukt mendadak bgt, mhs kaget
+__label__JARINGAN_IT __label__SEDANG spada lemot bgt saat saat banyak pengguna
+__label__JARINGAN_IT __label__RENDAH wifi di gedung b lantai 3 sering disconnect apalagi siang hari
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat keterangan aktif makan waktu berhari-hari, bgt tidak efisien
+__label__JARINGAN_IT __label__RENDAH wifi kampus kayak tidak dibayar apalagi kalau semua mhs pakai
+__label__AKADEMIK __label__TINGGI krs gabisa tambah matkul, proses akademik jadi terlelet
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung c gersang gaada pohon, tidak nyaman aktivitas luar
+__label__JARINGAN_IT __label__RENDAH server sistem informasi kampus gabisa diakses waktu jam kls
+__label__AKADEMIK __label__RENDAH dosen tidak beri feedback nilai, belajar jadi terganggu
+__label__AKADEMIK __label__SEDANG jadwal kls sering berubah mendadak, mhs jadi bingung
+__label__FASILITAS __label__RENDAH lahan parkir di fakultas hukum berantakan jadi sering telat kls
+__label__AKADEMIK __label__SEDANG informasi jadwal seminar mendadak, mhs jadi bingung
+__label__KEUANGAN __label__RENDAH biaya seragam praktikum seharusnya tidak dibebankan ke mhs
+__label__FASILITAS __label__RENDAH perlengkapan di laboratorium khusus nya di laboratorium botani banyak yang kurang berfungsi dengan baik
+__label__AKADEMIK __label__KRITIS sistem krs sering eror parah terutama deadline tugas
+__label__KEMAHASISWAAN __label__TINGGI sosialisasi program beasiswa tidak merata, banyak yang ketinggalan
+__label__JARINGAN_IT __label__KRITIS spada sering eror saat deadline pengumpulan tugas
+__label__KEUANGAN __label__TINGGI ukt naik setiap tahun, tapi wc-nya gabisa dipakai
+__label__JARINGAN_IT __label__TINGGI server siakad sering down waktu masa krs
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung fh bapuk ga stabil, susah akses internet
+__label__FASILITAS __label__TINGGI fasilitas gedung d sudah bgt ketinggalan, masa bayar ukt tapi fasilitas gini
+__label__LAINNYA __label__SEDANG area koridor antar gedung kotor dan tidak terawat, kurang nyaman buat mhs
+__label__JARINGAN_IT __label__TINGGI internet di gedung a lantai 2 bapuk ga stabil, tidak produktif di kampus
+__label__KEUANGAN __label__TINGGI prosedur pembayaran ukt tidak jelas alurnya, mhs yang urgent jadi kesusahan
+__label__KEUANGAN __label__RENDAH transparansi anggaran kegiatan mhs kurang, mhs tidak tahu bagaimana seleksinya
+__label__LAINNYA __label__RENDAH keamanan area kampus malam hari sering ada kehilangan barang, orang luar bebas masuk
+__label__AKADEMIK __label__RENDAH kls online terganggu soalnya siakad gabisa diakses
+__label__KEUANGAN __label__TINGGI informasi beasiswa mendadak diumumkan, banyak mhs yang layak tidak dapat
+__label__JARINGAN_IT __label__SEDANG koneksi di lab komputer lemot parah padahal butuh buat kumpul tugas
+__label__JARINGAN_IT __label__RENDAH spada uho ngelag dan sistemnya terlalu ribet padahal hanya mengumpulkan tugas
+__label__KEMAHASISWAAN __label__RENDAH informasi prosedur pengajuan surat tidak disosialisasikan dengan baik, mhs banyak yang tidak tahu
+__label__KEUANGAN __label__RENDAH pembayaran biaya kkn terjadi kesalahan administrasi, mhs yang urgent jadi kesusahan
+__label__KEMAHASISWAAN __label__RENDAH staff unit kemhsan kurang ramah, malas mengurus keperluan ke sana
+__label__JARINGAN_IT __label__RENDAH jaringan di lab kimia gabisa diandalkan, susah akses internet
+__label__AKADEMIK __label__RENDAH materi kls tidak diberikan dosen, mhs susah belajar mandiri
+__label__AKADEMIK __label__TINGGI sistem krs gabisa diakses saat pengumuman nilai, mhs rugi bgt
+__label__AKADEMIK __label__TINGGI krs matkul yang tersedia tidak sesuai kurikulum, mhs jadi bingung
+__label__AKADEMIK __label__RENDAH bahan ajar sudah outdated, capek bgt dikelas
+__label__KEUANGAN __label__RENDAH prosedur administrasi keuangan memakan waktu lama, mhs yang urgent jadi kesusahan
+__label__LAINNYA __label__SEDANG pintu masuk utama pintunya ancur, antrean masuk panjang
+__label__FASILITAS __label__RENDAH kamar mandi lab biologi busuk, harus nahan lama bgt apalagi kalau kebelet
+__label__AKADEMIK __label__RENDAH jadwal kls bentrok dengan mata kls lain, mhs dirugikan
+__label__JARINGAN_IT __label__KRITIS server spada gabisa diakses pas masa uts, terpaksa pakai kuota sendiri
+__label__AKADEMIK __label__SEDANG dosen tidak tepat waktu, tugas jadi terlelet
+__label__FASILITAS __label__RENDAH lampu di ruangan 2.3 tidak berfungsi, gabisa presentasi pakai proyektor
+__label__LAINNYA __label__SEDANG area ruang tunggu kotor dan tidak terawat, kurang nyaman buat mhs
+__label__JARINGAN_IT __label__TINGGI koneksi di gedung fh putus-putus saat masa uts
+__label__KEUANGAN __label__RENDAH biaya penggunaan lapangan olahraga seharusnya tidak dibebankan ke mhs
+__label__KEMAHASISWAAN __label__RENDAH kegiatan kegiatan sosial kampus waktunya tidak pas, proses administrasi terhambat
+__label__JARINGAN_IT __label__RENDAH koneksi di auditorium gabisa diandalkan padahal butuh buat akses spada
+__label__AKADEMIK __label__TINGGI informasi jadwal ujian mendadak, banyak yang ketinggalan informasi
+__label__LAINNYA __label__SEDANG jalan di area parkir utama licin waktu hujan, kendaraan jadi ancur
+__label__KEUANGAN __label__RENDAH dana kegiatan mhs tidak cair tepat waktu, mhs yang kena dampaknya
+__label__FASILITAS __label__SEDANG wc gedung b tidak terurus, kotor, dan keran wastafel tidak berfungsi. selain itu kursi perklsan juga banyak yang ancur dan gabisa digunakan.
+__label__KEUANGAN __label__TINGGI prosedur pembayaran wisuda banyak persyaratan yang tidak masuk akal, menghambat proses akademik
+__label__FASILITAS __label__RENDAH plafon ruang seminar jelek parah, khawatir mhs tidak nyaman
+__label__FASILITAS __label__RENDAH plafon di ruangan 1.2 gedung d sudah retak sehingga saya kurang konsen belajar soalnya khawatir plafonnya roboh
+__label__AKADEMIK __label__TINGGI dosen jarang masuk, nilai terancam
+__label__AKADEMIK __label__SEDANG spada lemot parah, susah lihat nilai
+__label__KEMAHASISWAAN __label__RENDAH staff sekretariat melayani dengan malas, tidak enak kalau harus ke sana
+__label__LAINNYA __label__RENDAH kantin belakang gedung b tidak higienis, susah makan siang
+__label__KEMAHASISWAAN __label__RENDAH informasi prosedur pengajuan surat tidak disebarkan merata, banyak yang tidak terlayani
+__label__FASILITAS __label__RENDAH ruangan ruang kls lantai 2 gelap soalnya sering turun saklarnya
+__label__KEMAHASISWAAN __label__RENDAH organisasi kampus kurang dukungan kampus, gaada wadah aspirasi mhs
+__label__JARINGAN_IT __label__RENDAH spada gabisa diakses saat jam kls
+__label__AKADEMIK __label__TINGGI sistem spada membingungkan, nilai terancam
+__label__LAINNYA __label__SEDANG jalan di belakang rektorat sempit bgt, kendaraan jadi ancur
+__label__FASILITAS __label__SEDANG tangga gedung d beberapa anak tangganya ancur, bahaya kalau terpeleset
+__label__FASILITAS __label__RENDAH tangga gedung fisip gaada pegangan, bahaya kalau terpeleset
+__label__JARINGAN_IT __label__RENDAH koneksi di gedung b lantai 2 bapuk ga stabil padahal butuh buat video conference dengan dosen
+__label__LAINNYA __label__RENDAH kantin pusat harganya mahal, terpaksa keluar kampus
+__label__JARINGAN_IT __label__SEDANG upload tugas di spada gagal terus soalnya internet aula lemot parah
+__label__LAINNYA __label__SEDANG lapangan basket gaada penerangan malam, gabisa dimanfaatkan optimal
+__label__FASILITAS __label__SEDANG kebersihan lab biologi kotor bgt, tidak nyaman berada di sini
+__label__AKADEMIK __label__TINGGI kls online terganggu soalnya web akademik sering eror
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung b lantai 3 bgt lemah, harus keluar ruangan dulu
+__label__AKADEMIK __label__SEDANG informasi informasi kkn tidak diinformasikan dengan jelas, mhs jadi bingung
+__label__KEUANGAN __label__RENDAH biaya buku dosen dibebankan ke mhs, seharusnya tidak
+__label__JARINGAN_IT __label__SEDANG server spada lelet bgt waktu jam kls
+__label__AKADEMIK __label__SEDANG informasi jadwal seminar mendadak, proses akademik jadi terlelet
+__label__KEMAHASISWAAN __label__RENDAH organisasi kurang dukungan dari kampus, gaada wadah aspirasi mhs
+__label__KEMAHASISWAAN __label__RENDAH layanan kemhsan terkadang jarang beroperasi
+__label__LAINNYA __label__RENDAH atm/ bank kampus gaada di dalam kampus, tidak praktis
+__label__JARINGAN_IT __label__RENDAH gaada wifi sama sekali di lab komputer, terpaksa pakai kuota sendiri
+__label__JARINGAN_IT __label__RENDAH server spada overload pas jam kls, terpaksa pakai kuota sendiri
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi gedung c hanya di spot tertentu, tidak produktif di kampus
+__label__FASILITAS __label__SEDANG plafon lab matematika bocor saat hujan, khawatir mhs tidak nyaman
+__label__AKADEMIK __label__RENDAH siakad gabisa diakses saat jam kls, proses akademik terhambat
+__label__LAINNYA __label__RENDAH gerbang 1 gaada sistem akses, tidak aman
+__label__FASILITAS __label__RENDAH ac di ruang kelas sering tidak berfungsi sehingga ruangan menjadi bgt panas sehingga kita merasa nda nyaman mohon untuk segera di perbaiki.
+__label__AKADEMIK __label__RENDAH ruang kls tidak sesuai kapasitas mhs, capek bgt dikelas
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi gedung b lantai 3 tidak luas, gabisa kumpul tugas online
+__label__LAINNYA __label__RENDAH keamanan gedung saat weekend cctv-nya tidak berfungsi, tidak kondusif untuk kegiatan malam
+__label__JARINGAN_IT __label__RENDAH hotspot kampus bapuk ga stabil, terpaksa habiskan kuota sendiri
+__label__JARINGAN_IT __label__RENDAH upload tugas di spada gagal terus soalnya internet gedung fisip nge-lag
+__label__JARINGAN_IT __label__SEDANG internet di prodi matematika gabisa diandalkan, gabisa akses spada
+__label__LAINNYA __label__SEDANG gerbang 1 pintunya ancur, antrean masuk panjang
+__label__FASILITAS __label__SEDANG lab matematika kursinya goyang terus dan papan tulisnya gabisa dibaca
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang ukm tidak memadai, banyak yang tidak terlayani
+__label__LAINNYA __label__RENDAH sampah di taman kampus menumpuk kalau gaada petugas
+__label__JARINGAN_IT __label__TINGGI gaada wifi sama sekali di perpus, susah download materi
+__label__KEUANGAN __label__TINGGI prosedur pengajuan keringanan ukt bgt rumit dan berbelit, menghambat proses akademik
+__label__KEUANGAN __label__TINGGI informasi beasiswa tidak disosialisasikan baik, hanya orang tertentu yang tahu
+__label__FASILITAS __label__RENDAH tolong ac fakultas ekonomi segera diperbaiki, nda menyala dan belajarnya tidak nyaman
+__label__JARINGAN_IT __label__RENDAH wifi ruang seminar sering disconnect, kls online terganggu
+__label__LAINNYA __label__RENDAH sampah di koridor gedung menumpuk kalau gaada petugas
+__label__KEMAHASISWAAN __label__RENDAH staff hima kurang ramah, mhs jadi tidak nyaman
+__label__FASILITAS __label__RENDAH parkiran gedung b lantai 1 berantakan, kendaraan jadi susah keluar
+__label__KEUANGAN __label__TINGGI pengumuman pengumuman beasiswa mendadak bgt, mhs kaget
+__label__AKADEMIK __label__TINGGI spada sering down, susah akses forum diskusi
+__label__KEMAHASISWAAN __label__SEDANG layanan layanan administrasi mhs responnya lelet, proses administrasi terhambat
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang rapat mhs terlalu kecil, proses administrasi terhambat
+__label__JARINGAN_IT __label__KRITIS server siakad overload waktu deadline tugas
+__label__FASILITAS __label__KRITIS tolong ac lab komputer segera diperbaiki, mati total dan kita kepanasan parah
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung mipa bgt buruk, susah akses internet
+__label__AKADEMIK __label__RENDAH informasi jadwal seminar mendadak, stress bgt ngurusnya
+__label__FASILITAS __label__SEDANG lab matematika kondisinya pengap, mhs gabisa belajar maksimal
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung d tidak sampai ke semua ruangan, terpaksa pakai kuota sendiri
+__label__KEMAHASISWAAN __label__RENDAH pengurusan transkip nilai sementara butuh berhari-hari, bgt lama
+__label__AKADEMIK __label__RENDAH lama merespon
+__label__KEMAHASISWAAN __label__RENDAH kegiatan lomba antar prodi waktunya tidak pas, mhs jadi tidak antusias
+__label__AKADEMIK __label__RENDAH dosen tidak beri feedback nilai, proses akademik terhambat
+__label__KEUANGAN __label__RENDAH pembayaran biaya praktikum gabisa online, menghambat proses akademik
+__label__KEMAHASISWAAN __label__RENDAH pengurusan ktm butuh bgt lama, bgt lama
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung b lantai 3 hanya di spot tertentu, terpaksa pakai kuota sendiri
+__label__AKADEMIK __label__SEDANG informasi informasi kkn mendadak, mhs jadi bingung
+__label__FASILITAS __label__RENDAH tolong ac auditorium segera diperbaiki, berisik bgt dan badan rasanya mau pingsan
+__label__JARINGAN_IT __label__RENDAH wifi kampus sering disconnect apalagi kalau banyak yang konek
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung fh hanya di spot tertentu, kls online terganggu
+__label__LAINNYA __label__RENDAH jalan di dekat auditorium bergelombang, banjir waktu hujan
+__label__JARINGAN_IT __label__TINGGI spada down terus saat pagi hari
+__label__FASILITAS __label__RENDAH min, wc di perpus pusat kondisinya cuma pajangan, tolong segera diperbaiki
+__label__KEUANGAN __label__TINGGI ukt prosedur keringanan susah, tapi wifi-nya gabisa diandalkan
+__label__AKADEMIK __label__TINGGI informasi jadwal ujian tidak sampai ke semua mhs, mhs jadi bingung
+__label__FASILITAS __label__RENDAH lab komputer mipa kondisinya fasilitasnya tidak memadai, hasil praktikum tidak valid
+__label__AKADEMIK __label__KRITIS spada gabisa diakses saat saat uts, proses akademik terhambat
+__label__KEUANGAN __label__TINGGI transparansi distribusi beasiswa kurang, mhs tidak tahu kemana uangnya pergi
+__label__JARINGAN_IT __label__SEDANG spada lemot bgt tepat jam kls, panik bgt
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung b lantai 2 minim fasilitas publik, tidak nyaman aktivitas luar
+__label__FASILITAS __label__RENDAH lab komputer mipa kursinya kayunya sudah lapuk dan lampunya remang
+__label__LAINNYA __label__SEDANG lapangan badminton ancur, lapangan gabisa dimanfaatkan optimal
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi prodi informatika tidak luas, gabisa kumpul tugas online
+__label__JARINGAN_IT __label__RENDAH wifi kampus gabisa dipakai apalagi kalau banyak yang konek
+__label__KEMAHASISWAAN __label__RENDAH pengurusan ktm harus bolak-balik, mhs jadi kesal
+__label__KEMAHASISWAAN __label__RENDAH layanan layanan administrasi mhs sering tutup, pengurusan jadi bgt lama
+__label__KEMAHASISWAAN __label__TINGGI pengurusan dokumen beasiswa butuh bgt lama, bgt lama
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi fakultas ekonomi hanya di spot tertentu, susah download materi kls
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat keterangan aktif harus bolak-balik, banyak yang tidak terlayani
+__label__FASILITAS __label__TINGGI ac fakultas hukum cuma pajangan, nda menyala padahal ukt mahal tapi fasilitas tidak sesuai
+__label__AKADEMIK __label__TINGGI sistem sistem krs terlalu ribet, belajar jadi terganggu
+__label__AKADEMIK __label__RENDAH dosen tidak responsif di grup, belajar jadi terganggu
+__label__KEUANGAN __label__RENDAH pengumuman perubahan biaya tidak sampai ke semua mhs, mhs kaget
+__label__FASILITAS __label__RENDAH lahan parkir di lab kimia gaada petugas jadi sering telat kls
+__label__AKADEMIK __label__RENDAH informasi jadwal seminar hanya dari mulut ke mulut, mhs dirugikan
+__label__FASILITAS __label__TINGGI fasilitas lab komputer sudah bgt ketinggalan, kami sudah bayar ukt tepat waktu
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi fakultas teknik tidak luas, tidak produktif di kampus
+__label__KEUANGAN __label__TINGGI ukt prosedur keringanan susah, tapi wc-nya gabisa dipakai
+__label__KEUANGAN __label__TINGGI gaada info resmi tentang penggunaan dana ukt, mhs hanya dengar dari mulut ke mulut
+__label__AKADEMIK __label__RENDAH bahan ajar tidak diberikan oleh dosen, susah konsen belajar
+__label__JARINGAN_IT __label__RENDAH hotspot kampus gabisa konek, terpaksa habiskan kuota sendiri
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung mipa tidak sampai ke semua ruangan, kls online terganggu
+__label__AKADEMIK __label__RENDAH spada loadingnya lama bgt, susah lihat nilai
+__label__FASILITAS __label__RENDAH banyak kursi di prodi akuntansi yang mejanya patah, nilai bisa jelek soalnya tidak konsen
+__label__KEUANGAN __label__RENDAH pembayaran biaya praktikum terjadi kesalahan administrasi, mhs yang urgent jadi kesusahan
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung b lantai 2 gersang gaada pohon teduh, tidak nyaman buat aktivitas luar
+__label__FASILITAS __label__RENDAH lampu di lab komputer mipa kedap-kedip terus, ruangan jadi gelap
+__label__KEMAHASISWAAN __label__RENDAH kegiatan kegiatan sosial kampus kurang dukungan kampus, proses administrasi terhambat
+__label__KEMAHASISWAAN __label__SEDANG layanan unit kemhsan responnya lelet, pengurusan jadi lama
+__label__JARINGAN_IT __label__SEDANG internet di fakultas hukum lemot parah, terpaksa pakai kuota sendiri
+__label__FASILITAS __label__RENDAH pintu wc prodi akuntansi gabisa dikunci, bgt tidak nyaman
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi lab biologi hanya di spot tertentu, tidak produktif di kampus
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat izin kegiatan butuh lebih dari 2 minggu, bgt lama
+__label__FASILITAS __label__RENDAH ac di gedung fh berisik bgt, jadi mhs tidak konsen belajar
+__label__KEMAHASISWAAN __label__RENDAH fasilitas sekretariat bem tidak layak, pengurusan jadi bgt lama
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat keterangan lulus butuh berhari-hari, bgt lama
+__label__KEMAHASISWAAN __label__RENDAH kegiatan kegiatan ukm kurang dukungan kampus, proses administrasi terhambat
+__label__LAINNYA __label__RENDAH lapangan voli tidak terawat, gabisa dimanfaatkan optimal
+__label__LAINNYA __label__SEDANG penerangan jalan di jalan masuk kampus gaada, berbahaya malam hari
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung fisip hilang timbul, gabisa upload tugas
+__label__FASILITAS __label__RENDAH gaada ruang tunggu di gedung a lantai 2, padahal bgt dibutuhkan
+__label__JARINGAN_IT __label__TINGGI wifi gedung a lantai 3 bapuk ga stabil, susah download materi kls
+__label__LAINNYA __label__SEDANG lingkungan sekitar prodi matematika kurang terawat, tidak nyaman buat aktivitas luar
+__label__KEMAHASISWAAN __label__RENDAH program wirausaha mhs prosedur pendaftarannya ribet, mhs kurang diuntungkan
+__label__AKADEMIK __label__TINGGI website siakad ui-nya outdated bgt, nilai terancam
+__label__FASILITAS __label__RENDAH kursi di ruangan 3.2 sudah tidak layak pakai, susah nulis waktu kls
+__label__AKADEMIK __label__TINGGI website spada tidak user friendly, nilai terancam
+__label__JARINGAN_IT __label__RENDAH jaringan di lab biologi sering putus-putus, susah akses internet
+__label__AKADEMIK __label__SEDANG ruang kls proyektornya ancur, nilai bisa jelek soalnya tidak konsen
+__label__LAINNYA __label__RENDAH lingkungan sekitar fakultas hukum gersang gaada pohon teduh, tidak nyaman buat aktivitas luar
+__label__FASILITAS __label__RENDAH banyak kursi di gedung d yang mejanya patah, mhs jadi malas masuk kls
+__label__FASILITAS __label__RENDAH banyak kursi di gedung fisip yang sudah tidak layak pakai, gabisa fokus
+__label__FASILITAS __label__RENDAH banyak kursi di gedung b lantai 2 yang goyang terus, capek bgt dikelas
+__label__FASILITAS __label__RENDAH banyak kursi di fakultas hukum yang gaada mejanya, mhs jadi malas masuk kls
+__label__JARINGAN_IT __label__RENDAH koneksi di gedung c sering putus padahal butuh buat akses jurnal
+__label__FASILITAS __label__RENDAH banyak kursi di lab kimia yang gaada mejanya, capek bgt dikelas
+__label__JARINGAN_IT __label__KRITIS server portal akademik bapuk ga stabil waktu deadline tugas
+__label__KEUANGAN __label__RENDAH pengumuman perubahan biaya hanya dari mulut ke mulut, mhs kaget
+__label__LAINNYA __label__SEDANG gerbang pintu masuk utama gaada satpam sehingga antrean panjang
+__label__FASILITAS __label__RENDAH tolong ac fakultas teknik segera diperbaiki, nda menyala dan mhs tidak konsen belajar
+__label__FASILITAS __label__RENDAH gaada ruang istirahat di lab kimia, padahal bgt dibutuhkan
+__label__KEUANGAN __label__RENDAH biaya parkir kampus dibebankan ke mhs, seharusnya tidak
+__label__FASILITAS __label__SEDANG pipa saluran ac di lab matematika bocor, kertas tugas basah semua
+__label__KEMAHASISWAAN __label__RENDAH program wirausaha mhs tidak merata distribusinya, mhs kurang diuntungkan
+__label__AKADEMIK __label__TINGGI jadwal prosedur skripsi hanya dari mulut ke mulut, banyak mhs yang tidak tahu
+__label__JARINGAN_IT __label__KRITIS server sistem informasi kampus lelet bgt waktu masa uts
+__label__LAINNYA __label__KRITIS jalan di area parkir utama bergelombang, bisa bikin kecelakaan
+__label__LAINNYA __label__RENDAH kantin dekat gedung fisip jamnya terlalu singkat, antriannya panjang bgt
+__label__FASILITAS __label__RENDAH wc gedung a lantai 3 airnya tidak mengalir sudah seminggu lebih, jadi malas kls
+__label__AKADEMIK __label__TINGGI krs sering eror, stress bgt ngurusnya
+__label__FASILITAS __label__RENDAH pipa saluran ac di ruangan 1.1 bocor, colokan jadi bahaya kena air
+__label__KEMAHASISWAAN __label__RENDAH organisasi tidak aktif, potensi mhs tersia-sia
+__label__JARINGAN_IT __label__TINGGI spada sering eror saat saat banyak pengguna
+__label__LAINNYA __label__RENDAH lapangan basket dikenakan biaya masuk yang tidak semestinya, lapangan gabisa dimanfaatkan optimal
+__label__KEUANGAN __label__RENDAH prosedur administrasi keuangan memakan waktu lama, mhs urgent kesusahan
+__label__LAINNYA __label__RENDAH sampah di area kampus menumpuk kalau gaada petugas
+__label__FASILITAS __label__RENDAH lab botani kondisinya berantakan, mhs gabisa belajar maksimal
+__label__JARINGAN_IT __label__RENDAH wifi kampus bapuk ga stabil apalagi kalau siang hari
+__label__FASILITAS __label__RENDAH lab komputer panas bgt soalnya cuma pajangan, belajarnya terganggu
+__label__AKADEMIK __label__TINGGI informasi syarat wisuda hanya dari mulut ke mulut, proses akademik jadi terlelet
+__label__KEMAHASISWAAN __label__RENDAH fasilitas lapangan olahraga fasilitasnya minim, mhs jadi kesal
+__label__FASILITAS __label__TINGGI ac auditorium cuma pajangan, cuma pajangan padahal ukt mahal tapi fasilitas tidak sesuai
+__label__FASILITAS __label__RENDAH parkiran prodi akuntansi banyak yang parkir sembarangan, susah keluar masuk
+__label__LAINNYA __label__RENDAH jalan di area antar gedung sempit, banjir waktu hujan
+__label__KEMAHASISWAAN __label__SEDANG layanan bagian kemhsan responnya lelet, banyak yang tidak terlayani
+__label__FASILITAS __label__RENDAH lahan parkir di auditorium gaada petugas jadi sering telat kls
+__label__FASILITAS __label__TINGGI ac gedung a lantai 1 cuma pajangan, gak optimal padahal ukt mahal tapi fasilitas tidak sesuai
+__label__JARINGAN_IT __label__TINGGI area gedung prodi akuntansi gabisa menggunakan data seluler, harus terhubung oleh wifi yang ada baru bisa mrnggunakan. tetapi jangkauannya tidak luas, dan masih nge-lag
+__label__LAINNYA __label__RENDAH sampah di taman kampus menumpuk beberapa hari
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi kegiatan kemhsan gaada pengumuman resmi, banyak yang ketinggalan
+__label__FASILITAS __label__RENDAH ac di gedung fh panasnya parah, jadi keringat terus padahal lagi kls
+__label__JARINGAN_IT __label__SEDANG jaringan di gedung mipa lemot parah, susah akses internet
+__label__AKADEMIK __label__TINGGI sistem sistem krs terlalu ribet, tugas jadi terlelet
+__label__AKADEMIK __label__TINGGI sistem sistem krs ui-nya susah dinavigasi, belajar jadi terganggu
+__label__JARINGAN_IT __label__RENDAH gaada wifi sama sekali di perpus, gabisa akses spada
+__label__JARINGAN_IT __label__SEDANG wifi prodi akuntansi lemot parah, kls online terganggu
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung b lantai 1 gaada sama sekali, gabisa akses internet sama sekali
+__label__KEUANGAN __label__TINGGI pengumuman pengumuman beasiswa hanya dari mulut ke mulut, mhs yang urgent jadi kesusahan
+__label__AKADEMIK __label__RENDAH informasi informasi kkn tidak sampai ke semua mhs, banyak yang ketinggalan informasi
+__label__LAINNYA __label__SEDANG gerbang gerbang 2 jarang dibuka sehingga antrean panjang
+__label__FASILITAS __label__RENDAH lab kimia panas bgt soalnya nda menyala, belajarnya terganggu
+__label__LAINNYA __label__RENDAH kebersihan taman kampus jarang dibersihkan, baunya tidak enak
+__label__LAINNYA __label__RENDAH lapangan voli tidak terawat, mhs gabisa olahraga gratis
+__label__FASILITAS __label__RENDAH wc gedung b lantai 1 jorok bgt, terpaksa ke gedung lain yang jauh
+__label__AKADEMIK __label__RENDAH nilai gabisa diakses di portal, mhs dirugikan
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat keterangan mhs aktif butuh bgt lama, bgt lama
+__label__LAINNYA __label__RENDAH keamanan area parkir cctv tidak berfungsi, mhs tidak merasa aman
+__label__JARINGAN_IT __label__RENDAH wifi gedung fisip sering disconnect, terpaksa pakai kuota sendiri
+__label__LAINNYA __label__RENDAH jalan di area parkir utama bergelombang, banjir waktu hujan
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung b lantai 2 gabisa diandalkan, susah akses internet
+__label__KEMAHASISWAAN __label__RENDAH staff unit kemhsan julidnya keterlaluan, mhs jadi tidak nyaman
+__label__JARINGAN_IT __label__KRITIS server spada sering down waktu masa uas
+__label__FASILITAS __label__RENDAH jendela ruang kls gabisa di tutup keras takut nya jika di paksakan bisa pecah
+__label__KEUANGAN __label__SEDANG pembayaran biaya kkn harus datang langsung berkali-kali, mhs jadi bingung
+__label__AKADEMIK __label__TINGGI krs matkul yang tersedia tidak sesuai kurikulum, proses akademik jadi terlelet
+__label__FASILITAS __label__RENDAH kamar mandi fakultas teknik cuma pajangan, jadi malas kls apalagi kalau kebelet
+__label__FASILITAS __label__RENDAH pipa saluran ac di ruang kls lantai 2 bocor, kertas tugas basah semua
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi kegiatan kemhsan hanya melalui grup tertentu, banyak yang terlewat informasinya
+__label__FASILITAS __label__SEDANG jendela ruang kls lantai 2 engselnya ancur, silau bgt saat kls
+__label__JARINGAN_IT __label__RENDAH internet di gedung fisip sering putus padahal butuh buat kls online
+__label__LAINNYA __label__SEDANG gerbang gerbang 2 pintunya ancur, antrean masuk kampus panjang
+__label__FASILITAS __label__RENDAH tolong ac gedung mipa segera diperbaiki, netes airnya dan gerah minta ampun
+__label__KEMAHASISWAAN __label__RENDAH layanan unit kemhsan sering tutup, mhs jadi kesal
+__label__LAINNYA __label__KRITIS keamanan lingkungan sekitar kampus gaada satpam, sering ada kehilangan motor
+__label__KEUANGAN __label__TINGGI prosedur pengajuan keringanan ukt banyak persyaratan yang tidak masuk akal, menghambat proses akademik
+__label__JARINGAN_IT __label__RENDAH wifi prodi kalau rame kadang susah tersambung ke hp
+__label__AKADEMIK __label__RENDAH ruang kls tidak kondusif, capek bgt dikelas
+__label__KEMAHASISWAAN __label__RENDAH kegiatan program mentoring informasinya tidak merata, mhs jadi kesal
+__label__AKADEMIK __label__RENDAH spada gabisa diakses, susah akses materi kls
+__label__JARINGAN_IT __label__RENDAH koneksi di auditorium sering putus padahal butuh buat akses jurnal
+__label__LAINNYA __label__RENDAH kebersihan sekitar parkiran sampah bertebaran, tidak nyaman beraktivitas
+__label__LAINNYA __label__SEDANG lapangan voli ancur, mhs gabisa olahraga gratis
+__label__KEMAHASISWAAN __label__RENDAH program magang kampus merdeka kuota yang terlalu sedikit, mhs kurang diuntungkan
+__label__AKADEMIK __label__TINGGI informasi prosedur skripsi tidak sampai ke semua mhs, mhs dirugikan
+__label__LAINNYA __label__RENDAH keamanan area parkir cctv tidak berfungsi, sering kehilangan barang
+__label__JARINGAN_IT __label__RENDAH min, jaringan nya kurang stabil kadang lancar kadang tidak
+__label__LAINNYA __label__RENDAH gerbang gerbang 1 gaada sistem akses, tidak efisien
+__label__LAINNYA __label__RENDAH jalan di jalan masuk kampus gaada lampu penerang malam hari, mhs tidak nyaman
+__label__JARINGAN_IT __label__TINGGI bandwidth wifi kampus bgt terbatas, susah download materi kls
+__label__KEMAHASISWAAN __label__RENDAH kegiatan seminar mhs kurang dukungan kampus, mhs jadi kesal
+__label__KEMAHASISWAAN __label__TINGGI kegiatan lomba antar prodi tidak terorganisir dengan baik, proses administrasi terhambat
+__label__JARINGAN_IT __label__RENDAH wifi kampus nge-lag terus apalagi kalau siang hari
+__label__JARINGAN_IT __label__RENDAH wifi gedung a lantai 3 kayak tidak dibayar, terpaksa pakai kuota sendiri
+__label__AKADEMIK __label__TINGGI spada sering down waktu masa krs, susah kumpul tugas
+__label__JARINGAN_IT __label__RENDAH sinyal di fakultas ekonomi hilang timbul, gabisa akses internet sama sekali
+__label__AKADEMIK __label__SEDANG website siakad lemot bgt, belajar jadi terganggu
+__label__AKADEMIK __label__RENDAH ruang kls terlalu sempit, capek bgt dikelas
+__label__AKADEMIK __label__TINGGI web spada suka eror saat ingin mengumpulkan tugas
+__label__FASILITAS __label__SEDANG saklar di prodi informatika sering turun, jadi kls terganggu
+__label__AKADEMIK __label__RENDAH bahan ajar sudah outdated, belajarnya terganggu
+__label__KEMAHASISWAAN __label__RENDAH program magang kampus merdeka sosialisasinya kurang, mhs banyak yang tidak tahu
+__label__AKADEMIK __label__TINGGI krs gabisa tambah matkul, mhs jadi bingung
+__label__AKADEMIK __label__RENDAH spada nge-lag terus, susah akses materi kls
+__label__KEUANGAN __label__TINGGI transparansi distribusi beasiswa kurang, mhs tidak tahu siapa yang berhak
+__label__JARINGAN_IT __label__SEDANG internet di gedung b lantai 3 lemot parah, gabisa kumpul tugas online
+__label__JARINGAN_IT __label__TINGGI wifi prodi informatika bapuk ga stabil, tidak produktif di kampus
+__label__AKADEMIK __label__TINGGI sistem sistem krs ui-nya membingungkan, mhs rugi bgt
+__label__KEUANGAN __label__TINGGI prosedur pembayaran ukt bgt rumit, prosesnya bgt lama
+__label__AKADEMIK __label__RENDAH nilai ada yang salah input, mhs dirugikan
+__label__KEUANGAN __label__TINGGI ukt prosedur keringanan susah tapi wifi gabisa diandalkan
+__label__FASILITAS __label__RENDAH remot ac lab komputer cuma 2 buat semua lantai, susah hidupinnya
+__label__KEMAHASISWAAN __label__RENDAH program mentoring akademik sosialisasinya kurang, mhs banyak yang tidak tahu
+__label__FASILITAS __label__RENDAH min, parkiran fakultas hukum banyak yang parkir sembarangan tolong diatur lebih baik
+__label__KEUANGAN __label__TINGGI ukt sudah mahal tapi wifi gabisa diandalkan
+__label__JARINGAN_IT __label__SEDANG wifi prodi matematika gabisa dipakai, gabisa kumpul tugas online
+__label__LAINNYA __label__RENDAH kantin belakang gedung b jamnya terlalu singkat, terpaksa keluar kampus
+__label__FASILITAS __label__RENDAH banyak kursi di gedung a lantai 3 yang banyak yang hilang, capek bgt dikelas
+__label__LAINNYA __label__RENDAH jalan di dekat auditorium gaada lampu penerang malam hari, banjir waktu hujan
+__label__FASILITAS __label__SEDANG lampu di lab matematika putus, gabisa presentasi pakai proyektor
+__label__JARINGAN_IT __label__TINGGI server sistem informasi kampus bapuk ga stabil waktu masa krs
+__label__LAINNYA __label__RENDAH area sekitar perpus panas dan tidak teduh, kurang nyaman buat mhs
+__label__FASILITAS __label__KRITIS tolong ac gedung d segera diperbaiki, mati total dan keringat terus padahal lagi kls
+__label__FASILITAS __label__RENDAH kursi di ruangan 1.2 banyak yang hilang, susah nulis waktu kls
+__label__AKADEMIK __label__SEDANG ruang kls proyektornya ancur, capek bgt dikelas
+__label__KEMAHASISWAAN __label__RENDAH hak mhs dalam prosedur dokumen kurang disosialisasikan
+__label__LAINNYA __label__RENDAH lingkungan sekitar prodi akuntansi kurang terawat, panas bgt siang hari
+__label__FASILITAS __label__KRITIS ac di ruang kls lantai 2 udah lama nda diperbaiki, mati total
+__label__AKADEMIK __label__RENDAH jadwal jadwal kls pengganti tidak diinformasikan jelas, banyak mhs yang tidak tahu
+__label__AKADEMIK __label__TINGGI kls online terganggu soalnya sistem krs sering down
+__label__KEMAHASISWAAN __label__RENDAH layanan sekretariat jarang beroperasi, banyak yang tidak terlayani
+__label__FASILITAS __label__RENDAH kursi di gedung d udah lama kayunya sudah lapuk, kapan diganti?
+__label__AKADEMIK __label__RENDAH jadwal kls sering berubah mendadak, banyak yang ketinggalan informasi
+__label__FASILITAS __label__RENDAH gaada lift/eskalator di prodi akuntansi, padahal bgt dibutuhkan
+__label__FASILITAS __label__RENDAH banyak kursi di gedung a lantai 1 yang sudah tidak layak pakai, mhs jadi malas masuk kls
+__label__AKADEMIK __label__SEDANG dosen metode mengajarnya membosankan, tugas jadi terlelet dikumpulkan
+__label__FASILITAS __label__SEDANG parkiran prodi informatika gada atapnya, kendaraan bisa jok panas bgt
+__label__JARINGAN_IT __label__KRITIS spada sering eror saat masa uts/uas
+__label__AKADEMIK __label__RENDAH website web akademik tidak user friendly, belajar jadi terganggu
+__label__LAINNYA __label__RENDAH lingkungan sekitar fakultas ekonomi kurang terawat, tidak nyaman buat aktivitas luar
+__label__KEMAHASISWAAN __label__SEDANG informasi mengenai kkn tematik itu kurang
+__label__KEMAHASISWAAN __label__RENDAH layanan hima pelayanannya kurang baik, mhs jadi kesal
+__label__FASILITAS __label__RENDAH plafon ruang kls lantai 2 bocor saat hujan, khawatir bisa kena mhs
+__label__JARINGAN_IT __label__RENDAH internet di fakultas ekonomi sering putus, gabisa kumpul tugas online
+__label__FASILITAS __label__SEDANG toilet di fakultas teknik gabisa dipakai dan pintunya ancur
+__label__LAINNYA __label__RENDAH kantin belakang gedung b jamnya singkat, susah makan siang
+__label__KEMAHASISWAAN __label__RENDAH fasilitas sekretariat bem terlalu kecil, banyak yang tidak terlayani
+__label__LAINNYA __label__SEDANG gerbang gerbang 2 pintunya ancur, sering terlelet kls
+__label__JARINGAN_IT __label__RENDAH jaringan di lab kimia bapuk ga stabil, susah akses internet
+__label__LAINNYA __label__RENDAH kebersihan koridor gedung kumuh, tidak nyaman untuk beraktivitas
+__label__AKADEMIK __label__TINGGI sistem web akademik ui-nya membingungkan, nilai terancam
+__label__AKADEMIK __label__SEDANG dosen jarang masuk, tugas jadi terlelet dikumpulkan
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi lab biologi tidak luas, gabisa kumpul tugas online
+__label__AKADEMIK __label__RENDAH ruang kls tidak sesuai kapasitas mhs, susah konsen belajar
+__label__LAINNYA __label__SEDANG lapangan basket gaada penerangan malam hari, gaada wadah kegiatan olahraga mhs
+__label__JARINGAN_IT __label__KRITIS server portal akademik lelet bgt waktu masa uts
+__label__AKADEMIK __label__TINGGI dosen metode mengajarnya membosankan, nilai terancam
+__label__JARINGAN_IT __label__RENDAH koneksi di gedung a lantai 1 sering putus padahal butuh buat akses jurnal
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung a lantai 3 gaada sama sekali, harus keluar ruangan dulu
+__label__KEMAHASISWAAN __label__TINGGI kegiatan seminar mhs tidak terorganisir dengan baik, proses administrasi terhambat
+__label__JARINGAN_IT __label__TINGGI server siakad sering down pas masa krs, susah download materi
+__label__KEMAHASISWAAN __label__RENDAH program wirausaha mhs kuota yang terlalu sedikit, mhs kurang diuntungkan
+__label__FASILITAS __label__RENDAH gaada ruang istirahat di gedung fisip, padahal bgt dibutuhkan
+__label__KEUANGAN __label__TINGGI beasiswa informasinya tidak merata dan informasinya tidak sampai ke semua mhs
+__label__KEMAHASISWAAN __label__TINGGI kegiatan kegiatan sosial kampus tidak terorganisir dengan baik, banyak yang tidak terlayani
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang rapat mhs terlalu kecil, banyak yang tidak terlayani
+__label__FASILITAS __label__SEDANG parkiran gedung a lantai 1 gada atapnya, kendaraan bisa catnya jadi ancur
+__label__KEMAHASISWAAN __label__RENDAH program magang kampus merdeka sosialisasinya kurang, mhs kurang diuntungkan
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat izin kegiatan makan waktu berminggu-minggu, bgt tidak efisien
+__label__FASILITAS __label__RENDAH parkiran perpus pusat berantakan, kendaraan jadi susah keluar
+__label__LAINNYA __label__SEDANG lingkungan sekitar prodi matematika kurang terawat, panas bgt siang hari
+__label__KEMAHASISWAAN __label__RENDAH senioritas di unit kemhsan masih membuat tidak nyaman, mhs baru jadi tertekan
+__label__JARINGAN_IT __label__SEDANG wifi di ruang seminar lemot parah apalagi semua mhs pakai
+__label__LAINNYA __label__RENDAH kebersihan taman kampus kumuh, baunya tidak enak
+__label__JARINGAN_IT __label__RENDAH wifinya gabisa di gunakan sepertinya belum di bayar
+__label__FASILITAS __label__RENDAH banyak kursi di fakultas ekonomi yang banyak yang hilang, capek bgt dikelas
+__label__KEUANGAN __label__RENDAH dana kkn tidak cair tepat waktu, mhs yang kena dampaknya
+__label__KEMAHASISWAAN __label__RENDAH fasilitas sekretariat bem tidak layak, mhs jadi kesal
+__label__FASILITAS __label__RENDAH wc lab biologi airnya tidak mengalir, bgt mengganggu aktivitas
+__label__FASILITAS __label__RENDAH banyak kursi di lab biologi yang rodanya hilang, nilai bisa jelek soalnya tidak konsen
+__label__JARINGAN_IT __label__RENDAH wifi di lab komputer gabisa konek apalagi banyak yang konek
+__label__LAINNYA __label__SEDANG atm/ bank kampus hanya satu dan sering antre, merepotkan saat butuh dana mendadak
+__label__KEMAHASISWAAN __label__TINGGI kegiatan seminar mhs tidak terorganisir, mhs jadi tidak antusias
+__label__LAINNYA __label__RENDAH atm dalam kampus sering kosong uangnya, terpaksa keluar kampus
+__label__FASILITAS __label__SEDANG jendela lab matematika gaada gordennya, angin kencang masuk
+__label__LAINNYA __label__RENDAH area area belajar outdoor gaada tempat duduk, tidak nyaman buat mhs
+__label__JARINGAN_IT __label__RENDAH sinyal di lab kimia bgt lemah, kls online jadi terganggu
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung b lantai 1 terbatas bgt, terpaksa pakai kuota sendiri
+__label__AKADEMIK __label__TINGGI informasi prosedur skripsi mendadak, stress bgt ngurusnya
+__label__FASILITAS __label__RENDAH min, wc di lab kimia kondisinya airnya tidak mengalir, tolong segera diperbaiki
+__label__FASILITAS __label__RENDAH wc lab kimia airnya tidak mengalir dari kemarin, harus nahan lama bgt
+__label__FASILITAS __label__RENDAH gedung a lantai 3 panas bgt soalnya panasnya parah, capek bgt dikelas
+__label__KEMAHASISWAAN __label__RENDAH layanan bagian kemhsan pelayanannya kurang baik, mhs jadi kesal
+__label__JARINGAN_IT __label__SEDANG internet di gedung rektorat lemot parah, kls online terganggu
+__label__KEMAHASISWAAN __label__RENDAH layanan hima sering tutup, mhs jadi kesal
+__label__FASILITAS __label__RENDAH ac di lab komputer mipa udah lama nda diperbaiki, tidak berfungsi
+__label__FASILITAS __label__SEDANG tolong ac prodi informatika segera diperbaiki, cuma pajangan dan ruangan jadi gerah bgt
+__label__JARINGAN_IT __label__RENDAH wifi ruang seminar sering disconnect, gabisa akses spada
+__label__FASILITAS __label__SEDANG min, wc di gedung fh kondisinya kotor parah, tolong segera diperbaiki
+__label__JARINGAN_IT __label__RENDAH sinyal di lab komputer gaada sama sekali, gabisa upload tugas
+__label__KEUANGAN __label__TINGGI prosedur pengajuan keringanan ukt banyak persyaratan yang tidak masuk akal, mhs yang urgent jadi kesusahan
+__label__JARINGAN_IT __label__KRITIS server spada bapuk ga stabil pas masa uas, terpaksa pakai kuota sendiri
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung c gabisa diandalkan, susah akses internet
+__label__JARINGAN_IT __label__SEDANG jaringan di prodi matematika gabisa diandalkan, susah akses internet
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung fh gabisa untuk data seluler, kls online jadi terganggu
+__label__FASILITAS __label__TINGGI fasilitas perpus pusat tidak memadai, padahal kita sudah bayar ukt
+__label__LAINNYA __label__SEDANG gerbang pintu masuk utama gaada sistem akses sehingga antrean panjang
+__label__KEMAHASISWAAN __label__RENDAH bem kurang aktif menyuarakan aspirasi mhs soal kegiatan kemhsan
+__label__AKADEMIK __label__RENDAH website siakad ui-nya outdated bgt, belajar jadi terganggu
+__label__KEMAHASISWAAN __label__RENDAH layanan bem sering tutup, proses administrasi terhambat
+__label__KEUANGAN __label__RENDAH dana kegiatan mhs jumlahnya tidak sesuai, mhs yang kena dampaknya
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung rektorat gersang gaada pohon teduh, panas bgt siang hari
+__label__KEUANGAN __label__TINGGI beasiswa informasinya tidak merata dan hanya yang punya koneksi yang dapat
+__label__FASILITAS __label__RENDAH ac di gedung b lantai 1 panasnya parah, jadi keringat terus padahal lagi kls
+__label__KEMAHASISWAAN __label__RENDAH informasi kompetisi mhs mendadak, mhs banyak yang tidak tahu
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang rapat mhs tidak layak, banyak yang tidak terlayani
+__label__JARINGAN_IT __label__RENDAH wifi gedung b lantai 3 nge-lag terus, terpaksa pakai kuota sendiri
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus kurang untuk semua mhs, kls online terganggu
+__label__JARINGAN_IT __label__RENDAH internet di fakultas ekonomi bapuk ga stabil, gabisa akses spada
+__label__KEUANGAN __label__RENDAH transparansi biaya resmi kampus bgt minim, mhs tidak tahu bagaimana seleksinya
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung b lantai 3 minim fasilitas publik, panas bgt siang hari
+__label__LAINNYA __label__RENDAH transportasi gaada shuttle bus kampus, mhs kesulitan mobilitas
+__label__JARINGAN_IT __label__RENDAH sinyal di lab komputer bgt lemah, kls online jadi terganggu
+__label__KEMAHASISWAAN __label__RENDAH senioritas di unit kemhsan masih tidak ditangani baik, mhs baru jadi tertekan
+__label__LAINNYA __label__RENDAH area koridor antar gedung panas tidak teduh, tidak nyaman buat mhs
+__label__KEMAHASISWAAN __label__RENDAH senioritas di himpunan sudah melewati batas, membuat mhs baru tertekan
+__label__KEMAHASISWAAN __label__RENDAH informasi lowongan magang tidak disosialisasikan dengan baik, mhs banyak yang tidak tahu
+__label__FASILITAS __label__RENDAH banyak kursi di fakultas ekonomi yang gaada mejanya, capek bgt dikelas
+__label__JARINGAN_IT __label__TINGGI bandwidth wifi kampus kurang untuk semua mhs, susah download materi kls
+__label__FASILITAS __label__RENDAH kamar mandi gedung c jorok bgt, bgt mengganggu aktivitas apalagi kalau kebelet
+__label__AKADEMIK __label__RENDAH nilai ada yang salah input, stress bgt ngurusnya
+__label__LAINNYA __label__SEDANG jalan di area antar gedung bergelombang, kendaraan jadi ancur
+__label__AKADEMIK __label__SEDANG website spada ui outdated bgt tidak user friendly, susah menavigasi dan membingungkan untuk memasuki kelas
+__label__JARINGAN_IT __label__RENDAH koneksi di gedung rektorat gabisa diandalkan padahal butuh buat akses spada
+__label__FASILITAS __label__RENDAH banyak kursi di gedung c yang banyak yang hilang, susah konsen belajar
+__label__KEUANGAN __label__TINGGI informasi beasiswa susah diakses informasinya, prosesnya tidak adil
+__label__FASILITAS __label__RENDAH ac di ruang kls lantai 2 udah lama nda diperbaiki, cuma pajangan
+__label__JARINGAN_IT __label__TINGGI wifi lab biologi kayak tidak dibayar, tidak produktif di kampus
+__label__AKADEMIK __label__RENDAH jadwal kls gaada pemberitahuan resmi, stress bgt ngurusnya
+__label__FASILITAS __label__RENDAH lab komputer mipa jarang dibersihkan, fasilitasnya tidak memadai
+__label__LAINNYA __label__SEDANG lapangan voli ancur, gaada wadah kegiatan olahraga mhs
+__label__AKADEMIK __label__TINGGI website siakad sering down, mhs rugi bgt
+__label__JARINGAN_IT __label__TINGGI wifi fakultas teknik lemot parah, susah download materi kls
+__label__KEMAHASISWAAN __label__RENDAH kegiatan kegiatan ukm informasinya tidak merata, proses administrasi terhambat
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus tidak memadai, kls online terganggu
+__label__KEMAHASISWAAN __label__RENDAH informasi prosedur pengajuan surat tidak disebarkan merata, proses terhambat
+__label__KEUANGAN __label__TINGGI pengumuman pengumuman beasiswa hanya dari mulut ke mulut, mhs jadi bingung
+__label__AKADEMIK __label__RENDAH informasi jadwal seminar hanya dari mulut ke mulut, stress bgt ngurusnya
+__label__JARINGAN_IT __label__KRITIS server portal akademik sering down waktu masa uts
+__label__FASILITAS __label__RENDAH fasilitas di lab sudah beberapa yang harus diganti, kursi sudah hilang beberapa rodanya, ac sudah tidak dingin.
+__label__JARINGAN_IT __label__SEDANG upload tugas di spada gagal terus soalnya internet gedung b lantai 3 lemot parah
+__label__KEMAHASISWAAN __label__TINGGI minimnya minat berorganisasi mhs di era modern ini, yang memicu kurangnya mengalisis masalah internal maupun eksternal kampus, sehingga menimbulkan kejanggalan dan masalah yang bermacam-macam sering terjadi di lingkungan eksternal maupun internal kampus.
+__label__JARINGAN_IT __label__RENDAH internet di gedung b lantai 3 bapuk ga stabil padahal butuh buat akses spada
+__label__AKADEMIK __label__SEDANG sistem web akademik ui-nya susah dinavigasi, tugas jadi terlelet dikumpulkan
+__label__KEMAHASISWAAN __label__RENDAH fasilitas sekretariat bem tidak terawat, pengurusan jadi bgt lama
+__label__KEMAHASISWAAN __label__RENDAH staff sekretariat julidnya parah, tidak enak kalau harus ke sana
+__label__JARINGAN_IT __label__KRITIS server spada bapuk ga stabil waktu masa uts
+__label__LAINNYA __label__RENDAH kantin area food court pilihannya sedikit, susah makan siang
+__label__LAINNYA __label__KRITIS jalan di dekat auditorium ancur parah berlubang-lubang, bisa bikin kecelakaan
+__label__KEMAHASISWAAN __label__RENDAH staff unit kemhsan melayani dengan malas, tidak enak kalau harus ke sana
+__label__KEUANGAN __label__TINGGI beasiswa distribusinya tidak merata dan informasinya tidak sampai ke semua mhs
+__label__JARINGAN_IT __label__KRITIS jangkauan wifi fakultas teknik tidak luas, gabisa akses spada
+__label__JARINGAN_IT __label__TINGGI koneksi di lab biologi bapuk ga stabil padahal butuh buat download materi
+__label__KEMAHASISWAAN __label__RENDAH informasi kompetisi mhs tidak disebarkan merata, mhs jadi kesal
+__label__KEMAHASISWAAN __label__SEDANG layanan unit kemhsan responnya lelet, pengurusan jadi bgt lama
+__label__AKADEMIK __label__KRITIS spada lemot parah waktu deadline tugas, susah ikut kuis
+__label__LAINNYA __label__SEDANG kantin belakang gedung b pilihannya sedikit, antrean panjang
+__label__KEMAHASISWAAN __label__RENDAH kegiatan kegiatan ukm informasinya tidak merata, mhs jadi tidak antusias
+__label__LAINNYA __label__SEDANG kebersihan area kampus bgt kotor, baunya tidak enak
+__label__AKADEMIK __label__SEDANG website portal mhs gabisa diakses, tugas jadi terlelet dikumpulkan
+__label__KEUANGAN __label__TINGGI informasi beasiswa tidak transparan, prosesnya tidak adil
+__label__AKADEMIK __label__SEDANG nilai tidak sesuai ekspektasi tanpa penjelasan, proses akademik jadi terlelet
+__label__AKADEMIK __label__TINGGI sistem krs sering timeout terutama jam kls
+__label__FASILITAS __label__TINGGI wc gedung b lantai 1 ancur total, terpaksa ke gedung lain yang jauh
+__label__JARINGAN_IT __label__TINGGI koneksi di gedung a lantai 2 bapuk ga stabil padahal butuh buat download materi
+__label__FASILITAS __label__RENDAH gaada horden jendela sehingga bisa menyilaukan mata saat proses kls berlangsung
+__label__JARINGAN_IT __label__KRITIS server sistem informasi kampus bapuk ga stabil waktu masa uts
+__label__LAINNYA __label__RENDAH sampah di koridor gedung menumpuk saat hari libur
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang rapat mhs fasilitasnya minim, pengurusan jadi bgt lama
+__label__FASILITAS __label__TINGGI fasilitas perpus pusat tidak memadai, masa bayar ukt tapi fasilitas gini
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung fisip hanya di spot tertentu, gabisa kumpul tugas online
+__label__JARINGAN_IT __label__RENDAH wifi kampus bapuk ga stabil apalagi kalau acara kampus
+__label__LAINNYA __label__RENDAH lingkungan sekitar fakultas ekonomi gersang gaada pohon teduh, gaada tempat untuk bersantai
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus bgt terbatas, kls online terganggu
+__label__FASILITAS __label__TINGGI fasilitas gedung c sudah bgt ketinggalan, kami sudah bayar ukt tepat waktu
+__label__AKADEMIK __label__RENDAH sistem web akademik terlalu ribet, mhs rugi bgt
+__label__KEMAHASISWAAN __label__RENDAH fasilitas lapangan olahraga terlalu kecil, banyak yang tidak terlayani
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi prosedur dokumen bgt kurang, banyak yang ketinggalan
+__label__FASILITAS __label__RENDAH gaada kantin di gedung b lantai 1, padahal bgt dibutuhkan
+__label__FASILITAS __label__RENDAH kursi dan ac di ruangan kurang bagus, apalagi kursinya masih kursi lama dan sudah tidak layak di gunakan, ac nya jga udah gak optimal apalagi kalau siang hari
+__label__AKADEMIK __label__TINGGI sistem portal mhs susah dinavigasi, nilai terancam
+__label__AKADEMIK __label__TINGGI bimbingan skripsi prosedurnya ribet, proses wisuda jadi molor
+__label__FASILITAS __label__RENDAH lampu di ruangan 3.1 tidak berfungsi, gabisa presentasi pakai proyektor
+__label__AKADEMIK __label__TINGGI sistem siakad ui-nya susah dinavigasi, nilai terancam
+__label__FASILITAS __label__TINGGI ac prodi akuntansi cuma pajangan, nda menyala padahal ukt mahal tapi fasilitas tidak sesuai
+__label__JARINGAN_IT __label__RENDAH sinyal di lab biologi hilang timbul, kls online jadi terganggu
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus kurang untuk semua mhs, tidak cukup untuk semua mhs
+__label__AKADEMIK __label__RENDAH dosen jarang masuk, proses akademik terhambat
+__label__FASILITAS __label__RENDAH plafon lab botani bocor saat hujan, khawatir celaka kalau tiba-tiba jatuh
+__label__FASILITAS __label__RENDAH parkiran fakultas ekonomi banyak yang parkir sembarangan, sering ada yang ditabrak
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung fh tidak sampai semua ruangan, harus geser-geser cari sinyal
+__label__KEMAHASISWAAN __label__TINGGI sosialisasi program beasiswa hanya melalui grup tertentu, banyak yang terlewat informasinya
+__label__FASILITAS __label__RENDAH tolong ac gedung d segera diperbaiki, netes airnya dan gerah minta ampun
+__label__LAINNYA __label__RENDAH kantin dekat gedung fisip tidak higienis, mhs susah makan siang
+__label__FASILITAS __label__TINGGI fasilitas gedung fisip tidak memadai, padahal kita sudah bayar ukt
+__label__KEUANGAN __label__TINGGI informasi beasiswa hanya untuk yang punya koneksi, mhs kurang mampu jadi dirugikan
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung fh bising dari luar kampus, panas bgt siang hari
+__label__LAINNYA __label__RENDAH gerbang gerbang 2 gaada sistem akses, tidak efisien
+__label__JARINGAN_IT __label__RENDAH wifi gedung mipa kayak tidak dibayar, kls online terganggu
+__label__JARINGAN_IT __label__SEDANG jaringan di prodi informatika bgt buruk, susah akses internet
+__label__AKADEMIK __label__RENDAH ruang kls terlalu sempit, susah konsen belajar
+__label__FASILITAS __label__RENDAH kebersihan fakultas teknik jarang dibersihkan, tidak nyaman berada di sini
+__label__KEMAHASISWAAN __label__RENDAH kegiatan seminar mhs kurang dukungan kampus, mhs jadi tidak antusias
+__label__KEMAHASISWAAN __label__RENDAH layanan unit kemhsan tidak konsisten jam operasionalnya, pengurusan jadi bgt lama
+__label__KEUANGAN __label__TINGGI prosedur pembayaran ukt tidak transparan, prosesnya bgt lama
+__label__FASILITAS __label__RENDAH colokan di lab komputer mipa longgar, padahal butuh buat ngecas
+__label__KEMAHASISWAAN __label__RENDAH informasi prosedur pengajuan surat tidak merata, mhs banyak yang tidak tahu
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung b lantai 1 bgt buruk, susah akses internet
+__label__JARINGAN_IT __label__TINGGI wifi gedung b lantai 3 sering disconnect, susah download materi
+__label__AKADEMIK __label__SEDANG website web akademik lemot bgt, mhs rugi bgt
+__label__FASILITAS __label__RENDAH lahan parkir di fakultas ekonomi banyak yang parkir sembarangan jadi sering telat kls
+__label__FASILITAS __label__RENDAH wc lab biologi airnya tidak mengalir dari kemarin, tidak nyaman sama sekali
+__label__FASILITAS __label__SEDANG jendela ruang kls lantai 2 engselnya ancur, panas masuk ruangan
+__label__JARINGAN_IT __label__SEDANG sinyal di prodi informatika gaada sama sekali, gabisa upload tugas
+__label__FASILITAS __label__SEDANG lab matematika kondisinya fasilitasnya tidak memadai, mhs gabisa belajar maksimal
+__label__FASILITAS __label__TINGGI ac gedung b lantai 3 cuma pajangan, sudah ancur padahal kami sudah bayar ukt tepat waktu
+__label__JARINGAN_IT __label__TINGGI wifi lab biologi gabisa dipakai, tidak produktif di kampus
+__label__KEMAHASISWAAN __label__RENDAH pengurusan transkip nilai sementara harus bolak-balik, mhs jadi kesal
+__label__FASILITAS __label__RENDAH gedung rektorat panas bgt soalnya cuma pajangan, gabisa fokus
+__label__JARINGAN_IT __label__RENDAH internet di ruang seminar sering putus padahal butuh buat kumpul tugas
+__label__JARINGAN_IT __label__RENDAH upload tugas di spada gagal terus soalnya internet aula bapuk ga stabil
+__label__KEUANGAN __label__TINGGI pembayaran biaya wisuda terjadi kesalahan administrasi, mhs jadi bingung
+__label__FASILITAS __label__TINGGI fasilitas gedung d sudah bgt ketinggalan, ukt mahal tapi fasilitas tidak sesuai
+__label__JARINGAN_IT __label__TINGGI koneksi di gedung rektorat lemot parah padahal butuh buat download materi
+__label__KEUANGAN __label__TINGGI seleksi beasiswa tidak transparan, mhs kurang mampu dirugikan
+__label__FASILITAS __label__RENDAH plafon ruang kls lantai 2 jelek parah, khawatir mhs tidak nyaman
+__label__FASILITAS __label__RENDAH plafon ruangan 1.1 bocor saat hujan, khawatir mhs tidak nyaman
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus bgt terbatas, gabisa kumpul tugas online
+__label__KEUANGAN __label__SEDANG pembayaran biaya kkn gabisa online, mhs jadi bingung
+__label__LAINNYA __label__RENDAH gaada wifi outdoor di area kampus, padahal bgt dibutuhkan
+__label__FASILITAS __label__RENDAH min, parkiran gedung fh banyak yang parkir sembarangan tolong diatur lebih baik
+__label__FASILITAS __label__RENDAH banyak kursi di gedung b lantai 2 yang gaada mejanya, gabisa fokus
+__label__LAINNYA __label__RENDAH kantin area food court kampus jamnya terlalu singkat, mhs susah makan siang
+__label__AKADEMIK __label__TINGGI krs gabisa diakses saat masa pengisian, banyak yang ketinggalan informasi
+__label__FASILITAS __label__RENDAH banyak kursi di lab komputer yang sudah tidak layak pakai, capek bgt dikelas
+__label__LAINNYA __label__SEDANG gerbang 2 gaada sistem akses, sering terlelet kls
+__label__LAINNYA __label__SEDANG lapangan basket gaada penerangan malam hari, lapangan gabisa dimanfaatkan optimal
+__label__KEMAHASISWAAN __label__RENDAH layanan bem sering tutup, pengurusan jadi bgt lama
+__label__FASILITAS __label__RENDAH lab kimia kondisinya berantakan, mhs gabisa belajar maksimal
+__label__LAINNYA __label__RENDAH lapangan badminton bayar 10 ribu padahal mhs uho, mhs gabisa olahraga gratis
+__label__KEUANGAN __label__TINGGI informasi beasiswa susah diakses informasinya, banyak mhs yang layak tidak dapat
+__label__FASILITAS __label__SEDANG wc prodi informatika airnya tidak mengalir, mhs jadi susah kalau kebelet
+__label__KEUANGAN __label__RENDAH prosedur administrasi keuangan tidak jelas alurnya, prosesnya bgt lama
+__label__JARINGAN_IT __label__RENDAH wifi gedung fh gabisa dipakai, terpaksa pakai kuota sendiri
+__label__FASILITAS __label__RENDAH ac di ruang kls lantai 2 udah lama nda diperbaiki, gak optimal
+__label__KEMAHASISWAAN __label__RENDAH staff bem melayani dengan malas-malasan, malas mengurus keperluan ke sana
+__label__KEMAHASISWAAN __label__TINGGI pengurusan dokumen beasiswa makan waktu lebih dari 2 minggu, bgt tidak efisien
+__label__AKADEMIK __label__RENDAH jadwal kls sering berubah mendadak, mhs dirugikan
+__label__FASILITAS __label__TINGGI fasilitas gedung fh sudah bgt ketinggalan, kami sudah bayar ukt tepat waktu
+__label__KEMAHASISWAAN __label__RENDAH layanan bem tidak konsisten jam operasionalnya, pengurusan jadi bgt lama
+__label__LAINNYA __label__RENDAH kantin area food court tidak higienis, susah makan siang
+__label__JARINGAN_IT __label__RENDAH wifi kampus gabisa dipakai apalagi kalau siang hari
+__label__FASILITAS __label__RENDAH ac di prodi akuntansi panasnya parah, jadi kita kepanasan parah
+__label__FASILITAS __label__RENDAH wc fakultas hukum airnya tidak mengalir sudah lama bgt, jadi malas kls
+__label__KEUANGAN __label__TINGGI prosedur pembayaran wisuda tidak transparan, mhs yang urgent jadi kesusahan
+__label__AKADEMIK __label__RENDAH ruang kls terlalu sempit, nilai bisa jelek soalnya tidak konsen
+__label__JARINGAN_IT __label__RENDAH wifi kampus kayak tidak dibayar apalagi kalau jam kls
+__label__AKADEMIK __label__RENDAH informasi jadwal seminar mendadak bgt, stress bgt ngurusnya
+__label__LAINNYA __label__RENDAH kebersihan sekitar parkiran sampah bertebaran, bisa jadi sumber penyakit
+__label__LAINNYA __label__SEDANG jalan di area antar gedung gaada penerangan malam, kendaraan jadi ancur
+__label__LAINNYA __label__RENDAH kebersihan koridor gedung sampah bertebaran, bisa jadi sumber penyakit
+__label__AKADEMIK __label__RENDAH materi kls susah dicari, mhs susah belajar mandiri
+__label__KEMAHASISWAAN __label__RENDAH fasilitas lapangan olahraga tidak memadai, banyak yang tidak terlayani
+__label__KEUANGAN __label__RENDAH pembayaran biaya kkn terjadi kesalahan administrasi, prosesnya jadi bgt lama
+__label__AKADEMIK __label__RENDAH nilai di portal gaada penjelasan, stress ngurusnya
+__label__JARINGAN_IT __label__SEDANG wifi gedung mipa lemot parah, terpaksa pakai kuota sendiri
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi prosedur dokumen tidak merata, banyak yang ketinggalan
+__label__FASILITAS __label__RENDAH gaada lift/eskalator di gedung b lantai 2, padahal bgt dibutuhkan
+__label__JARINGAN_IT __label__KRITIS server portal akademik overload pas deadline tugas, kls online terganggu
+__label__AKADEMIK __label__SEDANG website siakad lemot bgt, tugas jadi terlelet dikumpulkan
+__label__FASILITAS __label__RENDAH ac cuma 1 untuk 2 lantai lantai, mhs tidak konsen belajar
+__label__LAINNYA __label__SEDANG jalan di dekat auditorium gaada penerangan malam, kendaraan jadi ancur
+__label__FASILITAS __label__TINGGI kamar mandi fakultas ekonomi ancur total, tidak nyaman sama sekali apalagi kalau kebelet
+__label__FASILITAS __label__RENDAH ac cuma cuma 1 untuk seluruh gedung lantai, keringat terus padahal lagi kls
+__label__AKADEMIK __label__TINGGI krs sering eror, banyak yang ketinggalan info
+__label__LAINNYA __label__RENDAH sampah di area kantin menumpuk kalau gaada petugas
+__label__FASILITAS __label__RENDAH lahan parkir di fakultas teknik gaada petugas jadi sering telat kls
+__label__JARINGAN_IT __label__RENDAH sinyal di prodi akuntansi hilang timbul, kls online jadi terganggu
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung d bgt buruk, susah akses internet
+__label__LAINNYA __label__RENDAH keamanan area kampus malam gaada satpam, mhs tidak merasa aman
+__label__JARINGAN_IT __label__SEDANG upload tugas di spada gagal terus soalnya internet gedung fh lemot parah
+__label__JARINGAN_IT __label__RENDAH sinyal di fakultas hukum gabisa untuk data seluler, gabisa upload tugas
+__label__JARINGAN_IT __label__RENDAH zoom kls online sering lag soalnya wifi gedung c kurang untuk semua mhs
+__label__KEUANGAN __label__TINGGI informasi beasiswa hanya untuk yang punya koneksi, prosesnya tidak adil
+__label__FASILITAS __label__RENDAH ac di ruang kls lantai 2 udah lama nda diperbaiki, tidak berfungsi
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung a lantai 1 tidak sampai ke semua ruangan, terpaksa pakai kuota sendiri
+__label__AKADEMIK __label__TINGGI informasi prosedur skripsi mendadak bgt, mhs jadi bingung
+__label__KEUANGAN __label__TINGGI informasi beasiswa informasinya tidak transparan, mhs kurang mampu jadi dirugikan
+__label__LAINNYA __label__RENDAH kebersihan taman kampus gaada tempat sampah, baunya tidak enak
+__label__LAINNYA __label__SEDANG kantin dekat gedung fisip tidak higienis, antrean panjang
+__label__FASILITAS __label__RENDAH parkiran gedung b lantai 1 sempit bgt, kendaraan jadi susah keluar
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus tidak memadai, gabisa kumpul tugas online
+__label__FASILITAS __label__SEDANG lampu di lab matematika kedap-kedip terus, gabisa presentasi pakai proyektor
+__label__FASILITAS __label__RENDAH banyak kursi di gedung a lantai 1 yang kayunya sudah lapuk, capek bgt dikelas
+__label__JARINGAN_IT __label__RENDAH koneksi di fakultas ekonomi sering putus padahal butuh buat video conference dengan dosen
+__label__KEUANGAN __label__RENDAH dana kegiatan mhs jumlahnya tidak sesuai, mhs dirugikan
+__label__KEUANGAN __label__SEDANG pengumuman perubahan biaya tidak sampai ke semua mhs, mhs jadi bingung
+__label__FASILITAS __label__TINGGI wc lab komputer ancur total, mhs jadi susah kalau kebelet
+__label__FASILITAS __label__RENDAH kebersihan gedung b lantai 3 gaada petugas kebersihan, bisa jadi sumber penyakit
+__label__JARINGAN_IT __label__RENDAH internet di fakultas hukum gabisa diandalkan, gabisa akses spada
+__label__JARINGAN_IT __label__KRITIS server spada bapuk ga stabil waktu masa uas
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi perpus pusat hanya di spot tertentu, kls online terganggu
+__label__AKADEMIK __label__TINGGI website portal mhs lemot bgt, nilai terancam
+__label__LAINNYA __label__KRITIS keamanan area parkir rawan tindak kriminal, tidak kondusif untuk kegiatan malam
+__label__FASILITAS __label__RENDAH ac di gedung rektorat netes airnya, jadi ruangan jadi gerah bgt
+__label__FASILITAS __label__RENDAH wc fakultas hukum airnya tidak mengalir sudah lama bgt, terpaksa ke gedung lain yang jauh
+__label__JARINGAN_IT __label__RENDAH wifi kampus nge-lag terus apalagi kalau banyak yang konek
+__label__KEMAHASISWAAN __label__RENDAH program bimbingan karir prosedur pendaftarannya ribet, mhs kurang diuntungkan
+__label__LAINNYA __label__SEDANG jalan di area parkir utama ancur parah berlubang, banjir waktu hujan
+__label__JARINGAN_IT __label__RENDAH sinyal di fakultas teknik gabisa untuk data seluler, kls online jadi terganggu
+__label__LAINNYA __label__RENDAH area area belajar outdoor gaada tempat duduk, kurang nyaman buat mhs
+__label__KEUANGAN __label__RENDAH pengumuman perubahan biaya tidak diinformasikan jelas, mhs kaget
+__label__FASILITAS __label__RENDAH parkiran gedung fisip sempit bgt, sering telat kls gara-gara nyari tempat parkir
+__label__AKADEMIK __label__KRITIS spada gabisa diakses saat deadline tugas, belajar jadi terganggu
+__label__KEMAHASISWAAN __label__RENDAH fasilitas sekretariat bem tidak memadai, banyak yang tidak terlayani
+__label__FASILITAS __label__RENDAH plafon ruangan 3.2 bocor saat hujan, khawatir bisa kena mhs
+__label__JARINGAN_IT __label__TINGGI spada down terus saat jam kls
+__label__FASILITAS __label__TINGGI ac prodi matematika cuma pajangan, netes airnya padahal ukt mahal tapi fasilitas tidak sesuai
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi gedung a lantai 3 tidak luas, gabisa kumpul tugas online
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat keterangan mhs aktif butuh berhari-hari, bgt lama
+__label__FASILITAS __label__RENDAH kebersihan gedung mipa gaada petugas kebersihan, baunya tidak enak
+__label__JARINGAN_IT __label__TINGGI wifi gedung b lantai 2 lemot parah, susah download materi kls
+__label__LAINNYA __label__RENDAH jalan di area antar gedung gaada lampu penerang malam hari, banjir waktu hujan
+__label__AKADEMIK __label__SEDANG jadwal kls sering berubah mendadak, proses akademik jadi terlelet
+__label__LAINNYA __label__RENDAH area area belajar outdoor gaada fasilitas, tidak nyaman buat mhs
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung b lantai 3 kurang terawat, tidak mendukung kreativitas mhs
+__label__KEMAHASISWAAN __label__TINGGI hak mhs dalam program beasiswa kurang disosialisasikan
+__label__AKADEMIK __label__TINGGI website portal mhs sering down, mhs rugi bgt
+__label__FASILITAS __label__RENDAH kursinya kan sekaligus ada mejanya, tetapi kebanyakan hanya kursinya saja tanpa meja
+__label__KEMAHASISWAAN __label__RENDAH pengurusan ktm butuh berminggu-minggu, bgt lama
+__label__KEUANGAN __label__SEDANG pengumuman perubahan biaya hanya dari mulut ke mulut, mhs jadi bingung
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung mipa minim fasilitas publik, tidak mendukung kreativitas mhs
+__label__KEUANGAN __label__TINGGI ukt prosedur keringanan susah, tapi fasilitasnya jauh dari layak
+__label__FASILITAS __label__RENDAH parkiran prodi akuntansi gada atapnya, kendaraan bisa lecet-lecet
+__label__LAINNYA __label__RENDAH keamanan area kampus malam gaada satpam, tidak kondusif malam hari
+__label__LAINNYA __label__SEDANG gerbang gerbang 3 gaada satpam sehingga antrean panjang
+__label__FASILITAS __label__SEDANG kebersihan gedung a lantai 2 kotor bgt, bisa jadi sumber penyakit
+__label__LAINNYA __label__RENDAH lingkungan sekitar gedung fh gersang gaada pohon, tidak nyaman aktivitas luar
+__label__KEMAHASISWAAN __label__RENDAH layanan unit kemhsan jarang beroperasi, proses administrasi terhambat
+__label__AKADEMIK __label__TINGGI sistem siakad bgt tidak user-friendly, nilai terancam
+__label__JARINGAN_IT __label__TINGGI wifi gedung b lantai 2 bapuk ga stabil, susah download materi kls
+__label__AKADEMIK __label__KRITIS portal mhs sering datanya hilang waktu saat uts/uas
+__label__FASILITAS __label__RENDAH jendela aula gedung c gaada gordennya, hujan masuk ke kelas
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi auditorium terbatas bgt, susah download materi kls
+__label__LAINNYA __label__SEDANG jalan di area antar gedung ancur parah berlubang-lubang, banjir waktu hujan
+__label__FASILITAS __label__RENDAH banyak kursi di gedung c yang gaada mejanya, susah konsen belajar
+__label__FASILITAS __label__SEDANG wc prodi matematika airnya tidak mengalir dari kemarin, tidak nyaman sama sekali
+__label__JARINGAN_IT __label__KRITIS server sistem informasi kampus sering down waktu masa uas
+__label__LAINNYA __label__RENDAH keamanan area parkir gaada satpam, tidak kondusif untuk kegiatan malam
+__label__JARINGAN_IT __label__RENDAH zoom kls online sering lag soalnya wifi gedung c tidak memadai
+__label__FASILITAS __label__RENDAH tolong ac fakultas ekonomi segera diperbaiki, tidak berfungsi dan gerah minta ampun
+__label__KEUANGAN __label__TINGGI transparansi distribusi beasiswa bgt minim, mhs tidak tahu bagaimana seleksinya
+__label__AKADEMIK __label__KRITIS web akademik gabisa diakses saat saat uts, tugas jadi terlelet
+__label__JARINGAN_IT __label__SEDANG wifi fakultas hukum lemot parah, gabisa kumpul tugas online
+__label__FASILITAS __label__RENDAH gedung fh panas bgt soalnya gak optimal, belajarnya terganggu
+__label__LAINNYA __label__SEDANG gerbang 1 jarang dibuka, antrean masuk panjang
+__label__AKADEMIK __label__RENDAH ruang kls terlalu sempit, mhs jadi malas masuk kls
+__label__JARINGAN_IT __label__RENDAH wifi gedung b lantai 1 sering disconnect, terpaksa pakai kuota sendiri
+__label__FASILITAS __label__RENDAH musola di gedung b lantai 2 fasilitasnya minim, tolong diperhatikan
+__label__KEUANGAN __label__TINGGI pengumuman syarat keringanan ukt tidak diinformasikan dengan jelas, mhs yang urgent jadi kesusahan
+__label__FASILITAS __label__RENDAH ac di gedung b lantai 3 kelas 3.2 bocor parah jadinya banjir terus gerah bgt, ga konsen belajarnya
+__label__KEUANGAN __label__RENDAH dana penelitian mhs jumlahnya tidak sesuai, mhs dirugikan
+__label__LAINNYA __label__KRITIS jalan di belakang rektorat bergelombang, bisa bikin kecelakaan
+__label__AKADEMIK __label__SEDANG ruang kls proyektornya ancur, susah konsen belajar
+__label__JARINGAN_IT __label__RENDAH internet di gedung mipa bapuk ga stabil, gabisa akses spada
+__label__JARINGAN_IT __label__RENDAH wifi gedung b lantai 2 gabisa konek, gabisa kumpul tugas online
+__label__FASILITAS __label__RENDAH parkiran gedung fh banyak yang parkir sembarangan, sering telat kls gara-gara nyari tempat parkir
+__label__AKADEMIK __label__SEDANG informasi jadwal kls pengganti hanya dari mulut ke mulut, proses akademik jadi terlelet
+__label__JARINGAN_IT __label__RENDAH wifi gedung d bapuk ga stabil, terpaksa pakai kuota sendiri
+__label__LAINNYA __label__RENDAH keamanan lingkungan sekitar kampus cctv tidak berfungsi, sering kehilangan barang
+__label__JARINGAN_IT __label__RENDAH internet di lab komputer gabisa diandalkan, gabisa kumpul tugas online
+__label__KEMAHASISWAAN __label__RENDAH program pertukaran mhs kuota yang terlalu sedikit, mhs kurang diuntungkan
+__label__LAINNYA __label__SEDANG lapangan basket gaada penerangan malam hari, mhs gabisa olahraga gratis
+__label__LAINNYA __label__RENDAH keamanan lingkungan sekitar kampus kurang terjaga, sering kehilangan barang
+__label__JARINGAN_IT __label__RENDAH koneksi di gedung c sering putus padahal butuh buat video conference dengan dosen
+__label__JARINGAN_IT __label__RENDAH wifi gedung b lantai 2 sering disconnect, gabisa akses spada
+__label__KEMAHASISWAAN __label__TINGGI kegiatan kegiatan ukm tidak terorganisir dengan baik, mhs jadi kesal
+__label__LAINNYA __label__SEDANG jalan di area parkir utama ancur parah berlubang-lubang, mhs tidak nyaman
+__label__KEMAHASISWAAN __label__RENDAH staff bagian kemhsan tidak membantu, tidak enak kalau harus ke sana
+__label__JARINGAN_IT __label__RENDAH portal akademik timeout terus soalnya overload
+__label__JARINGAN_IT __label__TINGGI koneksi di prodi informatika sering putus padahal butuh buat download materi
+__label__JARINGAN_IT __label__SEDANG wifi gedung b lantai 1 lemot parah, kls online terganggu
+__label__KEUANGAN __label__TINGGI ukt tidak sebanding fasilitas, tapi wifi-nya gabisa diandalkan
+__label__LAINNYA __label__SEDANG jalan di jalan masuk kampus ancur parah berlubang-lubang, berbahaya buat motor
+__label__LAINNYA __label__SEDANG kebersihan area kantin bgt kotor, mencerminkan citra kampus yang buruk
+__label__KEUANGAN __label__TINGGI beasiswa prosesnya tidak jelas dan informasinya tidak sampai ke semua mhs
+__label__AKADEMIK __label__TINGGI informasi jadwal ujian mendadak bgt, stress bgt ngurusnya
+__label__JARINGAN_IT __label__TINGGI bandwidth wifi kampus tidak memadai, susah download materi kls
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi fakultas teknik hanya di spot tertentu, gabisa kumpul tugas online
+__label__FASILITAS __label__RENDAH gaada papan pengumuman digital di auditorium, padahal bgt dibutuhkan
+__label__KEUANGAN __label__TINGGI pembayaran ukt gabisa online, prosesnya jadi bgt lama
+__label__JARINGAN_IT __label__TINGGI internet di gedung fh lemot parah, susah download materi kls
+__label__FASILITAS __label__TINGGI fasilitas gedung mipa tidak memadai, masa bayar ukt tapi fasilitas gini
+__label__FASILITAS __label__TINGGI ac gedung mipa cuma pajangan, kurang dingin padahal masa bayar ukt tapi fasilitas gini
+__label__KEUANGAN __label__TINGGI ukt prosedur keringanan susah tapi wc-nya gabisa dipakai
+__label__KEUANGAN __label__TINGGI informasi beasiswa tidak disosialisasikan dengan baik, mhs kurang mampu jadi dirugikan
+__label__AKADEMIK __label__TINGGI informasi jadwal ujian mendadak, mhs dirugikan
+__label__JARINGAN_IT __label__TINGGI server portal akademik gabisa diakses waktu masa krs
+__label__JARINGAN_IT __label__RENDAH server spada gabisa diakses pas jam kls, gabisa kumpul tugas online
+__label__AKADEMIK __label__RENDAH website portal mhs tidak user friendly, mhs rugi bgt
+__label__JARINGAN_IT __label__SEDANG koneksi internet gedung b lantai 3 lemot parah, gabisa akses spada
+__label__KEMAHASISWAAN __label__RENDAH senioritas di unit kemhsan membuat mhs baru tidak nyaman, membuat mhs baru tertekan
+__label__KEMAHASISWAAN __label__RENDAH layanan layanan administrasi pelayanannya kurang, pengurusan jadi lama
+__label__AKADEMIK __label__RENDAH ruang kls terlalu panas, susah konsen belajar
+__label__KEMAHASISWAAN __label__TINGGI info program beasiswa cuma nyebar di grup tertentu, yang lain tidak tahu
+__label__FASILITAS __label__RENDAH wc auditorium gabisa dipakai, mhs jadi susah kalau kebelet
+__label__JARINGAN_IT __label__KRITIS server sistem informasi kampus overload pas masa uts, gabisa akses spada
+__label__AKADEMIK __label__KRITIS spada nge-lag waktu saat uts, susah kumpul tugas
+__label__AKADEMIK __label__RENDAH ruang kls terlalu panas, capek bgt dikelas
+__label__FASILITAS __label__SEDANG gaada kantin di prodi matematika, padahal bgt dibutuhkan
+__label__KEMAHASISWAAN __label__RENDAH organisasi kegiatannya monoton, mhs jadi tidak berkembang
+__label__AKADEMIK __label__RENDAH spada nge-lag terus, susah ikut kuis
+__label__FASILITAS __label__KRITIS gedung a lantai 1 panas bgt soalnya mati total, belajarnya terganggu
+__label__KEMAHASISWAAN __label__RENDAH program bimbingan karir sosialisasinya kurang, mhs kurang diuntungkan
+__label__KEMAHASISWAAN __label__RENDAH layanan sekretariat sering tutup, pengurusan jadi lama
+__label__FASILITAS __label__RENDAH parkiran gedung fisip gada atapnya, kendaraan bisa jok panas bgt
+__label__FASILITAS __label__RENDAH kamar mandi gedung mipa airnya tidak mengalir, harus nahan lama bgt apalagi kalau kebelet
+__label__KEUANGAN __label__RENDAH prosedur administrasi keuangan bgt rumit dan berbelit, menghambat proses akademik
+__label__FASILITAS __label__RENDAH wc gedung a lantai 3 airnya tidak mengalir sudah berhari-hari, harus nahan lama bgt
+__label__FASILITAS __label__RENDAH plafon lab komputer mipa jelek parah, khawatir bisa kena mhs
+__label__JARINGAN_IT __label__SEDANG koneksi internet aula lemot parah, gabisa akses spada
+__label__JARINGAN_IT __label__SEDANG internet di ruang seminar lemot parah padahal butuh buat akses jurnal
+__label__JARINGAN_IT __label__SEDANG wifi prodi matematika sering disconnect, terpaksa pakai kuota sendiri
+__label__KEUANGAN __label__RENDAH dana kkn prosesnya berbelit-belit, mhs dirugikan
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus tidak memadai, terpaksa pakai kuota sendiri
+__label__FASILITAS __label__SEDANG jendela lab matematika engselnya ancur, silau bgt saat kls
+__label__KEUANGAN __label__RENDAH dana penelitian mhs jumlahnya tidak sesuai, mhs yang kena dampaknya
+__label__FASILITAS __label__SEDANG parkiran prodi informatika gaada petugas, sering ada yang ditabrak
+__label__AKADEMIK __label__TINGGI revisi skripsi acc-nya lama, mhs dirugikan
+__label__KEUANGAN __label__RENDAH pengumuman perubahan biaya mendadak bgt, menghambat proses akademik
+__label__JARINGAN_IT __label__RENDAH internet di gedung b lantai 2 sering putus padahal butuh buat kls online
+__label__KEMAHASISWAAN __label__RENDAH gaada mentor atau pembimbing untuk mhs baru di prodi
+__label__FASILITAS __label__KRITIS tolong ac gedung rektorat segera diperbaiki, mati total dan ruangan jadi gerah bgt
+__label__AKADEMIK __label__TINGGI krs gabisa tambah matkul, mhs dirugikan
+__label__JARINGAN_IT __label__TINGGI internet di gedung d lemot parah, susah download materi kls
+__label__AKADEMIK __label__TINGGI informasi syarat wisuda tidak diinformasikan jelas, proses jadi terlelet
+__label__AKADEMIK __label__SEDANG sistem spada ui-nya bgt tidak user-friendly, tugas jadi terlelet dikumpulkan
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung b lantai 2 terbatas bgt, harus geser-geser cari sinyal
+__label__FASILITAS __label__RENDAH colokan di ruang kls lantai 2 longgar, padahal butuh buat ngecas
+__label__FASILITAS __label__RENDAH banyak kursi di lab komputer yang banyak yang hilang, belajarnya terganggu
+__label__FASILITAS __label__TINGGI ac gedung a lantai 1 cuma pajangan, panasnya parah padahal kami sudah bayar ukt tepat waktu
+__label__FASILITAS __label__RENDAH plafon lab botani sudah retak, khawatir celaka kalau tiba-tiba jatuh
+__label__AKADEMIK __label__TINGGI spada nge-lag waktu masa krs, susah kumpul tugas
+__label__FASILITAS __label__RENDAH min, wc di lab biologi kondisinya jorok bgt, tolong segera diperbaiki
+__label__JARINGAN_IT __label__RENDAH sinyal di fakultas hukum hilang timbul, harus keluar ruangan dulu
+__label__LAINNYA __label__RENDAH kebersihan sekitar parkiran gaada tempat sampah, tidak nyaman untuk beraktivitas
+__label__FASILITAS __label__SEDANG min, wc di fakultas teknik kondisinya airnya mati, tolong segera diperbaiki
+__label__AKADEMIK __label__TINGGI sistem portal mhs ui-nya terlalu ribet, nilai terancam
+__label__JARINGAN_IT __label__RENDAH bandwidth wifi kampus sering habis di jam sibuk, terpaksa pakai kuota sendiri
+__label__AKADEMIK __label__TINGGI revisi skripsi responnya lama bgt, mhs jadi bingung
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang ukm tidak layak, mhs jadi kesal
+__label__AKADEMIK __label__SEDANG informasi informasi kkn hanya dari mulut ke mulut, mhs jadi bingung
+__label__JARINGAN_IT __label__RENDAH jaringan di fakultas teknik gabisa diandalkan, susah akses internet
+__label__KEMAHASISWAAN __label__RENDAH layanan unit kemhsan pelayanannya kurang baik, banyak yang tidak terlayani
+__label__LAINNYA __label__SEDANG kebersihan area kampus bgt kotor, tidak nyaman beraktivitas
+__label__AKADEMIK __label__RENDAH informasi informasi kkn mendadak bgt, mhs dirugikan
+__label__AKADEMIK __label__SEDANG dosen sering reschedule mendadak, tugas jadi terlelet
+__label__KEUANGAN __label__RENDAH pembayaran biaya kkn harus datang langsung berkali-kali, mhs yang urgent jadi kesusahan
+__label__AKADEMIK __label__TINGGI dosen tidak responsif di grup, nilai terancam
+__label__FASILITAS __label__RENDAH banyak kursi di gedung fisip yang mejanya patah, mhs jadi malas masuk kls
+__label__JARINGAN_IT __label__KRITIS spada sering eror tepat deadline pengumpulan tugas, panik bgt
+__label__JARINGAN_IT __label__RENDAH wifi di gedung fh kayak tidak dibayar apalagi semua mhs pakai
+__label__LAINNYA __label__SEDANG gerbang gerbang 2 sering macet di satu pintu saja, tidak aman soalnya siapa saja bisa masuk
+__label__FASILITAS __label__RENDAH tangga fakultas teknik gaada pegangan, sering ada yang jatuh
+__label__LAINNYA __label__RENDAH lingkungan sekitar fakultas teknik minim fasilitas publik, gaada tempat untuk bersantai
+__label__FASILITAS __label__RENDAH lab biologi panas bgt soalnya kurang dingin, capek bgt dikelas
+__label__JARINGAN_IT __label__TINGGI internet di gedung a lantai 3 lemot parah, tidak produktif di kampus
+__label__AKADEMIK __label__SEDANG sistem portal mhs ui-nya bgt tidak user-friendly, tugas jadi terlelet dikumpulkan
+__label__LAINNYA __label__RENDAH keamanan area kampus malam hari cctv-nya tidak berfungsi, tidak kondusif untuk kegiatan malam
+__label__FASILITAS __label__TINGGI fasilitas fakultas hukum jauh dari kata layak, ukt mahal tapi fasilitas tidak sesuai
+__label__LAINNYA __label__KRITIS jalan di dekat auditorium licin waktu hujan, bisa bikin kecelakaan
+__label__LAINNYA __label__RENDAH keamanan gedung saat weekend cctv tidak berfungsi, mhs tidak merasa aman
+__label__LAINNYA __label__SEDANG gerbang gerbang 3 gaada sistem akses, antrean masuk kampus panjang
+__label__JARINGAN_IT __label__RENDAH internet di gedung a lantai 3 gabisa diandalkan, gabisa kumpul tugas online
+__label__FASILITAS __label__RENDAH min, parkiran perpus pusat gaada petugas tolong diatur lebih baik
+__label__AKADEMIK __label__SEDANG kls online terganggu soalnya portal mhs lemot bgt
+__label__JARINGAN_IT __label__RENDAH spada gabisa diakses tepat jam kls, panik bgt
+__label__FASILITAS __label__RENDAH fakultas hukum panas bgt soalnya panasnya parah, susah konsen belajar
+__label__LAINNYA __label__RENDAH gerbang 3 buat masuk & keluar jarang di buka
+__label__JARINGAN_IT __label__TINGGI spada sering eror saat jam kls
+__label__KEMAHASISWAAN __label__RENDAH informasi lowongan magang tidak disebarkan merata, mhs jadi kesal
+__label__JARINGAN_IT __label__TINGGI wifi fakultas ekonomi lemot parah, tidak produktif di kampus
+__label__JARINGAN_IT __label__RENDAH sinyal seluler di aula bgt lemah, harus keluar dulu baru bisa internetan
+__label__FASILITAS __label__RENDAH colokan di lab komputer mipa tidak berfungsi, padahal butuh buat ngecas
+__label__JARINGAN_IT __label__RENDAH internet di lab komputer gabisa diandalkan padahal butuh buat akses jurnal
+__label__LAINNYA __label__RENDAH lingkungan sekitar ruang seminar gersang gaada pohon, tidak nyaman aktivitas luar
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi gedung rektorat tidak sampai ke semua ruangan, susah download materi kls
+__label__AKADEMIK __label__TINGGI revisi skripsi responnya lama bgt, banyak yang ketinggalan informasi
+__label__LAINNYA __label__RENDAH sampah di area kampus menumpuk saat hari libur
+__label__LAINNYA __label__RENDAH kantin dekat gedung fisip tidak higienis, gaada pilihan sehat
+__label__LAINNYA __label__SEDANG gerbang gerbang 1 gaada satpam sehingga antrean panjang
+__label__AKADEMIK __label__SEDANG nilai di portal ada yang salah input, mhs jadi bingung
+__label__AKADEMIK __label__TINGGI informasi syarat wisuda tidak sampai ke semua mhs, stress ngurusnya
+__label__LAINNYA __label__RENDAH kebersihan koridor gedung kumuh, mencerminkan citra kampus yang buruk
+__label__LAINNYA __label__SEDANG kantin belakang gedung b tempatnya sempit, antrean panjang
+__label__FASILITAS __label__SEDANG parkiran gedung b lantai 1 gada atapnya, kendaraan bisa catnya jadi ancur
+__label__LAINNYA __label__RENDAH kantin belakang gedung b jamnya singkat, gaada pilihan sehat
+__label__FASILITAS __label__RENDAH lahan parkir di lab komputer banyak yang parkir sembarangan jadi sering telat kls
+__label__FASILITAS __label__RENDAH parkiran gedung a lantai 2 gada atapnya, kendaraan bisa kepanasan
+__label__FASILITAS __label__KRITIS tolong ac lab komputer segera diperbaiki, mati total dan gerah minta ampun
+__label__KEMAHASISWAAN __label__RENDAH informasi kegiatan kemhsan hanya di grup tertentu, mhs banyak yang tidak tahu
+__label__AKADEMIK __label__KRITIS spada gabisa diakses saat saat uas, proses akademik terhambat
+__label__AKADEMIK __label__TINGGI jadwal prosedur skripsi tidak sampai ke semua mhs, banyak mhs yang tidak tahu
+__label__FASILITAS __label__TINGGI fasilitas gedung a lantai 1 jauh dari kata layak, padahal kita sudah bayar ukt
+__label__AKADEMIK __label__RENDAH informasi informasi kkn hanya dari mulut ke mulut, mhs dirugikan
+__label__FASILITAS __label__TINGGI fasilitas gedung fisip sudah bgt ketinggalan, padahal kita sudah bayar ukt
+__label__FASILITAS __label__RENDAH kebersihan gedung fisip jarang dibersihkan, tidak nyaman berada di sini
+__label__LAINNYA __label__SEDANG gerbang gerbang 1 pintunya ancur sehingga antrean panjang
+__label__LAINNYA __label__RENDAH area taman kampus panas tidak teduh, tidak nyaman buat mhs
+__label__KEUANGAN __label__TINGGI prosedur pengajuan keringanan ukt tidak jelas alurnya, menghambat proses akademik
+__label__FASILITAS __label__SEDANG wc gedung b banyak tidak berfungsi dengan baik, seperti pintu ancur dan air yang tidak mengalir
+__label__FASILITAS __label__TINGGI ac gedung fh cuma pajangan, berisik bgt padahal masa bayar ukt tapi fasilitas gini
+__label__LAINNYA __label__TINGGI lapangan futsal tidak terawat, lapangan gabisa dimanfaatkan optimal
+__label__KEMAHASISWAAN __label__TINGGI informasi program beasiswa mendadak, mhs banyak yang tidak tahu
+__label__FASILITAS __label__RENDAH pintu wc perpus pusat gabisa dikunci, bgt tidak nyaman
+__label__JARINGAN_IT __label__SEDANG internet di prodi informatika lemot parah, terpaksa pakai kuota sendiri
+__label__LAINNYA __label__RENDAH kantin dekat gedung fisip pilihannya sedikit, gaada pilihan sehat
+__label__JARINGAN_IT __label__RENDAH wifi gedung a lantai 1 kayak tidak dibayar, gabisa kumpul tugas online
+__label__LAINNYA __label__SEDANG gerbang 3 jarang dibuka, antrean masuk panjang
+__label__FASILITAS __label__RENDAH parkiran perpus pusat gada atapnya, kendaraan bisa jok panas bgt
+__label__AKADEMIK __label__RENDAH sistem siakad bgt tidak user-friendly, proses akademik terhambat
+__label__FASILITAS __label__RENDAH lab bahasa kondisinya fasilitasnya tidak memadai, praktikum jadi terganggu
+__label__KEUANGAN __label__TINGGI informasi beasiswa mendadak diumumkan, mhs kurang mampu dirugikan
+__label__AKADEMIK __label__RENDAH siakad sering crash tiba-tiba waktu pengumuman nilai
+__label__KEMAHASISWAAN __label__RENDAH staff unit kemhsan melayani dengan malas-malasan, malas mengurus keperluan ke sana
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung b lantai 3 sering putus-putus, susah akses internet
+__label__KEMAHASISWAAN __label__RENDAH sosialisasi prosedur pengajuan dokumen hanya melalui grup tertentu, banyak yang terlewat informasinya
+__label__KEMAHASISWAAN __label__RENDAH fasilitas ruang rapat mhs tidak layak, pengurusan jadi bgt lama
+__label__JARINGAN_IT __label__SEDANG server spada lelet bgt waktu pengumuman nilai
+__label__KEMAHASISWAAN __label__RENDAH layanan bagian kemhsan jarang beroperasi, mhs jadi kesal
+__label__FASILITAS __label__RENDAH lahan parkir di fakultas teknik tidak muat jadi sering telat kls
+__label__JARINGAN_IT __label__KRITIS server siakad bapuk ga stabil waktu masa uas
+__label__LAINNYA __label__RENDAH taman kampus tidak terawat, gaada tempat bersantai
+__label__KEUANGAN __label__TINGGI prosedur pengajuan keringanan ukt tidak transparan, mhs jadi bingung
+__label__FASILITAS __label__RENDAH min, parkiran auditorium gaada petugas tolong diatur lebih baik
+__label__KEMAHASISWAAN __label__RENDAH staff bem tidak membantu, tidak enak kalau harus ke sana
+__label__JARINGAN_IT __label__SEDANG wifi di gedung b lantai 3 lemot parah apalagi siang hari
+__label__FASILITAS __label__SEDANG musola di gedung a lantai 2 tempat wudhunya ancur, tolong diperhatikan
+__label__KEUANGAN __label__TINGGI pengumuman deadline pembayaran ukt hanya dari mulut ke mulut, mhs yang urgent jadi kesusahan
+__label__JARINGAN_IT __label__TINGGI jangkauan wifi gedung b lantai 1 hanya di spot tertentu, tidak produktif di kampus
+__label__JARINGAN_IT __label__RENDAH jaringan di fakultas teknik bapuk ga stabil, susah akses internet
+__label__JARINGAN_IT __label__KRITIS server siakad sering down waktu masa uts
+__label__AKADEMIK __label__TINGGI web akademik sering gabisa diakses waktu masa krs
+__label__KEMAHASISWAAN __label__RENDAH organisasi kurang dukungan dari kampus, potensi mhs tersia-sia
+__label__FASILITAS __label__TINGGI fasilitas gedung a lantai 1 sudah bgt ketinggalan, padahal kita sudah bayar ukt
+__label__LAINNYA __label__RENDAH pintu masuk utama gaada satpam, tidak efisien
+__label__LAINNYA __label__RENDAH lingkungan sekitar prodi akuntansi minim fasilitas publik, tidak nyaman buat aktivitas luar
+__label__FASILITAS __label__RENDAH wc gedung mipa airnya tidak mengalir dari kemarin, jadi malas kls
+__label__KEMAHASISWAAN __label__RENDAH staff layanan administrasi mhs kurang ramah, mhs jadi tidak nyaman
+__label__FASILITAS __label__RENDAH ac cuma cuma 1 untuk 2 lantai lantai, keringat terus padahal lagi kls
+__label__FASILITAS __label__RENDAH lahan parkir di gedung rektorat tidak muat jadi sering telat kls
+__label__JARINGAN_IT __label__RENDAH jangkauan wifi gedung fisip hanya di spot tertentu, kls online terganggu
+__label__LAINNYA __label__RENDAH kebersihan area kantin kumuh, mencerminkan citra kampus yang buruk
+__label__LAINNYA __label__SEDANG jalan di belakang rektorat gaada lampu penerang malam hari, kendaraan jadi ancur
+__label__KEMAHASISWAAN __label__RENDAH pengurusan surat rekomendasi harus bolak-balik, pengurusan jadi lama
+__label__FASILITAS __label__RENDAH parkiran fakultas ekonomi banyak yang parkir sembarangan, kendaraan jadi susah keluar
+__label__KEUANGAN __label__TINGGI informasi beasiswa tidak transparan, hanya orang tertentu yang tahu
+__label__FASILITAS __label__TINGGI fasilitas gedung b lantai 1 sudah bgt ketinggalan, kami sudah bayar ukt tepat waktu
+__label__FASILITAS __label__RENDAH kursi di prodi akuntansi udah lama rodanya hilang, kapan diganti?
+__label__LAINNYA __label__RENDAH lapangan bola tidak terawat, lapangan gabisa dimanfaatkan optimal
+__label__KEUANGAN __label__TINGGI prosedur pembayaran ukt memakan waktu lama, mhs urgent kesusahan
+__label__AKADEMIK __label__RENDAH informasi informasi kkn tidak diinformasikan dengan jelas, banyak yang ketinggalan informasi
+__label__FASILITAS __label__RENDAH gaada papan pengumuman digital di gedung a lantai 1, padahal bgt dibutuhkan
+__label__KEMAHASISWAAN __label__RENDAH layanan bagian kemhsan sering tutup, mhs jadi kesal
+__label__FASILITAS __label__RENDAH min, parkiran gedung a lantai 1 tidak muat tolong diatur lebih baik
+__label__LAINNYA __label__SEDANG gerbang pintu masuk utama jarang dibuka sehingga antrean panjang
+__label__FASILITAS __label__RENDAH parkiran gedung b lantai 3 gada atapnya, kendaraan bisa jok panas bgt
+__label__KEMAHASISWAAN __label__RENDAH organisasi tidak aktif, gaada wadah aspirasi mhs
+__label__JARINGAN_IT __label__RENDAH sinyal di gedung c gaada sama sekali, harus keluar ruangan dulu
+__label__AKADEMIK __label__RENDAH dosen menjual buku wajib ke mhs, mhs dirugikan
+__label__FASILITAS __label__RENDAH kursi di perpus pusat udah lama mejanya patah, kapan diganti?
+__label__FASILITAS __label__RENDAH perpus pusat panas bgt soalnya cuma pajangan, mhs jadi malas masuk kls
+__label__JARINGAN_IT __label__RENDAH server siakad bapuk ga stabil waktu jam kls
+__label__LAINNYA __label__RENDAH area ruang tunggu gaada tempat duduk, kurang nyaman buat mhs
+__label__JARINGAN_IT __label__TINGGI spada down terus tepat saat banyak pengguna, panik bgt
+__label__FASILITAS __label__RENDAH kamar mandi auditorium jorok bgt, jadi malas kls apalagi kalau kebelet
+__label__FASILITAS __label__RENDAH banyak kursi di gedung fh yang rodanya hilang, gabisa fokus
+__label__FASILITAS __label__SEDANG kebersihan prodi informatika sampahnya menumpuk, tidak nyaman berada di sini
+__label__AKADEMIK __label__TINGGI spada eror terus waktu jam kls, susah download bahan ajar
+__label__JARINGAN_IT __label__TINGGI internet di fakultas ekonomi lemot parah, tidak produktif di kampus
+__label__AKADEMIK __label__RENDAH nilai belum keluar padahal sudah lama, mhs dirugikan
+__label__KEUANGAN __label__RENDAH pembayaran biaya kkn harus datang langsung berkali-kali, menghambat proses akademik
+__label__JARINGAN_IT __label__RENDAH koneksi di gedung a lantai 3 sering putus padahal butuh buat kls online
+__label__LAINNYA __label__KRITIS jalan di belakang rektorat gaada lampu penerang malam hari, bisa bikin kecelakaan
+__label__FASILITAS __label__RENDAH lahan parkir di lab komputer sempit bgt jadi sering telat kls
+__label__AKADEMIK __label__RENDAH ruang kls tidak kondusif, gabisa fokus
+__label__JARINGAN_IT __label__RENDAH upload tugas di spada gagal terus soalnya internet lab komputer nge-lag
+__label__FASILITAS __label__RENDAH wc prodi akuntansi airnya tidak mengalir dari kemarin, bgt mengganggu aktivitas
+__label__JARINGAN_IT __label__RENDAH jaringan di gedung rektorat gabisa diandalkan, susah akses internet
+__label__FASILITAS __label__RENDAH kursi di fakultas teknik udah lama rodanya hilang, kapan diganti?
+__label__AKADEMIK __label__SEDANG ruang kls proyektornya ancur, mhs jadi malas
+__label__FASILITAS __label__RENDAH parkiran gedung a lantai 3 gada atapnya, kendaraan bisa kepanasan
+__label__LAINNYA __label__RENDAH gerbang gerbang 1 gaada satpam, tidak efisien
+__label__FASILITAS __label__TINGGI ac fakultas hukum cuma pajangan, gak optimal padahal padahal kita sudah bayar ukt
+__label__FASILITAS __label__RENDAH parkiran gedung b lantai 1 banyak yang parkir sembarangan, sering telat kls gara-gara nyari tempat parkir
+__label__KEMAHASISWAAN __label__RENDAH staff hima tidak membantu sama sekali, tidak sesuai standar pelayanan
+__label__AKADEMIK __label__TINGGI revisi skripsi prosedurnya ribet, proses akademik jadi terlelet
+__label__KEMAHASISWAAN __label__RENDAH informasi prosedur pengajuan surat hanya di grup tertentu, mhs banyak yang tidak tahu
+__label__FASILITAS __label__RENDAH kebersihan gedung b lantai 2 jarang dibersihkan, tidak nyaman berada di sini
+__label__FASILITAS __label__RENDAH gedung d panas bgt soalnya tidak berfungsi, nilai bisa jelek soalnya tidak konsen
+__label__AKADEMIK __label__RENDAH web akademik sering crash tiba-tiba waktu saat jam sibuk
+__label__LAINNYA __label__SEDANG gerbang pintu masuk utama jarang dibuka, sering terlelet kls
+__label__AKADEMIK __label__RENDAH website portal mhs ui-nya outdated bgt, belajar jadi terganggu
+__label__JARINGAN_IT __label__TINGGI wifi gedung b lantai 2 sering disconnect, susah download materi
+__label__FASILITAS __label__RENDAH min, wc di gedung a lantai 2 kondisinya cuma pajangan, tolong segera diperbaiki
+__label__FASILITAS __label__SEDANG min, parkiran prodi informatika sempit bgt tolong diatur lebih baik
+__label__FASILITAS __label__RENDAH colokan di lab komputer mipa berbahaya, padahal butuh buat ngecas
+__label__AKADEMIK __label__RENDAH jadwal kls bentrok dengan mata kls lain, banyak yang ketinggalan informasi
+__label__JARINGAN_IT __label__SEDANG wifi perpus pusat lemot parah, gabisa akses spada
+__label__FASILITAS __label__RENDAH kursinya kadang gaada mejanya min
+__label__FASILITAS __label__RENDAH ac nya kurang dingin di gedung b lantai 3 
+__label__JARINGAN_IT __label__SEDANG etdah ini spada lemot parahh sa mau cari matkul dan kmpul tugas susahnya minta ampun dah 
+__label__FASILITAS __label__RENDAH gedung b toiletnya kayak cuma pajangan
+__label__FASILITAS __label__RENDAH gedung alibas bgt panas
+__label__KEMAHASISWAAN __label__RENDAH senioritas diprodi masih bgt kental alangkah lebih baik edukasi untuk senioritas diadakan soalnya senioritas di kampus membuat beberapa mhs bisa tertekan 
+__label__FASILITAS __label__SEDANG min semua gedung punya wc bahkan tiap lantai.....,tapi cuma 1 wc yg bisa dipakai.....cuma wc di gedung a lantai 1 itupun cuma satu bilik yang bagus, bahkan kunci pintunya ancur, airnya kadang ngga nyala, lampunya redup. wc yang lain cuma pajangan karna airnya tidak mengalir pokoknya ancur gabisa digunakan, tidak layak pakai.....kan capek tuh kalo ada matkul dilantai 3 gedung b tapi kalo kebelet harus jauh jauh ke gedung a lantai 1 padahal setiap lantai ada wc tapi tidak bergunaðŸ˜‘. kursi tiap kelas juga kadang kurang, ada yg ancur, ac nya dibeberapa ruangan kadang tidak berfungsi dengan baik, terkadang kalo mau pakai lcd harus matikan ac duluðŸ˜­ sekianðŸ™ðŸ™
+__label__FASILITAS __label__SEDANG ac di lab.matematika gedung a lantai 3 nda menyala
+__label__FASILITAS __label__RENDAH perlengkapan di laboratorium khusus nya di laboratorium botani banyak yang kurang berfungsi dengan baik 
+__label__FASILITAS __label__RENDAH ac nya kurang dingin
+__label__FASILITAS __label__RENDAH wc gedung b gabisa dipakai
+__label__FASILITAS __label__RENDAH " ac di ruang kelas sering tidak berfungsi sehingga ruangan menjadi bgt panas sehingga kita merasa nda nyaman mohon untuk segera di perbaiki."
+__label__FASILITAS __label__RENDAH ruangan yang sempit
+__label__FASILITAS __label__RENDAH kecil ruangan
+__label__FASILITAS __label__RENDAH plafon di ruangan 1.2 gedung d sudah retak sehingga saya kurang konsen belajar soalnya khawatir plafonnya roboh 
+__label__FASILITAS __label__RENDAH ac dalam ruangannya tolong di nyalakan karna seringkali ac nya tda menyala jadinya kepanasan 
+__label__KEMAHASISWAAN __label__TINGGI 1. minimnya minat berorganisasi mhs di era modern ini, yang memicu kurangnya mengalisis masalah internal maupun eksternal kampus(mendiamkan masalah), sehingga menimbulkan kejanggalan dan masalah yang bermacam-macam sering terjadi di lingkungan eksternal maupun internal kampus.
+__label__FASILITAS __label__SEDANG parkiran motor yang masih kurang teratur dan banyak parkir sembarangan. alhasil terlelet kalau ada kelas karna waktunya habis untuk cari parkir dulu. 
+__label__LAINNYA __label__TINGGI web siaqad yang selalu setiap tahunnya eror bermasalah heran deh dan ada juga beberapa kelas fasilitas ac-nya tidak memadai apa lahi di ruangan lebih banyak mhs  hufff panasnya melarat sekali bahkan mau belajar pun tidak fokus 
+__label__FASILITAS __label__RENDAH min, ac nya kurang dingin min
+__label__FASILITAS __label__SEDANG ruangan di gedung b hampir setiap kelas selalu ada kursi yang tidak punya meja atau mejanya ancur. kalau hanya duduk mungkin bisa, tapi untuk mencatat saat pembelajaran sedanh berlangsung itu bgt menyulitkan.
+__label__FASILITAS __label__SEDANG ac gedung a lantai tiga ruangan  matematika tolong di perbaiki 

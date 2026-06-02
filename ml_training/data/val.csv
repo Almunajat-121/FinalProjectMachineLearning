@@ -1,0 +1,182 @@
+category,text,urgency
+KEMAHASISWAAN,"informasi kompetisi mhs tidak disebarkan merata, proses terhambat",RENDAH
+KEUANGAN,"dana kkn tidak cair tepat waktu, mhs yang kena dampaknya",RENDAH
+LAINNYA,"lapangan basket gaada penerangan malam hari, mhs gabisa olahraga gratis",SEDANG
+JARINGAN_IT,"sinyal di fakultas ekonomi hilang timbul, gabisa akses internet sama sekali",RENDAH
+JARINGAN_IT,"wifi gedung a lantai 1 gabisa dipakai, susah download materi kls",TINGGI
+FASILITAS,wc gedung b gabisa dipakai,RENDAH
+AKADEMIK,"dosen tidak beri feedback nilai, proses akademik terhambat",RENDAH
+AKADEMIK,"jadwal kls bentrok dengan mata kls lain, banyak yang ketinggalan informasi",RENDAH
+LAINNYA,"lingkungan sekitar gedung b lantai 3 minim fasilitas publik, panas bgt siang hari",RENDAH
+FASILITAS,"gaada papan pengumuman digital di gedung a lantai 1, padahal bgt dibutuhkan",RENDAH
+KEMAHASISWAAN,"organisasi kegiatannya monoton, mhs jadi tidak berkembang",RENDAH
+JARINGAN_IT,"sinyal di prodi informatika gaada sama sekali, gabisa upload tugas",SEDANG
+LAINNYA,"gerbang pintu masuk utama gaada sistem akses, sering terlelet kls",SEDANG
+KEMAHASISWAAN,"senioritas di fakultas membuat mhs baru tidak nyaman, membuat mhs baru tertekan",RENDAH
+KEMAHASISWAAN,"senioritas di himpunan masih melewati batas, mhs baru jadi tertekan",RENDAH
+KEUANGAN,"prosedur pengajuan keringanan ukt banyak persyaratan yang tidak masuk akal, menghambat proses akademik",TINGGI
+JARINGAN_IT,"jaringan di gedung c gabisa diandalkan, susah akses internet",RENDAH
+LAINNYA,"lingkungan sekitar prodi akuntansi gersang gaada pohon teduh, tidak mendukung kreativitas mhs",RENDAH
+KEUANGAN,"pengumuman perubahan biaya tidak diinformasikan jelas, mhs kaget",RENDAH
+FASILITAS,"min, ac nya kurang dingin min",RENDAH
+AKADEMIK,portal mhs sering gabisa diakses waktu pengumuman nilai,RENDAH
+FASILITAS,"wc gedung fh airnya tidak mengalir sudah berhari-hari, harus nahan lama bgt",RENDAH
+KEUANGAN,biaya wisuda terlalu mahal dan prosedurnya tidak jelas alurnya,TINGGI
+KEMAHASISWAAN,"layanan layanan administrasi mhs responnya lelet, pengurusan jadi bgt lama",SEDANG
+AKADEMIK,"informasi jadwal seminar mendadak, banyak yang ketinggalan informasi",RENDAH
+LAINNYA,"keamanan lingkungan sekitar kampus rawan kriminal, mhs tidak merasa aman",KRITIS
+FASILITAS,"kebersihan fakultas teknik gaada petugas kebersihan, baunya tidak enak",RENDAH
+FASILITAS,"colokan di lab botani tidak berfungsi, padahal butuh buat ngecas",RENDAH
+KEUANGAN,"dana penelitian mhs tidak transparan penggunaannya, mhs yang kena dampaknya",RENDAH
+AKADEMIK,"website portal mhs lemot bgt, nilai terancam",TINGGI
+AKADEMIK,kls online terganggu soalnya portal mhs lemot bgt,SEDANG
+KEUANGAN,"prosedur pengembalian dana tidak transparan, prosesnya jadi bgt lama",RENDAH
+AKADEMIK,"website sistem krs sering eror, belajar jadi terganggu",TINGGI
+FASILITAS,"ac di ruang kls lantai 2 udah lama nda diperbaiki, kurang dingin",RENDAH
+LAINNYA,"gerbang gerbang 1 jarang dibuka, tidak efisien",RENDAH
+JARINGAN_IT,server siakad sering down waktu masa krs,TINGGI
+AKADEMIK,"ruang kls tidak kondusif, gabisa fokus",RENDAH
+JARINGAN_IT,server siakad bapuk ga stabil waktu jam kls,RENDAH
+JARINGAN_IT,wifi kampus nge-lag terus apalagi kalau siang hari,RENDAH
+KEMAHASISWAAN,"staff sekretariat tidak responsif, tidak enak kalau harus ke sana",RENDAH
+JARINGAN_IT,"jaringan di lab biologi lemot parah, susah akses internet",SEDANG
+KEUANGAN,"informasi beasiswa susah diakses informasinya, banyak mhs yang layak tidak dapat",TINGGI
+FASILITAS,"jendela ruangan 1.1 gabisa ditutup, silau bgt saat kls",RENDAH
+JARINGAN_IT,wifi kampus kayak tidak dibayar apalagi kalau jam kls,RENDAH
+JARINGAN_IT,"server portal akademik sering down pas masa krs, terpaksa pakai kuota sendiri",TINGGI
+KEMAHASISWAAN,"pengurusan surat keterangan mhs aktif butuh lebih dari 2 minggu, bgt lama",RENDAH
+AKADEMIK,sistem krs sering timeout terus waktu deadline pengumpulan tugas,KRITIS
+KEMAHASISWAAN,"kegiatan lomba antar prodi informasinya tidak merata, mhs jadi tidak antusias",RENDAH
+LAINNYA,"atm dalam kampus sering eror, terpaksa keluar kampus",TINGGI
+JARINGAN_IT,upload tugas di spada gagal terus soalnya internet gedung fh nge-lag,RENDAH
+FASILITAS,ruang seminar kursinya banyak yang hilang dan proyektornya ancur,SEDANG
+KEUANGAN,ukt naik setiap tahun tapi fasilitasnya jauh dari layak,TINGGI
+KEUANGAN,biaya seragam praktikum seharusnya tidak dibebankan ke mhs,RENDAH
+AKADEMIK,"sistem spada ui-nya terlalu ribet, nilai terancam",TINGGI
+JARINGAN_IT,"jangkauan wifi fakultas teknik tidak sampai ke semua ruangan, susah download materi kls",TINGGI
+JARINGAN_IT,"jangkauan wifi gedung b lantai 3 tidak luas, gabisa kumpul tugas online",TINGGI
+KEMAHASISWAAN,"kegiatan kegiatan ukm informasinya tidak merata, proses administrasi terhambat",RENDAH
+JARINGAN_IT,upload tugas di spada gagal terus soalnya internet lab komputer gabisa konek,RENDAH
+JARINGAN_IT,koneksi di gedung a lantai 1 sering putus padahal butuh buat akses jurnal,RENDAH
+LAINNYA,"jalan di dekat auditorium licin waktu hujan, bisa bikin kecelakaan",KRITIS
+KEMAHASISWAAN,"program magang kampus merdeka sosialisasinya kurang, mhs kurang diuntungkan",RENDAH
+LAINNYA,"kebersihan area kantin kumuh, mencerminkan citra kampus yang buruk",RENDAH
+JARINGAN_IT,"wifi lab biologi gabisa dipakai, tidak produktif di kampus",TINGGI
+KEMAHASISWAAN,unit kemhsan jarang beroperasi saat mhs butuh bantuan,RENDAH
+LAINNYA,"penerangan jalan di jalan masuk kampus gaada, berbahaya malam hari",SEDANG
+AKADEMIK,"informasi jadwal ujian mendadak, mhs dirugikan",TINGGI
+KEUANGAN,"pembayaran biaya praktikum terjadi kesalahan administrasi, menghambat proses akademik",RENDAH
+LAINNYA,"kantin belakang gedung b pilihannya sedikit, mhs susah makan siang",RENDAH
+JARINGAN_IT,"wifi fakultas teknik lemot parah, susah download materi kls",TINGGI
+KEUANGAN,ada biaya tambahan tidak resmi yang memberatkan mhs,RENDAH
+LAINNYA,"keamanan area kampus malam gaada satpam, mhs tidak merasa aman",RENDAH
+KEMAHASISWAAN,"program bimbingan karir sosialisasinya kurang, mhs kurang diuntungkan",RENDAH
+FASILITAS,"tolong ac prodi informatika segera diperbaiki, cuma pajangan dan ruangan jadi gerah bgt",SEDANG
+JARINGAN_IT,"bandwidth wifi kampus kurang untuk semua mhs, susah download materi kls",TINGGI
+FASILITAS,"ac di gedung b lantai 1 panasnya parah, jadi keringat terus padahal lagi kls",RENDAH
+FASILITAS,"fasilitas auditorium tidak memadai, masa bayar ukt tapi fasilitas gini",TINGGI
+KEMAHASISWAAN,jika mengurus surat di layanan kemhsan itu butuh berhari-hari bahkan seminggu baru selesai,RENDAH
+JARINGAN_IT,koneksi di gedung a lantai 2 bapuk ga stabil padahal butuh buat download materi,TINGGI
+FASILITAS,"lampu di ruang kelas b2 sering turun saklarnya, mata cepat lelah",RENDAH
+FASILITAS,"tolong ac gedung d segera diperbaiki, netes airnya dan gerah minta ampun",RENDAH
+JARINGAN_IT,koneksi di prodi informatika bapuk ga stabil padahal butuh buat akses spada,SEDANG
+JARINGAN_IT,zoom kls online sering lag soalnya wifi gedung b lantai 2 kurang untuk semua mhs,RENDAH
+AKADEMIK,"ruang kls tidak kondusif, capek bgt dikelas",RENDAH
+AKADEMIK,"dosen sering tidak masuk tanpa keterangan, mhs dirugikan",RENDAH
+AKADEMIK,web akademik sering crash tiba-tiba waktu masa krs,TINGGI
+AKADEMIK,portal mhs sering datanya hilang waktu masa krs,TINGGI
+LAINNYA,"area koridor antar gedung panas tidak teduh, tidak nyaman buat mhs",RENDAH
+JARINGAN_IT,"area gedung prodi akuntansi gabisa menggunakan data seluler, harus terhubung oleh wifi yang ada baru bisa mrnggunakan. tetapi jangkauannya tidak luas, dan masih nge-lag",TINGGI
+LAINNYA,"area area belajar outdoor gaada fasilitas pendukung, kurang nyaman buat mhs",RENDAH
+LAINNYA,"lingkungan sekitar gedung c minim fasilitas publik, tidak mendukung kreativitas mhs",RENDAH
+KEMAHASISWAAN,"sosialisasi hak dan kewajiban mhs bgt kurang, banyak yang ketinggalan",RENDAH
+KEUANGAN,beasiswa prosesnya tidak jelas dan banyak mhs yang berhak tapi tidak dapat,TINGGI
+AKADEMIK,"nilai ada yang salah input, banyak yang ketinggalan informasi",RENDAH
+FASILITAS,"ac gedung a lantai 3 cuma pajangan, gak optimal padahal masa bayar ukt tapi fasilitas gini",TINGGI
+KEUANGAN,biaya wisuda terlalu mahal dan prosedurnya bgt rumit,TINGGI
+AKADEMIK,"nilai di portal belum keluar padahal sudah lama, banyak yang ketinggalan info",RENDAH
+KEMAHASISWAAN,"informasi program beasiswa mendadak, mhs banyak yang tidak tahu",TINGGI
+FASILITAS,""" ac di ruang kelas sering tidak berfungsi sehingga ruangan menjadi bgt panas sehingga kita merasa nda nyaman mohon untuk segera di perbaiki.""",RENDAH
+FASILITAS,"lab kimia kondisinya berantakan, mhs gabisa belajar maksimal",RENDAH
+KEUANGAN,"beasiswa seleksinya tidak transparan, banyak yang berhak tapi tidak dapat",TINGGI
+FASILITAS,"pintu wc prodi matematika gabisa dikunci, bgt tidak nyaman",SEDANG
+JARINGAN_IT,koneksi di perpus putus-putus saat masa uas,TINGGI
+JARINGAN_IT,"jaringan di gedung a lantai 2 bgt buruk, susah akses internet",RENDAH
+LAINNYA,sampah di sekitar parkiran menumpuk kalau gaada petugas,RENDAH
+FASILITAS,"min semua gedung punya wc bahkan tiap lantai.....,tapi cuma 1 wc yg bisa dipakai.....cuma wc di gedung a lantai 1 itupun cuma satu bilik yang bagus, bahkan kunci pintunya ancur, airnya kadang ngga nyala, lampunya redup. wc yang lain cuma pajangan karna airnya tidak mengalir pokoknya ancur gabisa digunakan, tidak layak pakai.....kan capek tuh kalo ada matkul dilantai 3 gedung b tapi kalo kebelet harus jauh jauh ke gedung a lantai 1 padahal setiap lantai ada wc tapi tidak berguna. kursi tiap kelas juga kadang kurang, ada yg ancur, ac nya dibeberapa ruangan kadang tidak berfungsi dengan baik, terkadang kalo mau pakai lcd harus matikan ac dulu sekian",SEDANG
+JARINGAN_IT,"jangkauan wifi gedung b lantai 2 terbatas bgt, harus geser-geser cari sinyal",RENDAH
+AKADEMIK,"sistem sistem krs ui-nya susah dinavigasi, belajar jadi terganggu",TINGGI
+KEMAHASISWAAN,"program magang kampus merdeka kuota yang terlalu sedikit, mhs kurang diuntungkan",RENDAH
+KEMAHASISWAAN,"layanan bem jarang beroperasi, proses administrasi terhambat",RENDAH
+KEUANGAN,"transparansi distribusi beasiswa kurang, mhs tidak tahu kemana uangnya pergi",TINGGI
+FASILITAS,plafon di ruangan 1.2 gedung d sudah retak sehingga saya kurang konsen belajar soalnya khawatir plafonnya roboh ,RENDAH
+KEUANGAN,"prosedur pembayaran ukt bgt rumit, prosesnya bgt lama",TINGGI
+JARINGAN_IT,wifi kampus bapuk ga stabil apalagi kalau acara kampus,RENDAH
+JARINGAN_IT,"gaada wifi sama sekali di perpus, susah download materi",TINGGI
+KEUANGAN,"informasi beasiswa susah diakses informasinya, mhs kurang mampu jadi dirugikan",TINGGI
+KEMAHASISWAAN,"senioritas di prodi sudah melewati batas, membuat mhs baru tertekan",RENDAH
+LAINNYA,"area koridor antar gedung gaada fasilitas, tidak nyaman buat mhs",RENDAH
+AKADEMIK,"bimbingan skripsi dosennya susah ditemui, proses wisuda jadi molor",TINGGI
+FASILITAS,lahan parkir di fakultas hukum berantakan jadi sering telat kls,RENDAH
+FASILITAS,"parkiran gedung a lantai 1 gada atapnya, kendaraan bisa lecet-lecet",RENDAH
+FASILITAS,ruang kls lantai 2 kursinya sudah tidak layak pakai dan lampunya remang,RENDAH
+FASILITAS,"wc gedung mipa airnya tidak mengalir dari kemarin, jadi malas kls",RENDAH
+KEMAHASISWAAN,"kegiatan ospek waktunya tidak pas, mhs jadi tidak antusias",RENDAH
+LAINNYA,"jalan di jalan masuk kampus gaada penerangan malam, berbahaya buat motor",SEDANG
+LAINNYA,"atm/ bank kampus hanya satu dan sering antre, tidak praktis",SEDANG
+AKADEMIK,sistem krs sering eror parah terutama deadline tugas,KRITIS
+KEMAHASISWAAN,"pengurusan dokumen beasiswa butuh bgt lama, bgt lama",TINGGI
+FASILITAS,lahan parkir di fakultas ekonomi banyak yang parkir sembarangan jadi sering telat kls,RENDAH
+FASILITAS,"kamar mandi gedung a lantai 1 gabisa dipakai, jadi malas kls apalagi kalau kebelet",RENDAH
+FASILITAS,"ac fakultas hukum cuma pajangan, nda menyala padahal ukt mahal tapi fasilitas tidak sesuai",TINGGI
+LAINNYA,"gaada ruang baca outdoor di area kampus, padahal bgt dibutuhkan",RENDAH
+LAINNYA,"area ruang tunggu gaada tempat duduk, kurang nyaman buat mhs",RENDAH
+FASILITAS,"ac di gedung rektorat netes airnya, jadi ruangan jadi gerah bgt",RENDAH
+JARINGAN_IT,"hotspot kampus kayak tidak dibayar, terpaksa habiskan kuota sendiri",RENDAH
+JARINGAN_IT,"jangkauan wifi prodi matematika tidak sampai ke semua ruangan, kls online terganggu",SEDANG
+KEMAHASISWAAN,"staff sekretariat melayani dengan malas, tidak enak kalau harus ke sana",RENDAH
+AKADEMIK,"siakad gabisa diakses saat jam kls, proses akademik terhambat",RENDAH
+FASILITAS,"banyak kursi di lab komputer yang sudah tidak layak pakai, capek bgt dikelas",RENDAH
+AKADEMIK,"bimbingan skripsi responnya bgt lama, proses wisuda jadi molor",TINGGI
+FASILITAS,"tolong ac fakultas ekonomi segera diperbaiki, panasnya parah dan belajarnya tidak nyaman",RENDAH
+FASILITAS,lahan parkir di lab komputer banyak yang parkir sembarangan jadi sering telat kls,RENDAH
+KEUANGAN,beasiswa distribusinya tidak merata dan hanya yang punya koneksi yang dapat,TINGGI
+FASILITAS,"perpus pusat panas bgt soalnya cuma pajangan, mhs jadi malas masuk kls",RENDAH
+AKADEMIK,"informasi informasi kkn tidak sampai ke semua mhs, banyak yang ketinggalan informasi",RENDAH
+FASILITAS,jendela ruang kls gabisa di tutup keras takut nya jika di paksakan bisa pecah,RENDAH
+LAINNYA,"transportasi akses transportasi umum susah, sering terlelet",SEDANG
+AKADEMIK,"website siakad ui-nya outdated bgt, belajar jadi terganggu",RENDAH
+FASILITAS,"wc lab komputer ancur total, mhs jadi susah kalau kebelet",TINGGI
+FASILITAS,parkiran motor yang masih kurang teratur dan banyak parkir sembarangan. alhasil terlelet kalau ada kelas karna waktunya habis untuk cari parkir dulu. ,SEDANG
+KEUANGAN,"keringanan ukt susah diajukan, prosedurnya tidak transparan",TINGGI
+LAINNYA,"gaada transportasi kampus, sering terlelet",SEDANG
+AKADEMIK,web akademik sering timeout terus waktu masa krs,TINGGI
+KEMAHASISWAAN,"kegiatan ospek kurang dukungan kampus, mhs jadi tidak antusias",RENDAH
+KEMAHASISWAAN,"organisasi kampus kurang dukungan kampus, gaada wadah aspirasi mhs",RENDAH
+KEUANGAN,"keringanan ukt susah diajukan, prosedurnya memakan waktu lama",TINGGI
+JARINGAN_IT,server portal akademik sering down waktu jam kls,TINGGI
+FASILITAS,"jendela ruang kls lantai 2 engselnya ancur, silau bgt saat kls",SEDANG
+KEMAHASISWAAN,"informasi lowongan magang tidak disebarkan merata, mhs jadi kesal",RENDAH
+LAINNYA,sampah di taman kampus menumpuk beberapa hari,RENDAH
+JARINGAN_IT,koneksi di fakultas ekonomi sering putus padahal butuh buat kls online,RENDAH
+LAINNYA,"kantin dekat gedung fisip tidak higienis, antrean panjang",SEDANG
+FASILITAS,"gaada papan pengumuman digital di auditorium, padahal bgt dibutuhkan",RENDAH
+FASILITAS,"kamar mandi gedung a lantai 1 kotor parah, jadi malas kls apalagi kalau kebelet",SEDANG
+AKADEMIK,"informasi jadwal seminar mendadak bgt, stress bgt ngurusnya",RENDAH
+AKADEMIK,"sistem siakad bgt tidak user-friendly, proses akademik terhambat",RENDAH
+KEMAHASISWAAN,"layanan sekretariat jarang beroperasi, banyak yang tidak terlayani",RENDAH
+FASILITAS,"kursi di aula gedung c kayunya sudah lapuk, susah nulis waktu kls",RENDAH
+LAINNYA,"jalan di dekat auditorium sempit bgt, berbahaya buat motor",RENDAH
+LAINNYA,"kebersihan sekitar parkiran sampah bertebaran, tidak nyaman beraktivitas",RENDAH
+KEMAHASISWAAN,"organisasi kampus kegiatannya monoton, gaada wadah aspirasi mhs",RENDAH
+LAINNYA,"gerbang gerbang 3 pintunya ancur, tidak efisien",SEDANG
+JARINGAN_IT,"jaringan di gedung fh bapuk ga stabil, susah akses internet",RENDAH
+LAINNYA,"jalan di jalan masuk kampus ancur parah berlubang-lubang, berbahaya buat motor",SEDANG
+JARINGAN_IT,"jangkauan wifi gedung fisip hanya di spot tertentu, gabisa kumpul tugas online",RENDAH
+AKADEMIK,"revisi skripsi dosennya susah ditemui, mhs jadi bingung",TINGGI
+FASILITAS,"plafon ruang kls lantai 2 jelek parah, khawatir mhs tidak nyaman",RENDAH
+KEMAHASISWAAN,"sosialisasi kegiatan kemhsan tidak merata, banyak yang terlewat informasinya",RENDAH
+JARINGAN_IT,"sinyal di fakultas teknik gabisa untuk data seluler, kls online jadi terganggu",RENDAH
+AKADEMIK,"ruang kls proyektornya ancur, belajarnya terganggu",SEDANG
+KEMAHASISWAAN,"kegiatan kegiatan sosial kampus kurang dukungan kampus, proses administrasi terhambat",RENDAH
+FASILITAS,"banyak kursi di lab biologi yang rodanya hilang, nilai bisa jelek soalnya tidak konsen",RENDAH

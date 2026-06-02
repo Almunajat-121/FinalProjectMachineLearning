@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Helpdesk - Ticket Routing System</title>
+    <!-- Google Fonts: Premium Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Premium Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Premium Header -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                SmartCampus <span>HELP-AI</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="nav-link active" data-target="guest-view">Form Laporan</a>
+                <a href="#" class="nav-link" data-target="admin-view">Dashboard Admin</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1>Smart Campus Helpdesk</h1>
+            <p>Sistem pelaporan kendala kampus berbasis NLP untuk kenyamanan belajar mengajar.</p>
+        </section>
+
+        <!-- VIEW 1: FORM PENGIRIMAN LAPORAN (GUEST VIEW) -->
+        <section id="guest-view" class="view-container active">
+            <div class="glass-card" id="form-card">
+                <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">Sampaikan Kendala Anda</h2>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem;">
+                    Ketik keluhan Anda secara bebas menggunakan bahasa sehari-hari. AI kami akan secara otomatis menentukan tujuan departemen dan tingkat urgensi masalah.
+                </p>
+
+                <div class="form-group">
+                    <label for="complaint-text">Teks Laporan Keluhan</label>
+                    <div class="text-area-wrapper">
+                        <textarea id="complaint-text" placeholder="Contoh: Lampu di toilet gedung MIPA lantai 2 mati dari 3 hari lalu, gelap banget dan rawan kepeleset..."></textarea>
+                    </div>
+                </div>
+
+                <button id="submit-btn" class="btn-primary">
+                    Kirim Laporan & Analisis AI
+                </button>
+            </div>
+
+            <!-- Loading State Animasi AI -->
+            <div class="glass-card status-container" id="status-card">
+                <div class="ai-loader"></div>
+                <h3 class="status-title" id="status-title">AI Sedang Menganalisis...</h3>
+                <p class="status-desc" id="status-desc">
+                    Laporan Anda sedang diproses oleh model IndoBERT untuk klasifikasi Kategori & Urgensi.
+                </p>
+            </div>
+
+            <!-- NLP Predictions Result Card -->
+            <div class="glass-card result-card" id="result-card">
+                <div class="result-header">
+                    <h3 class="result-title">⚡ Hasil Ekstraksi & Routing AI</h3>
+                    <button class="btn-primary" id="btn-reset" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                        Tulis Laporan Lain
+                    </button>
+                </div>
+
+                <div class="result-grid">
+                    <div class="grid-item">
+                        <div class="grid-label">Auto-Route Kategori</div>
+                        <div class="grid-value">
+                            <span class="badge badge-category" id="res-category">FASILITAS</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">
+                            Keyakinan AI: <strong style="color: var(--text-main)" id="res-score-cat">94.2%</strong>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-label">Tingkat Urgensi (Triage)</div>
+                        <div class="grid-value">
+                            <span class="badge badge-high" id="res-urgency">TINGGI</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">
+                            Keyakinan AI: <strong style="color: var(--text-main)" id="res-score-urg">89.5%</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item" style="margin-bottom: 1.5rem;">
+                    <div class="grid-label">Kata Kunci Penting (Keywords)</div>
+                    <div class="keywords-container" id="res-keywords">
+                        <span class="tag">toilet</span>
+                        <span class="tag">lampu mati</span>
+                        <span class="tag">rektorat</span>
+                    </div>
+                </div>
+
+                <div style="display:flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 1rem;">
+                    <span>Sistem: <strong style="color: #2dd4bf;">Asinkron Queue (Laravel + FastAPI)</strong></span>
+                    <span>Waktu Inferensi AI: <strong style="color: var(--text-main);" id="res-latency">120 ms</strong></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIEW 2: DASHBOARD MONITORING TIKET (ADMIN VIEW) -->
+        <section id="admin-view" class="view-container">
+            <div class="glass-card">
+                <div class="dashboard-header">
+                    <div>
+                        <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem;">Manajemen Antrean Tiket</h2>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">Kelola tiket keluhan mahasiswa UHO berdasarkan prioritas AI.</p>
+                    </div>
+                    
+                    <!-- Filters -->
+                    <div class="filter-bar">
+                        <select id="filter-category">
+                            <option value="ALL">Semua Kategori</option>
+                            <option value="FASILITAS">FASILITAS</option>
+                            <option value="JARINGAN_IT">JARINGAN_IT</option>
+                            <option value="AKADEMIK">AKADEMIK</option>
+                            <option value="KEUANGAN">KEUANGAN</option>
+                            <option value="KEMAHASISWAAN">KEMAHASISWAAN</option>
+                            <option value="LAINNYA">LAINNYA</option>
+                        </select>
+                        <select id="filter-urgency">
+                            <option value="ALL">Semua Urgensi</option>
+                            <option value="RENDAH">RENDAH</option>
+                            <option value="SEDANG">SEDANG</option>
+                            <option value="TINGGI">TINGGI</option>
+                            <option value="KRITIS">KRITIS</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Table -->
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ticket ID</th>
+                                <th>Deskripsi Keluhan</th>
+                                <th>Kategori (AI Route)</th>
+                                <th>Urgensi (AI Prioritas)</th>
+                                <th>Diterima Pada</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ticket-table-body">
+                            <!-- Diisi dinamis oleh main.js -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Lazy Load Spinner Trigger -->
+                <div class="lazy-loader" id="lazy-trigger">
+                    <div class="lazy-spinner"></div>
+                    Memuat lebih banyak tiket...
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Core Javascript Code -->
+    <script src="js/polling.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
