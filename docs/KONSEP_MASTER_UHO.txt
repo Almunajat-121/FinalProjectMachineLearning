@@ -1,0 +1,147 @@
+DOKUMEN MASTER SPESIFIKASI TEKNIS (PROJECT BLUEPRINT)
+SISTEM SMART CAMPUS HELPDESK TICKET ROUTING & TRIAGE
+UNIVERSITAS HALU OLEO (UHO)
+
+Dokumen ini disusun sebagai Konteks Utama (Master Context) untuk pemrosesan analitik pada Google NotebookLM, guna mensinkronkan teori ilmiah pada jurnal referensi dengan implementasi nyata pada proyek.
+
+================================================================================
+BAB I: IDENTITAS & LATAR BELAKANG PROYEK
+================================================================================
+
+1.1 Identitas Penelitian Terapan
+* Judul Proyek: Otomatisasi Klasifikasi Kategori dan Urgensi Keluhan Mahasiswa Menggunakan Pemrosesan Bahasa Alami Berbasis IndoBERT dengan Arsitektur Mikroasinkron.
+* Klasifikasi Proyek: Penelitian Terapan - Tugas Akhir Mata Kuliah Machine Learning, Jurusan Teknik Informatika, Universitas Halu Oleo (UHO).
+* Aktor Sistem: Single Actor (Admin). Mahasiswa bertindak sebagai tamu anonim (guest) yang mengirimkan laporan keluhan tanpa proses autentikasi (login) untuk meminimalkan friksi antarmuka.
+
+1.2 Latar Belakang Masalah
+* Akar Masalah: Proses pelaporan kendala sarana, akademik, dan jaringan di Universitas Halu Oleo selama ini berjalan secara manual melalui kanal pesan tidak terstruktur.
+* Karakteristik Data Mentah: Teks laporan mengandung tingkat variansi linguistik tinggi (penggunaan bahasa gaul, singkatan non-standar, typo, dan luapan emosional).
+* Konsekuensi Operasional: 
+  a. Hambatan Pemrosesan (Bottleneck): Admin kewalahan mengklasifikasikan ratusan tiket keluhan secara manual.
+  b. Kegagalan Prioritas (Triage Failure): Keluhan kritis yang mengganggu jalannya kegiatan akademik mendesak (misalnya kegagalan server Siakad menjelang ujian) sering kali tertumpuk di bawah keluhan kosmetik yang tidak mendesak.
+  c. Data Tidak Terstruktur: Tidak adanya rekonsiliasi data keluhan untuk keperluan analisis kebijakan kampus.
+
+1.3 Solusi Teknis Terintegrasi
+* Otomatisasi Pemilahan: Ekstraksi teks keluhan mentah mahasiswa menjadi representasi data terstruktur berformat JSON yang memuat prediksi Kategori Departemen (Auto-Routing) dan prioritas Tingkat Urgensi (Auto-Triage) secara waktu-nyata (real-time).
+
+================================================================================
+BAB II: METODOLOGI MACHINE LEARNING & REKAYASA DATA
+================================================================================
+
+2.1 Karakteristik & Sanitasi Dataset
+* Volume Dataset Akhir: 1.810 baris keluhan otentik mahasiswa Universitas Halu Oleo.
+* Prosedur Data Cleaning (Sanitasi Noise):
+  a. Deduplikasi Eksak (Deduplication): Menghapus 626 data duplikat (25,67% dari total data mentah awal) untuk mencegah terjadinya kebocoran informasi (data leakage) dari set pelatihan ke set pengujian.
+  b. Eliminasi Teks Ambigu: Membuang baris data dengan panjang teks di bawah 15 karakter (seperti "lama merespon", "kecil ruangan") karena kekurangan informasi semantik yang dapat merusak metrik evaluasi model.
+  c. Pembersihan Unicode Mojibake: Menghapus sisa-sisa kerusakan pengodean karakter (mojibake) akibat konversi UTF-8 emoji yang rusak (seperti "ðŸ˜" dan "ðŸ™") demi menjaga kemurnian input tokenisasi.
+
+2.2 Distribusi Kelas & Penanganan Imbalance Data
+* Distribusi Kelas Target 1 (Kategori Departemen):
+  - FASILITAS      : 407 sampel (22.4%)
+  - JARINGAN_IT    : 347 sampel (19.1%)
+  - LAINNYA         : 296 sampel (16.3%)
+  - AKADEMIK        : 290 sampel (16.0%)
+  - KEMAHASISWAAN   : 275 sampel (15.2%)
+  - KEUANGAN        : 198 sampel (10.9%)
+  * Evaluasi Kategori: Distribusi seimbang secara proporsional. Batas kritis minimal (>50 sampel) terpenuhi dengan baik untuk kategori terkecil (Keuangan).
+  
+* Distribusi Kelas Target 2 (Tingkat Urgensi) - Severe Class Imbalance:
+  - RENDAH         : 1.094 sampel (60.3%)
+  - TINGGI         : 384 sampel (21.2%)
+  - SEDANG         : 261 sampel (14.4%)
+  - KRITIS         : 74 sampel (4.1%)
+  * Evaluasi Urgensi: Mengalami ketimpangan kelas yang sangat parah (*severe class imbalance*), di mana kelas 'RENDAH' mendominasi 60% data.
+  
+* Solusi Algoritma Imbalance Data:
+  a. Penerapan Class Weights: Menghitung bobot kelas (class weights) secara otomatis menggunakan pustaka Scikit-Learn berdasarkan kebalikan dari frekuensi kelas pada data latih:
+     W_c = N_total / (N_classes * N_c)
+  b. Custom Weighted Loss Function: Mengintegrasikan vektor bobot tersebut ke dalam fungsi kerugian Cross Entropy PyTorch:
+     Loss = - \sum ( W_c * Y_true * log(Y_pred) )
+     Metode ini diimplementasikan di dalam kelas 'WeightedTrainer' yang mewarisi modul Trainer Hugging Face untuk melatih model urgensi.
+
+2.3 Arsitektur Model NLP & Protokol Training
+* Base Model: `indobenchmark/indobert-base-p1` (Arsitektur BERT-base dengan 12-layer, 768-hidden dimension, 12-attention heads, dan 124M parameter).
+* Strategi Dual-Model Sekuensial: Menggunakan 2 model IndoBERT terpisah secara independen untuk klasifikasi multi-kelas tunggal (single multi-class classification):
+  - Model 1: Mengklasifikasikan 6 kelas Kategori Departemen.
+  - Model 2: Mengklasifikasikan 4 kelas Tingkat Urgensi.
+  Strategi ini dipilih untuk kemudahan isolasi kesalahan (debugging) dan peningkatan akurasi dibanding multi-task learning.
+* Protokol Training (Fine-Tuning):
+  - Environment: Google Colab T4 GPU (Runtime Mixed Precision / FP16 diaktifkan untuk efisiensi komputasi).
+  - Hyperparameters: Epoch = 5, Batch Size = 16, Learning Rate = 2e-5, Warmup Ratio = 0.1, Weight Decay = 0.01, Max Length Tokenizer = 128.
+  - Pembagian Dataset: Stratified Train/Val/Test Split (Rasio 80% Latih / 10% Validasi / 10% Uji) disampling berdasarkan kunci stratifikasi gabungan kelas untuk menjamin konsistensi representasi seluruh kombinasi kelas di setiap berkas pecahan.
+  - Metrik Evaluasi Utama: Macro F1-Score (untuk menjamin performa model dievaluasi secara adil pada kelas minoritas 'KRITIS' dan 'KEUANGAN').
+
+================================================================================
+BAB III: ARSITEKTUR PERANGKAT LUNAK & REKAYASA SISTEM
+================================================================================
+
+3.1 Pendekatan Mikroservis (Microservices)
+Sistem dipecah menjadi dua layanan independen untuk menjamin pemisahan tugas (Separation of Concerns):
+* Layanan Backend Utama (Laravel PHP 10 + MySQL 8.0): Mengelola autentikasi admin, basis data transaksional tiket, antrean asinkron, dan antarmuka web dashboard.
+* Layanan Inferensi AI (FastAPI Python 3.11): Bertindak khusus sebagai API kalkulator inferensi model IndoBERT yang menerima teks mentah dan mengembalikan prediksi terstruktur beserta skor keyakinan (confidence score).
+
+3.2 Workaround Latensi Tinggi Melalui Asynchronous API
+* Batasan Perangkat Keras: Server pameran dijalankan secara lokal pada satu laptop standar berspesifikasi CPU konsumen (seperti AMD Ryzen 5/7 atau Intel Core i5/i7) tanpa GPU dedicated.
+* Masalah Latensi: Waktu eksekusi inferensi dua model IndoBERT mentah di CPU memakan waktu antara 1,5 hingga 3 detik per request. Integrasi HTTP sinkron akan menyebabkan antarmuka browser membeku (UI Freeze) atau terjadi Gateway Timeout.
+* Solusi Alur Kerja Asinkron (Asynchronous Workflow):
+  a. Tahap Submission (Laravel Ingestion): Browser mengirimkan keluhan (POST /api/tickets). Laravel secara instan mencatat tiket ke database dengan status 'PENDING_NLP', mendaftarkan pekerjaan ke antrean database, dan langsung mengembalikan respon HTTP 202 Accepted beserta ID tiket ke browser dalam waktu <200ms.
+  b. Tahap Polling (Frontend State Machine): Browser menangkap kode 202, memicu animasi visual berputar (AI loader), dan memulai Long Polling (mengirimkan HTTP GET ke endpoint `/api/tickets/{id}/status` setiap 2 detik).
+  c. Tahap Background Processing: Di server, Laravel Database Queue Worker (`php artisan queue:work --sleep=1 --tries=1`) mengambil pekerjaan dari tabel `jobs` secara asinkron, memanggil API FastAPI Python secara internal, menerima hasil prediksi NLP, memperbarui baris tiket di database dengan status 'OPEN', dan menyimpan hasil prediksi (kategori, urgensi, confidence, keywords).
+  d. Tahap Acknowledge: Saat polling browser mendeteksi status tiket di database berubah menjadi 'DONE' atau 'OPEN', browser menghentikan animasi loading, menampilkan hasil prediksi AI, dan mengirimkan sinyal `PATCH /acknowledge` ke Laravel.
+
+3.3 Skema Relasional Database Utama (Tabel `tickets`)
+```sql
+CREATE TABLE tickets (
+    id              CHAR(36) PRIMARY KEY, -- UUID
+    raw_text        TEXT NOT NULL,
+    lang_hint       CHAR(2) NOT NULL DEFAULT 'id',
+    category        ENUM('FASILITAS','AKADEMIK','JARINGAN_IT','KEUANGAN','KEMAHASISWAAN','LAINNYA') NULL,
+    urgency         ENUM('RENDAH','SEDANG','TINGGI','KRITIS') NULL,
+    category_score  DECIMAL(4,3) NULL,
+    urgency_score   DECIMAL(4,3) NULL,
+    keywords        JSON NULL,
+    status          ENUM('PENDING_NLP','OPEN','IN_PROGRESS','RESOLVED','CLOSED','FAILED') DEFAULT 'PENDING_NLP',
+    cursor_id       BIGINT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE,
+    created_at      DATETIME(3) DEFAULT CURRENT_TIMESTAMP(3),
+    updated_at      DATETIME(3) DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+    resolved_at     DATETIME(3) NULL,
+    admin_note      TEXT NULL,
+    INDEX idx_status_cursor (status, cursor_id DESC),
+    INDEX idx_urgency (urgency, cursor_id DESC),
+    INDEX idx_category (category, cursor_id DESC)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+3.4 Optimasi Kinerja UI Melalui Cursor-Based Lazy Loading
+* Masalah Performa: Memuat ribuan tiket keluhan menggunakan pagination tradisional (LIMIT/OFFSET) pada dashboard admin akan semakin melambat seiring bertambahnya data karena basis data harus memindai seluruh baris sebelumnya.
+* Solusi Lembar Kerja Admin: Menggunakan teknik Lazy Loading berbasis kursor menggunakan kolom `cursor_id` (BIGINT AUTO_INCREMENT UNIQUE).
+* Mekanisme Query:
+  ```php
+  $tickets = Ticket::where('cursor_id', '<', $request->last_cursor)
+      ->orderBy('cursor_id', 'desc')
+      ->limit(20)
+      ->get();
+  ```
+  Kueri ini memiliki kompleksitas waktu O(log N) konstan berkat pemanfaatan indeks B-Tree pada kolom kursor, mencegah terjadinya kebocoran memori browser (browser memory leaks) saat memantau keluhan dalam jumlah besar.
+
+================================================================================
+BAB IV: SPESIFIKASI METRIK & TARGET PENELITIAN
+================================================================================
+
+4.1 Batas Ambang Evaluasi Akurasi Model (Sanity Check)
+Sebelum diintegrasikan ke sistem utama, model IndoBERT hasil training Colab wajib lolos pengujian pada data uji (test.csv) dengan target kuantitatif berikut:
+
+* Akurasi Model Klasifikasi Kategori (F1-Macro): >= 78.0%
+* Akurasi Model Klasifikasi Urgensi (F1-Macro) : >= 75.0%
+* Performa Deteksi Kelas Minoritas 'KRITIS'  : >= 70.0%
+* Performa Deteksi Kategori Minoritas 'KEUANGAN': >= 70.0%
+
+4.2 Metrik Kinerja Sistem Asinkron
+* Waktu Respon HTTP POST Laporan Baru      : < 200 ms
+* Latensi Inferensi IndoBERT (CPU)         : 1.500 ms - 3.000 ms
+* Batas Waktu Polling Browser Maksimal (Timeout) : 60 detik
+* Kestabilan Antrean (Queue Worker Stability): Sukses menangani >= 10 concurrent requests tanpa terjadi data loss atau database deadlock.
+
+================================================================================
+DOKUMEN MASTER SELESAI - SIAP DIOLAH OLEH GOOGLE NOTEBOOKLM
+================================================================================

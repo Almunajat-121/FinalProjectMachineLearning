@@ -13,7 +13,7 @@ Untuk performa terbaik dan menghindari timeout di Google Colab, Anda akan melati
 
 ## 🛠️ Langkah 1: Persiapan Google Drive & GPU
 1. Buka [Google Drive](https://drive.google.com) Anda.
-2. Buat folder baru bernama `uho_dataset/` dan unggah tiga file hasil split yang sudah bersih dari folder lokal `ml_training/data/` Anda:
+2. Buat folder baru bernama `TugasMachineLearning/project akhir/data/` dan unggah tiga file hasil split yang sudah bersih dari folder lokal `ml_training/data/` Anda:
    * `train.csv`
    * `val.csv`
    * `test.csv`
@@ -54,8 +54,8 @@ import numpy as np
 from sklearn.metrics import f1_score
 
 # Load data dari Google Drive
-train_df = pd.read_csv('/content/drive/MyDrive/uho_dataset/train.csv')
-val_df   = pd.read_csv('/content/drive/MyDrive/uho_dataset/val.csv')
+train_df = pd.read_csv('/content/drive/MyDrive/TugasMachineLearning/project akhir/data/train.csv')
+val_df   = pd.read_csv('/content/drive/MyDrive/TugasMachineLearning/project akhir/data/val.csv')
 
 # Koreksi Kritis: Pemetaan 6 Kategori Ril
 LABEL2ID = {
@@ -109,14 +109,14 @@ def compute_metrics(eval_pred):
 ```python
 # Konfigurasi training yang dioptimalkan untuk Colab T4
 args = TrainingArguments(
-    output_dir='/content/drive/MyDrive/uho_models/kategori',
+    output_dir='/content/drive/MyDrive/TugasMachineLearning/project akhir/models/category_model_checkpoints',
     num_train_epochs=5,
     per_device_train_batch_size=16,
     per_device_eval_batch_size=32,
     learning_rate=2e-5, # Sweet spot fine-tuning BERT
     warmup_ratio=0.1,
     weight_decay=0.01,
-    evaluation_strategy='epoch',
+    eval_strategy='epoch',
     save_strategy='epoch',
     load_best_model_at_end=True, # Otomatis load model dengan F1 terbaik
     metric_for_best_model='f1_macro',
@@ -136,7 +136,7 @@ trainer = Trainer(
 trainer.train()
 
 # Simpan model final
-save_path = '/content/drive/MyDrive/uho_models/kategori_final'
+save_path = '/content/drive/MyDrive/TugasMachineLearning/project akhir/models/kategori_final'
 trainer.save_model(save_path)
 tokenizer.save_pretrained(save_path)
 print("Model Kategori berhasil tersimpan di Google Drive Anda!")
@@ -158,8 +158,8 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trai
 import numpy as np
 from sklearn.metrics import f1_score
 
-train_df = pd.read_csv('/content/drive/MyDrive/uho_dataset/train.csv')
-val_df   = pd.read_csv('/content/drive/MyDrive/uho_dataset/val.csv')
+train_df = pd.read_csv('/content/drive/MyDrive/TugasMachineLearning/project akhir/data/train.csv')
+val_df   = pd.read_csv('/content/drive/MyDrive/TugasMachineLearning/project akhir/data/val.csv')
 
 # Pemetaan 4 Kelas Urgensi
 LABEL2ID = {
@@ -228,14 +228,14 @@ def compute_metrics(eval_pred):
     }
 
 args = TrainingArguments(
-    output_dir='/content/drive/MyDrive/uho_models/urgensi',
+    output_dir='/content/drive/MyDrive/TugasMachineLearning/project akhir/models/urgency_model_checkpoints',
     num_train_epochs=5,
     per_device_train_batch_size=16,
     per_device_eval_batch_size=32,
     learning_rate=2e-5,
     warmup_ratio=0.1,
     weight_decay=0.01,
-    evaluation_strategy='epoch',
+    eval_strategy='epoch',
     save_strategy='epoch',
     load_best_model_at_end=True,
     metric_for_best_model='f1_macro',
@@ -255,7 +255,7 @@ trainer = WeightedTrainer(
 
 trainer.train()
 
-save_path = '/content/drive/MyDrive/uho_models/urgensi_final'
+save_path = '/content/drive/MyDrive/TugasMachineLearning/project akhir/models/urgensi_final'
 trainer.save_model(save_path)
 tokenizer.save_pretrained(save_path)
 print("Model Urgensi berhasil tersimpan di Google Drive Anda!")
@@ -265,7 +265,7 @@ print("Model Urgensi berhasil tersimpan di Google Drive Anda!")
 
 ## 📥 Langkah 2: Mengunduh Hasil Model ke Laptop Lokal
 
-Setelah training selesai di Colab, buka Google Drive Anda, masuk ke folder `uho_models/` dan unduh (*download*) dua folder final:
+Setelah training selesai di Colab, buka Google Drive Anda, masuk ke folder `TugasMachineLearning/project akhir/models/` dan unduh (*download*) dua folder final:
 1. `kategori_final/`
 2. `urgensi_final/`
 
