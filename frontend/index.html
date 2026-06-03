@@ -1,674 +1,996 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal Pengaduan Mahasiswa</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
-    <style>
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SuaraKampus — Portal Pengaduan Mahasiswa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-        body {
-            font-family: 'DM Sans', sans-serif;
-            background: #0d0f12;
-            color: #e8e9ec;
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
+  :root {
+    --bg: #0a0e1a;
+    --bg2: #111827;
+    --bg3: #1a2236;
+    --border: rgba(255,255,255,0.08);
+    --border2: rgba(255,255,255,0.14);
+    --text: #f1f5f9;
+    --text2: #94a3b8;
+    --text3: #64748b;
+    --accent: #6366f1;
+    --accent2: #818cf8;
+    --accent-glow: rgba(99,102,241,0.2);
+    --teal: #0d9488;
+    --teal-light: #14b8a6;
+    --amber: #f59e0b;
+    --red: #ef4444;
+    --green: #22c55e;
+    --radius: 12px;
+    --radius-lg: 20px;
+  }
 
-        /* ---- BACKGROUND ---- */
-        .bg-grid {
-            position: fixed;
-            inset: 0;
-            background-image:
-                linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
-            background-size: 44px 44px;
-            pointer-events: none;
-            z-index: 0;
-        }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
 
-        .bg-orb {
-            position: fixed;
-            border-radius: 50%;
-            pointer-events: none;
-            filter: blur(80px);
-            z-index: 0;
-        }
+  /* Subtle grid background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(99,102,241,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(99,102,241,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
 
-        .orb1 { width: 500px; height: 500px; background: rgba(55,138,221,0.10); top: -150px; right: -100px; }
-        .orb2 { width: 350px; height: 350px; background: rgba(29,158,117,0.09); bottom: 0; left: -80px; }
+  .page-wrapper {
+    position: relative;
+    z-index: 1;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 60px 24px 80px;
+  }
 
-        /* ---- LAYOUT ---- */
-        .layout {
-            position: relative;
-            z-index: 1;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            min-height: 100vh;
-        }
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 52px;
+  }
 
-        @media (max-width: 768px) {
-            .layout { grid-template-columns: 1fr; }
-            .left-panel { display: none; }
-            .right-panel { padding: 2rem 1.25rem; }
-        }
+  .header-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--accent-glow);
+    border: 1px solid rgba(99,102,241,0.3);
+    color: var(--accent2);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 100px;
+    margin-bottom: 24px;
+  }
 
-        /* ---- LEFT PANEL ---- */
-        .left-panel {
-            padding: 3.5rem 3rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            border-right: 0.5px solid rgba(255,255,255,0.06);
-        }
+  .header-badge .dot {
+    width: 6px; height: 6px;
+    background: var(--accent2);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
 
-        .logo-mark {
-            width: 40px;
-            height: 40px;
-            border: 0.5px solid rgba(255,255,255,0.12);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 3.5rem;
-            background: rgba(255,255,255,0.04);
-        }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+  }
 
-        .logo-mark i { font-size: 20px; color: #378add; }
+  .header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 46px;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.1;
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+  }
 
-        .eyebrow {
-            font-size: 11px;
-            font-weight: 500;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            color: #378add;
-            margin-bottom: 1.1rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+  .header h1 em {
+    font-style: italic;
+    color: var(--accent2);
+  }
 
-        .eyebrow::before {
-            content: '';
-            display: block;
-            width: 22px;
-            height: 1px;
-            background: #378add;
-            flex-shrink: 0;
-        }
+  .header p {
+    color: var(--text2);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+  }
 
-        .left-heading {
-            font-family: 'DM Serif Display', serif;
-            font-size: clamp(28px, 2.8vw, 46px);
-            font-weight: 400;
-            line-height: 1.15;
-            color: #f0f1f3;
-            margin: 0 0 1.25rem;
-        }
+  /* Tab Nav */
+  .tab-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 5px;
+    margin-bottom: 24px;
+  }
 
-        .left-heading em {
-            font-style: italic;
-            color: #5dcaa5;
-        }
+  .tab-btn {
+    background: none;
+    border: none;
+    color: var(--text2);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
 
-        .left-desc {
-            font-size: 14px;
-            color: rgba(232,233,236,0.48);
-            line-height: 1.8;
-            max-width: 340px;
-            margin-bottom: 3rem;
-        }
+  .tab-btn.active {
+    background: var(--bg3);
+    color: var(--text);
+    border: 1px solid var(--border2);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
 
-        .steps { display: flex; flex-direction: column; gap: 20px; }
+  .tab-btn svg { opacity: 0.7; }
+  .tab-btn.active svg { opacity: 1; }
 
-        .step { display: flex; align-items: flex-start; gap: 14px; }
+  /* Card */
+  .card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 32px;
+    transition: border-color 0.2s;
+  }
 
-        .step-num {
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            border: 0.5px solid rgba(55,138,221,0.35);
-            background: rgba(55,138,221,0.08);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 11px;
-            font-weight: 500;
-            color: #85b7eb;
-            flex-shrink: 0;
-            margin-top: 1px;
-        }
+  /* Form */
+  .form-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text2);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 12px;
+  }
 
-        .step-text { font-size: 13px; color: rgba(232,233,236,0.5); line-height: 1.55; }
-        .step-text strong { display: block; font-weight: 500; color: rgba(232,233,236,0.88); margin-bottom: 2px; }
+  .form-hint {
+    color: var(--text3);
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
 
-        .left-bottom { font-size: 12px; color: rgba(232,233,236,0.2); }
+  textarea, input[type="text"] {
+    width: 100%;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.7;
+    padding: 16px 18px;
+    resize: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+  }
 
-        /* ---- RIGHT PANEL ---- */
-        .right-panel {
-            padding: 3.5rem 3rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+  textarea { min-height: 160px; }
 
-        /* ---- FORM CARD ---- */
-        .form-card {
-            background: rgba(255,255,255,0.04);
-            border: 0.5px solid rgba(255,255,255,0.10);
-            border-radius: 18px;
-            padding: 2.25rem;
-        }
+  textarea:focus, input[type="text"]:focus {
+    border-color: rgba(99,102,241,0.5);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+  }
 
-        .form-header { margin-bottom: 1.75rem; }
+  textarea::placeholder, input[type="text"]::placeholder {
+    color: var(--text3);
+    font-weight: 300;
+  }
 
-        .form-title {
-            font-size: 17px;
-            font-weight: 500;
-            color: #f0f1f3;
-            margin: 0 0 5px;
-        }
+  .char-counter {
+    text-align: right;
+    font-size: 12px;
+    color: var(--text3);
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 8px;
+  }
 
-        .form-sub {
-            font-size: 13px;
-            color: rgba(232,233,236,0.38);
-        }
+  /* Submit Button */
+  .btn-primary {
+    width: 100%;
+    background: var(--accent);
+    border: none;
+    border-radius: var(--radius);
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    letter-spacing: 0.3px;
+  }
 
-        .flabel {
-            font-size: 11px;
-            font-weight: 500;
-            letter-spacing: 0.09em;
-            text-transform: uppercase;
-            color: rgba(232,233,236,0.4);
-            display: block;
-            margin-bottom: 9px;
-        }
+  .btn-primary:hover {
+    background: var(--accent2);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(99,102,241,0.35);
+  }
 
-        textarea#reportText {
-            width: 100%;
-            min-height: 160px;
-            resize: vertical;
-            font-family: 'DM Sans', sans-serif;
-            font-size: 14px;
-            line-height: 1.75;
-            color: #e8e9ec;
-            background: rgba(255,255,255,0.04);
-            border: 0.5px solid rgba(255,255,255,0.12);
-            border-radius: 10px;
-            padding: 14px 16px;
-            outline: none;
-            transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
-        }
+  .btn-primary:active { transform: translateY(0); }
 
-        textarea#reportText:focus {
-            border-color: #378add;
-            box-shadow: 0 0 0 3px rgba(55,138,221,0.14);
-            background: rgba(55,138,221,0.04);
-        }
+  .btn-secondary {
+    background: none;
+    border: 1px solid var(--border2);
+    border-radius: var(--radius);
+    color: var(--text2);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
 
-        textarea#reportText.error {
-            border-color: #e24b4a;
-            box-shadow: 0 0 0 3px rgba(226,75,74,0.14);
-        }
+  .btn-secondary:hover {
+    background: var(--bg3);
+    color: var(--text);
+    border-color: var(--border2);
+  }
 
-        textarea#reportText::placeholder { color: rgba(232,233,236,0.22); }
+  /* Hidden */
+  .hidden { display: none !important; }
 
-        .form-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 10px 0 1.5rem;
-        }
+  /* Status / Loading */
+  .status-card {
+    text-align: center;
+    padding: 48px 32px;
+  }
 
-        .hint {
-            font-size: 12px;
-            color: rgba(232,233,236,0.27);
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
+  .ai-animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 32px;
+  }
 
-        .hint i { font-size: 13px; }
+  .ai-ring {
+    width: 64px; height: 64px;
+    border: 2px solid rgba(99,102,241,0.15);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
 
-        .char-display {
-            font-size: 12px;
-            color: rgba(232,233,236,0.28);
-            font-variant-numeric: tabular-nums;
-        }
+  @keyframes spin { to { transform: rotate(360deg); } }
 
-        .char-display span { color: #85b7eb; font-weight: 500; }
+  .ai-dots {
+    display: flex;
+    gap: 6px;
+  }
 
-        /* ---- BUTTONS ---- */
-        .btn-submit {
-            width: 100%;
-            padding: 14px 20px;
-            background: #185fa5;
-            color: #fff;
-            border: none;
-            border-radius: 10px;
-            font-family: 'DM Sans', sans-serif;
-            font-size: 14px;
-            font-weight: 500;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            transition: background 0.15s, transform 0.1s;
-            letter-spacing: 0.01em;
-        }
+  .ai-dots span {
+    width: 8px; height: 8px;
+    background: var(--accent);
+    border-radius: 50%;
+    animation: bounce 1.4s infinite ease-in-out;
+  }
+  .ai-dots span:nth-child(1) { animation-delay: 0s; }
+  .ai-dots span:nth-child(2) { animation-delay: 0.2s; }
+  .ai-dots span:nth-child(3) { animation-delay: 0.4s; }
 
-        .btn-submit:hover { background: #1a72c4; }
-        .btn-submit:active { transform: scale(0.99); }
-        .btn-submit i { font-size: 16px; }
+  @keyframes bounce {
+    0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+    40% { transform: scale(1); opacity: 1; }
+  }
 
-        /* ---- DIVIDER + TRUST ---- */
-        .divider {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin: 1.25rem 0;
-        }
+  .status-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
 
-        .divider-line { flex: 1; height: 0.5px; background: rgba(255,255,255,0.07); }
+  .status-desc {
+    color: var(--text2);
+    font-size: 14px;
+    font-weight: 300;
+  }
 
-        .divider-text {
-            font-size: 11px;
-            color: rgba(232,233,236,0.22);
-            text-transform: uppercase;
-            letter-spacing: 0.09em;
-        }
+  .progress-steps {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin: 32px 0;
+  }
 
-        .trust-row {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 24px;
-        }
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    max-width: 120px;
+    position: relative;
+  }
 
-        .trust-item {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 12px;
-            color: rgba(232,233,236,0.28);
-        }
+  .step::after {
+    content: '';
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    width: 100%;
+    height: 1px;
+    background: var(--border);
+  }
+  .step:last-child::after { display: none; }
 
-        .trust-item i { font-size: 14px; color: #5dcaa5; }
+  .step-icon {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    font-size: 12px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s;
+  }
 
-        /* ---- ADMIN LINK ---- */
-        .admin-link {
-            display: block;
-            text-align: center;
-            margin-top: 1.25rem;
-            font-size: 12px;
-            color: rgba(232,233,236,0.22);
-            text-decoration: none;
-            transition: color 0.15s;
-        }
+  .step.done .step-icon {
+    background: var(--accent-glow);
+    border-color: var(--accent);
+    color: var(--accent2);
+  }
 
-        .admin-link:hover { color: rgba(232,233,236,0.5); }
+  .step.active .step-icon {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+    box-shadow: 0 0 0 4px var(--accent-glow);
+  }
 
-        /* ---- STATUS PANEL ---- */
-        #statusState {
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            gap: 1.25rem;
-            padding: 0.5rem 0;
-            text-align: center;
-        }
+  .step-label {
+    font-size: 11px;
+    color: var(--text3);
+    text-align: center;
+    line-height: 1.3;
+    font-weight: 500;
+  }
 
-        .spinner { display: flex; gap: 6px; align-items: center; }
+  .step.done .step-label, .step.active .step-label { color: var(--text2); }
 
-        .dot {
-            width: 8px; height: 8px;
-            border-radius: 50%;
-            background: #378add;
-            animation: bounce 1.2s infinite ease-in-out;
-        }
+  /* Success */
+  .success-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 28px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
 
-        .dot:nth-child(2) { animation-delay: 0.2s; }
-        .dot:nth-child(3) { animation-delay: 0.4s; }
+  .success-icon-wrap {
+    width: 56px; height: 56px;
+    background: rgba(34,197,94,0.1);
+    border: 1px solid rgba(34,197,94,0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 22px;
+  }
 
-        @keyframes bounce {
-            0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
-            40%            { transform: scale(1);   opacity: 1;   }
-        }
+  .success-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
 
-        .s-icon {
-            width: 54px; height: 54px;
-            border-radius: 50%;
-            background: rgba(29,158,117,0.12);
-            border: 0.5px solid rgba(93,202,165,0.28);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            color: #5dcaa5;
-            font-size: 24px;
-        }
+  .success-sub {
+    color: var(--text2);
+    font-size: 13px;
+    font-weight: 300;
+  }
 
-        .s-msg strong {
-            display: block;
-            font-size: 16px;
-            font-weight: 500;
-            color: #f0f1f3;
-            margin-bottom: 5px;
-        }
+  /* Result rows */
+  .result-grid {
+    display: grid;
+    gap: 12px;
+  }
 
-        .s-msg { font-size: 13px; color: rgba(232,233,236,0.42); }
+  .result-row {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
 
-        /* ---- RESULT CARDS ---- */
-        .result-cards {
-            width: 100%;
-            display: none;
-            flex-direction: column;
-            gap: 8px;
-        }
+  .result-row-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text3);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
 
-        .r-card {
-            background: rgba(255,255,255,0.04);
-            border: 0.5px solid rgba(255,255,255,0.09);
-            border-radius: 10px;
-            padding: 13px 15px;
-            display: flex;
-            align-items: flex-start;
-            gap: 12px;
-            text-align: left;
-        }
+  .result-row-value {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+    text-align: right;
+  }
 
-        .r-icon {
-            width: 34px; height: 34px;
-            border-radius: 9px;
-            display: flex; align-items: center; justify-content: center;
-            flex-shrink: 0;
-            font-size: 16px;
-        }
+  .uuid-display {
+    background: var(--bg3);
+    border: 1px solid rgba(99,102,241,0.3);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
 
-        .r-icon.blue  { background: rgba(55,138,221,0.12); color: #85b7eb; }
-        .r-icon.amber { background: rgba(186,117,23,0.12); color: #fac775; }
-        .r-icon.teal  { background: rgba(29,158,117,0.12); color: #5dcaa5; }
+  .uuid-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text3);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
 
-        .r-key {
-            font-size: 10px;
-            font-weight: 500;
-            letter-spacing: 0.09em;
-            text-transform: uppercase;
-            color: rgba(232,233,236,0.33);
-            margin-bottom: 3px;
-        }
+  .uuid-label::before {
+    content: '';
+    display: inline-block;
+    width: 6px; height: 6px;
+    background: var(--accent2);
+    border-radius: 50%;
+  }
 
-        .r-val { font-size: 13px; font-weight: 500; color: #e8e9ec; }
+  .uuid-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--accent2);
+    word-break: break-all;
+    line-height: 1.6;
+  }
 
-        .btn-back {
-            background: rgba(255,255,255,0.06);
-            border: 0.5px solid rgba(255,255,255,0.12);
-            border-radius: 10px;
-            padding: 10px 22px;
-            font-family: 'DM Sans', sans-serif;
-            font-size: 13px;
-            color: rgba(232,233,236,0.55);
-            cursor: pointer;
-            display: none;
-            align-items: center;
-            gap: 6px;
-            transition: background 0.15s, color 0.15s;
-        }
+  /* Badges */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
 
-        .btn-back:hover { background: rgba(255,255,255,0.10); color: #e8e9ec; }
-        .btn-back i { font-size: 14px; }
-    </style>
+  .badge::before {
+    content: '';
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+
+  .badge-kritis { background: rgba(239,68,68,0.12); color: #fca5a5; border: 1px solid rgba(239,68,68,0.25); }
+  .badge-tinggi { background: rgba(245,158,11,0.12); color: #fcd34d; border: 1px solid rgba(245,158,11,0.25); }
+  .badge-sedang { background: rgba(99,102,241,0.12); color: #a5b4fc; border: 1px solid rgba(99,102,241,0.25); }
+  .badge-rendah { background: rgba(34,197,94,0.12); color: #86efac; border: 1px solid rgba(34,197,94,0.25); }
+  .badge-pending { background: rgba(100,116,139,0.15); color: #94a3b8; border: 1px solid rgba(100,116,139,0.25); }
+  .badge-open { background: rgba(99,102,241,0.12); color: #a5b4fc; border: 1px solid rgba(99,102,241,0.25); }
+  .badge-progress { background: rgba(245,158,11,0.12); color: #fcd34d; border: 1px solid rgba(245,158,11,0.25); }
+  .badge-resolved { background: rgba(34,197,94,0.12); color: #86efac; border: 1px solid rgba(34,197,94,0.25); }
+
+  /* Track Result */
+  .track-result {
+    margin-top: 24px;
+    background: var(--bg3);
+    border: 1px solid var(--border2);
+    border-radius: var(--radius);
+    padding: 24px;
+    animation: fadeUp 0.3s ease;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .track-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    gap: 16px;
+  }
+  .track-row:last-child { border-bottom: none; }
+
+  .track-key {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text3);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    padding-top: 2px;
+  }
+
+  .track-val {
+    font-size: 14px;
+    color: var(--text);
+    text-align: right;
+    line-height: 1.5;
+  }
+
+  /* Footer link */
+  .admin-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 40px;
+    color: var(--text3);
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .admin-link:hover { color: var(--text2); }
+
+  .admin-link-inner {
+    background: var(--bg2);
+    border: 1px dashed var(--border2);
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s;
+  }
+
+  .admin-link-inner:hover {
+    border-color: var(--accent);
+    color: var(--accent2);
+  }
+
+  /* Info chips at top */
+  .info-chips {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    padding: 6px 14px;
+    font-size: 12px;
+    color: var(--text2);
+    font-weight: 400;
+  }
+
+  .chip-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+  }
+</style>
 </head>
 <body>
 
-    <div class="bg-grid"></div>
-    <div class="bg-orb orb1"></div>
-    <div class="bg-orb orb2"></div>
+<div class="page-wrapper">
 
-    <div class="layout">
+  <!-- Header -->
+  <header class="header">
+    <div class="header-badge">
+      <span class="dot"></span>
+      AI-Powered NLP · IndoBERT
+    </div>
+    <h1>Suara<em>Kampus</em></h1>
+    <p>Portal pengaduan mahasiswa yang anonim, cepat, dan cerdas.<br>Ceritakan masalahmu — biarkan AI yang memahaminya.</p>
+  </header>
 
-        <!-- =================== LEFT PANEL =================== -->
-        <div class="left-panel">
-            <div>
-                <div class="logo-mark">
-                    <i class="ti ti-shield-check" aria-hidden="true"></i>
-                </div>
+  <!-- Info chips -->
+  <div class="info-chips">
+    <div class="chip"><span class="chip-dot" style="background:#22c55e"></span> Anonim sepenuhnya</div>
+    <div class="chip"><span class="chip-dot" style="background:#6366f1"></span> Analisis AI instan</div>
+    <div class="chip"><span class="chip-dot" style="background:#f59e0b"></span> Triage otomatis</div>
+    <div class="chip"><span class="chip-dot" style="background:#0d9488"></span> Lacak status tiket</div>
+  </div>
 
-                <div class="eyebrow">Universitas Haluoleo</div>
-                <h1 class="left-heading">Suara kamu<br><em>penting</em> untuk kami</h1>
-                <p class="left-desc">Laporan keluhan mahasiswa diproses secara otomatis oleh AI dan diteruskan langsung ke dinas yang berwenang.</p>
+  <!-- Tab Navigation -->
+  <div class="tab-nav" role="tablist">
+    <button id="tabLaporBtn" class="tab-btn active" onclick="switchTab('lapor')" role="tab">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+      Buat Laporan
+    </button>
+    <button id="tabResiBtn" class="tab-btn" onclick="switchTab('resi')" role="tab">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      Lacak Tiket
+    </button>
+  </div>
 
-                <div class="steps">
-                    <div class="step">
-                        <div class="step-num">1</div>
-                        <div class="step-text">
-                            <strong>Tuliskan keluhan</strong>
-                            Ceritakan masalah yang kamu hadapi secara detail
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step-num">2</div>
-                        <div class="step-text">
-                            <strong>AI menganalisis</strong>
-                            Laporan dikategorikan dan diprioritaskan secara otomatis
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step-num">3</div>
-                        <div class="step-text">
-                            <strong>Diteruskan ke dinas</strong>
-                            Keluhan sampai ke pihak terkait dalam hitungan menit
-                        </div>
-                    </div>
-                </div>
+  <!-- Main Card -->
+  <div class="card">
+
+    <!-- TAB: LAPOR -->
+    <div id="tabLapor">
+      <div id="formContainer">
+        <label class="form-label" for="reportText">Ceritakan keluhan Anda</label>
+        <p class="form-hint">Tulis bebas, tidak perlu memilih kategori atau prioritas. AI kami akan menganalisis secara otomatis.</p>
+        <textarea id="reportText" placeholder="Contoh: Toilet di Gedung B lantai 3 sudah rusak selama 2 minggu dan belum diperbaiki. Hal ini sangat mengganggu mahasiswa yang ada di lantai tersebut..."></textarea>
+        <div class="char-counter"><span id="charCount">0</span> / 2000 karakter</div>
+        <button class="btn-primary" id="btnSubmit" onclick="submitReport()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Kirim & Analisis dengan AI
+        </button>
+      </div>
+
+      <!-- Loading State -->
+      <div id="loadingContainer" class="status-card hidden">
+        <div style="display:flex; justify-content:center; margin-bottom:24px;">
+          <div class="ai-ring"></div>
+        </div>
+        <div class="progress-steps">
+          <div class="step done" id="step1">
+            <div class="step-icon">✓</div>
+            <div class="step-label">Terkirim</div>
+          </div>
+          <div class="step active" id="step2">
+            <div class="step-icon">
+              <div class="ai-dots" style="gap:3px">
+                <span style="width:4px;height:4px"></span>
+                <span style="width:4px;height:4px"></span>
+                <span style="width:4px;height:4px"></span>
+              </div>
             </div>
+            <div class="step-label">NLP<br>Analisis</div>
+          </div>
+          <div class="step" id="step3">
+            <div class="step-icon">⚡</div>
+            <div class="step-label">Triage<br>Cerdas</div>
+          </div>
+          <div class="step" id="step4">
+            <div class="step-icon">✨</div>
+            <div class="step-label">Selesai</div>
+          </div>
+        </div>
+        <p class="status-title">IndoBERT sedang menganalisis...</p>
+        <p class="status-desc" id="loadingMsg">Mengekstrak entitas dan konteks laporan Anda</p>
+      </div>
 
-            <div class="left-bottom">© 2025 Sistem Pengaduan Mahasiswa</div>
+      <!-- Success State -->
+      <div id="successContainer" class="hidden">
+        <div class="success-header">
+          <div class="success-icon-wrap">✨</div>
+          <div>
+            <div class="success-title">Analisis Selesai</div>
+            <div class="success-sub">Model IndoBERT berhasil mengklasifikasikan laporan Anda</div>
+          </div>
         </div>
 
-        <!-- =================== RIGHT PANEL =================== -->
-        <div class="right-panel">
-            <div class="form-card">
-                <div class="form-header">
-                    <div class="form-title">Buat laporan baru</div>
-                    <div class="form-sub">Semua laporan bersifat anonim dan terenkripsi</div>
-                </div>
-
-                <!-- STATE: FORM -->
-                <div id="formState">
-                    <label class="flabel" for="reportText">Isi laporan / keluhan</label>
-                    <textarea
-                        id="reportText"
-                        placeholder="Ceritakan detail keluhan Anda di sini... (Contoh: Kemacetan parah di jalur protokol depan kampus setiap pagi pukul 07.00–08.30)"
-                    ></textarea>
-
-                    <div class="form-meta">
-                        <span class="hint">
-                            <i class="ti ti-info-circle" aria-hidden="true"></i>
-                            Minimal 20 karakter
-                        </span>
-                        <span class="char-display"><span id="charNum">0</span> / 1000</span>
-                    </div>
-
-                    <button class="btn-submit" id="btnSubmit">
-                        <i class="ti ti-send" aria-hidden="true"></i>
-                        Kirim Pengaduan
-                    </button>
-
-                    <div class="divider">
-                        <div class="divider-line"></div>
-                        <span class="divider-text">Terjamin</span>
-                        <div class="divider-line"></div>
-                    </div>
-
-                    <div class="trust-row">
-                        <div class="trust-item"><i class="ti ti-lock" aria-hidden="true"></i> Terenkripsi</div>
-                        <div class="trust-item"><i class="ti ti-shield" aria-hidden="true"></i> Anonim</div>
-                        <div class="trust-item"><i class="ti ti-bolt" aria-hidden="true"></i> Real-time</div>
-                    </div>
-                </div>
-
-                <!-- STATE: STATUS / SUKSES -->
-                <div id="statusState">
-                    <div class="spinner" id="spinnerEl">
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                    </div>
-
-                    <div class="s-icon" id="sIcon">
-                        <i class="ti ti-check" aria-hidden="true"></i>
-                    </div>
-
-                    <p class="s-msg" id="sMsg">
-                        <strong>Menganalisis laporan...</strong>
-                        AI sedang memproses keluhan Anda
-                    </p>
-
-                    <div class="result-cards" id="resultCards">
-                        <div class="r-card">
-                            <div class="r-icon blue"><i class="ti ti-tag" aria-hidden="true"></i></div>
-                            <div>
-                                <div class="r-key">Kategori Keluhan (AI)</div>
-                                <div class="r-val" id="resKategori">—</div>
-                            </div>
-                        </div>
-                        <div class="r-card">
-                            <div class="r-icon amber"><i class="ti ti-alert-triangle" aria-hidden="true"></i></div>
-                            <div>
-                                <div class="r-key">Tingkat Prioritas</div>
-                                <div class="r-val" id="resPrioritas">—</div>
-                            </div>
-                        </div>
-                        <div class="r-card">
-                            <div class="r-icon teal"><i class="ti ti-clipboard-list" aria-hidden="true"></i></div>
-                            <div>
-                                <div class="r-key">Rekomendasi Tindakan</div>
-                                <div class="r-val" id="resTindakan">—</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <button class="btn-back" id="btnBack">
-                        <i class="ti ti-arrow-left" aria-hidden="true"></i>
-                        Buat laporan baru
-                    </button>
-                </div>
-            </div>
-
-            <a href="admin.html" class="admin-link">Masuk sebagai Admin →</a>
+        <div class="uuid-display">
+          <div class="uuid-label">Kode Tiket — Simpan untuk melacak status</div>
+          <div class="uuid-value" id="resUUID">UUID-LOADING</div>
         </div>
 
+        <div class="result-grid" style="margin-bottom:20px;">
+          <div class="result-row">
+            <span class="result-row-label">Departemen</span>
+            <span class="result-row-value" id="resKategori">—</span>
+          </div>
+          <div class="result-row">
+            <span class="result-row-label">Prioritas AI</span>
+            <span class="result-row-value" id="resPrioritas">—</span>
+          </div>
+          <div class="result-row">
+            <span class="result-row-label">Rekomendasi</span>
+            <span class="result-row-value" id="resTindakan" style="max-width:300px;">—</span>
+          </div>
+        </div>
+
+        <button class="btn-secondary" onclick="resetForm()">
+          ← Buat Laporan Baru
+        </button>
+      </div>
     </div>
 
-    <script src="js/config.js"></script>
-    <script src="js/portal.js"></script>
+    <!-- TAB: RESI -->
+    <div id="tabResi" class="hidden">
+      <label class="form-label" for="ticketIdInput">Kode unik tiket (UUID)</label>
+      <p class="form-hint">Masukkan kode tiket yang Anda terima saat melapor untuk melihat status terkini.</p>
+      <input type="text" id="ticketIdInput" placeholder="Contoh: 123e4567-e89b-12d3-a456-426614174000">
+      <button class="btn-primary" style="margin-top:16px;" onclick="trackTicket()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        Cek Status Laporan
+      </button>
 
-    <script>
-        /* ================================================================
-           UI Controller — sesuaikan fungsi submitLaporan() dengan API kamu
-           ================================================================ */
+      <div id="trackingResult" class="track-result hidden">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <span style="font-family:'DM Serif Display',serif; font-size:18px;">Status Tiket</span>
+          <span class="badge badge-pending" id="trackStatus">PENDING_NLP</span>
+        </div>
+        <div class="track-row">
+          <span class="track-key">UUID</span>
+          <span class="track-val" style="font-family:'JetBrains Mono',monospace; font-size:12px; color:#94a3b8;" id="trackUUID">—</span>
+        </div>
+        <div class="track-row">
+          <span class="track-key">Isi Laporan</span>
+          <span class="track-val" id="trackText">—</span>
+        </div>
+        <div class="track-row">
+          <span class="track-key">Kategori AI</span>
+          <span class="track-val" id="trackKategori">—</span>
+        </div>
+        <div class="track-row">
+          <span class="track-key">Prioritas</span>
+          <span class="track-val" id="trackPrioritas">—</span>
+        </div>
+      </div>
+    </div>
 
-        const textarea    = document.getElementById('reportText');
-        const charNum     = document.getElementById('charNum');
-        const btnSubmit   = document.getElementById('btnSubmit');
-        const btnBack     = document.getElementById('btnBack');
-        const formState   = document.getElementById('formState');
-        const statusState = document.getElementById('statusState');
-        const spinnerEl   = document.getElementById('spinnerEl');
-        const sIcon       = document.getElementById('sIcon');
-        const sMsg        = document.getElementById('sMsg');
-        const resultCards = document.getElementById('resultCards');
+  </div>
 
-        /* Hitung karakter */
-        textarea.addEventListener('input', () => {
-            const n = Math.min(textarea.value.length, 1000);
-            charNum.textContent = n;
-            if (textarea.classList.contains('error') && textarea.value.trim().length >= 20) {
-                textarea.classList.remove('error');
-            }
-        });
+  <!-- Admin Link -->
+  <a href="admin.html" class="admin-link">
+    <div class="admin-link-inner">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      Masuk ke Dashboard Admin (Triage Board)
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </div>
+  </a>
 
-        /* Submit */
-        btnSubmit.addEventListener('click', () => {
-            const val = textarea.value.trim();
-            if (val.length < 20) {
-                textarea.classList.add('error');
-                textarea.focus();
-                return;
-            }
-            textarea.classList.remove('error');
-            showLoading();
-            submitLaporan(val);
-        });
+</div>
 
-        /* Kembali */
-        btnBack.addEventListener('click', resetForm);
+<script src="js/config.js"></script>
+<script>
+// ===== CONFIG =====
+// Simpan data lokal untuk demo (ganti dengan API call sungguhan)
+const STORAGE_KEY = 'suarakampus_tickets';
 
-        function showLoading() {
-            formState.style.display    = 'none';
-            statusState.style.display  = 'flex';
-            spinnerEl.style.display    = 'flex';
-            sIcon.style.display        = 'none';
-            resultCards.style.display  = 'none';
-            btnBack.style.display      = 'none';
-            sMsg.innerHTML             = '<strong>Menganalisis laporan...</strong>AI sedang memproses keluhan Anda';
-        }
+function getTickets() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); } catch { return []; }
+}
+function saveTickets(tickets) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(tickets));
+}
 
-        function showSuccess(data) {
-            spinnerEl.style.display    = 'none';
-            sIcon.style.display        = 'flex';
-            sMsg.innerHTML             = '<strong>Laporan berhasil dikirim!</strong>Hasil analisis AI tersedia di bawah';
-            document.getElementById('resKategori').textContent = data.kategori  || '—';
-            document.getElementById('resPrioritas').textContent = data.prioritas || '—';
-            document.getElementById('resTindakan').textContent  = data.tindakan  || '—';
-            resultCards.style.display  = 'flex';
-            btnBack.style.display      = 'flex';
-        }
+function generateUUID() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
+    const r = Math.random() * 16 | 0;
+    return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+  });
+}
 
-        function showError(msg) {
-            spinnerEl.style.display = 'none';
-            sMsg.innerHTML = '<strong>Terjadi Kesalahan</strong>' + (msg || 'Silakan coba beberapa saat lagi.');
-            btnBack.style.display   = 'flex';
-        }
+// ===== TAB SWITCH =====
+function switchTab(tab) {
+  const isLapor = tab === 'lapor';
+  document.getElementById('tabLapor').classList.toggle('hidden', !isLapor);
+  document.getElementById('tabResi').classList.toggle('hidden', isLapor);
+  document.getElementById('tabLaporBtn').classList.toggle('active', isLapor);
+  document.getElementById('tabResiBtn').classList.toggle('active', !isLapor);
+}
 
-        function resetForm() {
-            textarea.value            = '';
-            charNum.textContent       = '0';
-            textarea.classList.remove('error');
-            formState.style.display   = 'block';
-            statusState.style.display = 'none';
-        }
+// ===== CHAR COUNTER =====
+document.getElementById('reportText').addEventListener('input', function() {
+  document.getElementById('charCount').textContent = this.value.length;
+});
 
-        /* ----------------------------------------------------------------
-           submitLaporan — hubungkan ke API kamu di sini.
-           Format response yang diharapkan: { kategori, prioritas, tindakan }
-        ---------------------------------------------------------------- */
-        function submitLaporan(text) {
-            // TODO: Ganti dengan fetch ke backend kamu, contoh:
-            //
-            // fetch(API_URL, {
-            //     method: 'POST',
-            //     headers: { 'Content-Type': 'application/json' },
-            //     body: JSON.stringify({ laporan: text })
-            // })
-            // .then(r => r.json())
-            // .then(data => showSuccess(data))
-            // .catch(err => showError(err.message));
-            //
-            // Simulasi (hapus jika sudah pakai API):
-            setTimeout(() => {
-                showSuccess({
-                    kategori:  'Infrastruktur & Lalu Lintas',
-                    prioritas: 'Sedang — Perlu ditindaklanjuti',
-                    tindakan:  'Koordinasi Dinas Perhubungan & Satpam Kampus'
-                });
-            }, 2400);
-        }
-    </script>
+// ===== SUBMIT =====
+function submitReport() {
+  const text = document.getElementById('reportText').value.trim();
+  if (!text || text.length < 10) {
+    document.getElementById('reportText').style.borderColor = 'rgba(239,68,68,0.5)';
+    document.getElementById('reportText').style.boxShadow = '0 0 0 3px rgba(239,68,68,0.1)';
+    setTimeout(() => {
+      document.getElementById('reportText').style.borderColor = '';
+      document.getElementById('reportText').style.boxShadow = '';
+    }, 2000);
+    return;
+  }
+
+  document.getElementById('formContainer').classList.add('hidden');
+  document.getElementById('loadingContainer').classList.remove('hidden');
+
+  const msgs = [
+    'Mengekstrak entitas dan konteks laporan Anda...',
+    'Model IndoBERT memproses token sekuensial...',
+    'Mengklasifikasikan departemen yang relevan...',
+    'Menentukan tingkat urgensi dan prioritas...',
+  ];
+
+  let msgIdx = 0;
+  const msgInterval = setInterval(() => {
+    msgIdx = (msgIdx + 1) % msgs.length;
+    document.getElementById('loadingMsg').textContent = msgs[msgIdx];
+  }, 750);
+
+  // Simulate step progression
+  setTimeout(() => {
+    document.getElementById('step2').classList.remove('active');
+    document.getElementById('step2').classList.add('done');
+    document.getElementById('step2').querySelector('.step-icon').innerHTML = '✓';
+    document.getElementById('step3').classList.add('active');
+  }, 1200);
+
+  setTimeout(() => {
+    document.getElementById('step3').classList.remove('active');
+    document.getElementById('step3').classList.add('done');
+    document.getElementById('step4').classList.add('active');
+  }, 2200);
+
+  setTimeout(() => {
+    clearInterval(msgInterval);
+    const result = mockAIAnalysis(text);
+    const uuid = generateUUID();
+
+    // Save to storage
+    const tickets = getTickets();
+    tickets.push({ uuid, text, ...result, status: 'OPEN', createdAt: new Date().toISOString() });
+    saveTickets(tickets);
+
+    showSuccess(uuid, result);
+  }, 3200);
+}
+
+function mockAIAnalysis(text) {
+  const lower = text.toLowerCase();
+  let kategori = 'Fasilitas Umum';
+  let prioritas = 'SEDANG';
+  let tindakan = 'Koordinasi dengan unit fasilitas kampus';
+  let prioritasClass = 'badge-sedang';
+
+  if (lower.includes('toilet') || lower.includes('air') || lower.includes('listrik')) {
+    kategori = 'Fasilitas & Infrastruktur';
+    prioritas = 'TINGGI';
+    tindakan = 'Eskalasi ke Bagian Umum untuk perbaikan segera';
+    prioritasClass = 'badge-tinggi';
+  } else if (lower.includes('dosen') || lower.includes('kuliah') || lower.includes('akademik')) {
+    kategori = 'Akademik & Pengajaran';
+    prioritas = 'SEDANG';
+    tindakan = 'Teruskan ke Wakil Dekan Akademik';
+    prioritasClass = 'badge-sedang';
+  } else if (lower.includes('buku') || lower.includes('perpustakaan') || lower.includes('library')) {
+    kategori = 'Perpustakaan & Literasi';
+    prioritas = 'RENDAH';
+    tindakan = 'Jadwalkan review dengan kepala perpustakaan';
+    prioritasClass = 'badge-rendah';
+  } else if (lower.includes('darurat') || lower.includes('kebakaran') || lower.includes('keselamatan')) {
+    kategori = 'Keselamatan & Darurat';
+    prioritas = 'KRITIS';
+    tindakan = 'TINDAKAN SEGERA — Hubungi security & manajemen kampus';
+    prioritasClass = 'badge-kritis';
+  } else if (lower.includes('beasiswa') || lower.includes('keuangan') || lower.includes('spp')) {
+    kategori = 'Kemahasiswaan & Keuangan';
+    prioritas = 'TINGGI';
+    tindakan = 'Koordinasi dengan Biro Kemahasiswaan';
+    prioritasClass = 'badge-tinggi';
+  }
+
+  return { kategori, prioritas, tindakan, prioritasClass };
+}
+
+function showSuccess(uuid, result) {
+  document.getElementById('loadingContainer').classList.add('hidden');
+  document.getElementById('successContainer').classList.remove('hidden');
+
+  document.getElementById('resUUID').textContent = uuid;
+  document.getElementById('resKategori').textContent = result.kategori;
+  document.getElementById('resTindakan').textContent = result.tindakan;
+
+  const priEl = document.getElementById('resPrioritas');
+  priEl.innerHTML = '';
+  const badge = document.createElement('span');
+  badge.className = `badge ${result.prioritasClass}`;
+  badge.textContent = result.prioritas;
+  priEl.appendChild(badge);
+}
+
+function resetForm() {
+  document.getElementById('formContainer').classList.remove('hidden');
+  document.getElementById('loadingContainer').classList.add('hidden');
+  document.getElementById('successContainer').classList.add('hidden');
+  document.getElementById('reportText').value = '';
+  document.getElementById('charCount').textContent = '0';
+
+  // Reset steps
+  ['step2','step3','step4'].forEach(id => {
+    const el = document.getElementById(id);
+    el.classList.remove('done','active');
+  });
+  document.getElementById('step2').querySelector('.step-icon').innerHTML = `<div class="ai-dots" style="gap:3px"><span style="width:4px;height:4px"></span><span style="width:4px;height:4px"></span><span style="width:4px;height:4px"></span></div>`;
+  document.getElementById('step3').querySelector('.step-icon').textContent = '⚡';
+  document.getElementById('step4').querySelector('.step-icon').textContent = '✨';
+}
+
+// ===== TRACK =====
+function trackTicket() {
+  const uuid = document.getElementById('ticketIdInput').value.trim();
+  if (!uuid) return;
+
+  const tickets = getTickets();
+  const ticket = tickets.find(t => t.uuid === uuid);
+  const resultEl = document.getElementById('trackingResult');
+
+  if (ticket) {
+    resultEl.classList.remove('hidden');
+    document.getElementById('trackUUID').textContent = ticket.uuid;
+    document.getElementById('trackText').textContent = ticket.text.slice(0, 120) + (ticket.text.length > 120 ? '...' : '');
+    document.getElementById('trackKategori').textContent = ticket.kategori;
+
+    const statusMap = {
+      'PENDING_NLP': 'badge-pending',
+      'OPEN': 'badge-open',
+      'IN_PROGRESS': 'badge-progress',
+      'RESOLVED': 'badge-resolved'
+    };
+
+    const statusEl = document.getElementById('trackStatus');
+    statusEl.className = `badge ${statusMap[ticket.status] || 'badge-pending'}`;
+    statusEl.textContent = ticket.status;
+
+    const priEl = document.getElementById('trackPrioritas');
+    priEl.innerHTML = `<span class="badge ${ticket.prioritasClass}">${ticket.prioritas}</span>`;
+  } else {
+    resultEl.classList.remove('hidden');
+    document.getElementById('trackUUID').textContent = uuid;
+    document.getElementById('trackText').textContent = 'Tiket tidak ditemukan dalam sistem.';
+    document.getElementById('trackKategori').textContent = '—';
+    document.getElementById('trackStatus').className = 'badge badge-pending';
+    document.getElementById('trackStatus').textContent = 'NOT FOUND';
+    document.getElementById('trackPrioritas').textContent = '—';
+  }
+}
+</script>
 </body>
 </html>
