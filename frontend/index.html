@@ -3,174 +3,672 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Campus Helpdesk - Ticket Routing System</title>
-    <!-- Google Fonts: Premium Typography -->
+    <title>Portal Pengaduan Mahasiswa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <!-- Premium Stylesheet -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #0d0f12;
+            color: #e8e9ec;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ---- BACKGROUND ---- */
+        .bg-grid {
+            position: fixed;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+            background-size: 44px 44px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .bg-orb {
+            position: fixed;
+            border-radius: 50%;
+            pointer-events: none;
+            filter: blur(80px);
+            z-index: 0;
+        }
+
+        .orb1 { width: 500px; height: 500px; background: rgba(55,138,221,0.10); top: -150px; right: -100px; }
+        .orb2 { width: 350px; height: 350px; background: rgba(29,158,117,0.09); bottom: 0; left: -80px; }
+
+        /* ---- LAYOUT ---- */
+        .layout {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 100vh;
+        }
+
+        @media (max-width: 768px) {
+            .layout { grid-template-columns: 1fr; }
+            .left-panel { display: none; }
+            .right-panel { padding: 2rem 1.25rem; }
+        }
+
+        /* ---- LEFT PANEL ---- */
+        .left-panel {
+            padding: 3.5rem 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-right: 0.5px solid rgba(255,255,255,0.06);
+        }
+
+        .logo-mark {
+            width: 40px;
+            height: 40px;
+            border: 0.5px solid rgba(255,255,255,0.12);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 3.5rem;
+            background: rgba(255,255,255,0.04);
+        }
+
+        .logo-mark i { font-size: 20px; color: #378add; }
+
+        .eyebrow {
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #378add;
+            margin-bottom: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .eyebrow::before {
+            content: '';
+            display: block;
+            width: 22px;
+            height: 1px;
+            background: #378add;
+            flex-shrink: 0;
+        }
+
+        .left-heading {
+            font-family: 'DM Serif Display', serif;
+            font-size: clamp(28px, 2.8vw, 46px);
+            font-weight: 400;
+            line-height: 1.15;
+            color: #f0f1f3;
+            margin: 0 0 1.25rem;
+        }
+
+        .left-heading em {
+            font-style: italic;
+            color: #5dcaa5;
+        }
+
+        .left-desc {
+            font-size: 14px;
+            color: rgba(232,233,236,0.48);
+            line-height: 1.8;
+            max-width: 340px;
+            margin-bottom: 3rem;
+        }
+
+        .steps { display: flex; flex-direction: column; gap: 20px; }
+
+        .step { display: flex; align-items: flex-start; gap: 14px; }
+
+        .step-num {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            border: 0.5px solid rgba(55,138,221,0.35);
+            background: rgba(55,138,221,0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 500;
+            color: #85b7eb;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .step-text { font-size: 13px; color: rgba(232,233,236,0.5); line-height: 1.55; }
+        .step-text strong { display: block; font-weight: 500; color: rgba(232,233,236,0.88); margin-bottom: 2px; }
+
+        .left-bottom { font-size: 12px; color: rgba(232,233,236,0.2); }
+
+        /* ---- RIGHT PANEL ---- */
+        .right-panel {
+            padding: 3.5rem 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* ---- FORM CARD ---- */
+        .form-card {
+            background: rgba(255,255,255,0.04);
+            border: 0.5px solid rgba(255,255,255,0.10);
+            border-radius: 18px;
+            padding: 2.25rem;
+        }
+
+        .form-header { margin-bottom: 1.75rem; }
+
+        .form-title {
+            font-size: 17px;
+            font-weight: 500;
+            color: #f0f1f3;
+            margin: 0 0 5px;
+        }
+
+        .form-sub {
+            font-size: 13px;
+            color: rgba(232,233,236,0.38);
+        }
+
+        .flabel {
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+            color: rgba(232,233,236,0.4);
+            display: block;
+            margin-bottom: 9px;
+        }
+
+        textarea#reportText {
+            width: 100%;
+            min-height: 160px;
+            resize: vertical;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            line-height: 1.75;
+            color: #e8e9ec;
+            background: rgba(255,255,255,0.04);
+            border: 0.5px solid rgba(255,255,255,0.12);
+            border-radius: 10px;
+            padding: 14px 16px;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+        }
+
+        textarea#reportText:focus {
+            border-color: #378add;
+            box-shadow: 0 0 0 3px rgba(55,138,221,0.14);
+            background: rgba(55,138,221,0.04);
+        }
+
+        textarea#reportText.error {
+            border-color: #e24b4a;
+            box-shadow: 0 0 0 3px rgba(226,75,74,0.14);
+        }
+
+        textarea#reportText::placeholder { color: rgba(232,233,236,0.22); }
+
+        .form-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0 1.5rem;
+        }
+
+        .hint {
+            font-size: 12px;
+            color: rgba(232,233,236,0.27);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .hint i { font-size: 13px; }
+
+        .char-display {
+            font-size: 12px;
+            color: rgba(232,233,236,0.28);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .char-display span { color: #85b7eb; font-weight: 500; }
+
+        /* ---- BUTTONS ---- */
+        .btn-submit {
+            width: 100%;
+            padding: 14px 20px;
+            background: #185fa5;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: background 0.15s, transform 0.1s;
+            letter-spacing: 0.01em;
+        }
+
+        .btn-submit:hover { background: #1a72c4; }
+        .btn-submit:active { transform: scale(0.99); }
+        .btn-submit i { font-size: 16px; }
+
+        /* ---- DIVIDER + TRUST ---- */
+        .divider {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 1.25rem 0;
+        }
+
+        .divider-line { flex: 1; height: 0.5px; background: rgba(255,255,255,0.07); }
+
+        .divider-text {
+            font-size: 11px;
+            color: rgba(232,233,236,0.22);
+            text-transform: uppercase;
+            letter-spacing: 0.09em;
+        }
+
+        .trust-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 12px;
+            color: rgba(232,233,236,0.28);
+        }
+
+        .trust-item i { font-size: 14px; color: #5dcaa5; }
+
+        /* ---- ADMIN LINK ---- */
+        .admin-link {
+            display: block;
+            text-align: center;
+            margin-top: 1.25rem;
+            font-size: 12px;
+            color: rgba(232,233,236,0.22);
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+
+        .admin-link:hover { color: rgba(232,233,236,0.5); }
+
+        /* ---- STATUS PANEL ---- */
+        #statusState {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.25rem;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+
+        .spinner { display: flex; gap: 6px; align-items: center; }
+
+        .dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: #378add;
+            animation: bounce 1.2s infinite ease-in-out;
+        }
+
+        .dot:nth-child(2) { animation-delay: 0.2s; }
+        .dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+            40%            { transform: scale(1);   opacity: 1;   }
+        }
+
+        .s-icon {
+            width: 54px; height: 54px;
+            border-radius: 50%;
+            background: rgba(29,158,117,0.12);
+            border: 0.5px solid rgba(93,202,165,0.28);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            color: #5dcaa5;
+            font-size: 24px;
+        }
+
+        .s-msg strong {
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            color: #f0f1f3;
+            margin-bottom: 5px;
+        }
+
+        .s-msg { font-size: 13px; color: rgba(232,233,236,0.42); }
+
+        /* ---- RESULT CARDS ---- */
+        .result-cards {
+            width: 100%;
+            display: none;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .r-card {
+            background: rgba(255,255,255,0.04);
+            border: 0.5px solid rgba(255,255,255,0.09);
+            border-radius: 10px;
+            padding: 13px 15px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            text-align: left;
+        }
+
+        .r-icon {
+            width: 34px; height: 34px;
+            border-radius: 9px;
+            display: flex; align-items: center; justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+
+        .r-icon.blue  { background: rgba(55,138,221,0.12); color: #85b7eb; }
+        .r-icon.amber { background: rgba(186,117,23,0.12); color: #fac775; }
+        .r-icon.teal  { background: rgba(29,158,117,0.12); color: #5dcaa5; }
+
+        .r-key {
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+            color: rgba(232,233,236,0.33);
+            margin-bottom: 3px;
+        }
+
+        .r-val { font-size: 13px; font-weight: 500; color: #e8e9ec; }
+
+        .btn-back {
+            background: rgba(255,255,255,0.06);
+            border: 0.5px solid rgba(255,255,255,0.12);
+            border-radius: 10px;
+            padding: 10px 22px;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 13px;
+            color: rgba(232,233,236,0.55);
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            gap: 6px;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .btn-back:hover { background: rgba(255,255,255,0.10); color: #e8e9ec; }
+        .btn-back i { font-size: 14px; }
+    </style>
 </head>
 <body>
 
-    <!-- Premium Header -->
-    <header>
-        <div class="nav-container">
-            <div class="logo">
-                SmartCampus <span>HELP-AI</span>
+    <div class="bg-grid"></div>
+    <div class="bg-orb orb1"></div>
+    <div class="bg-orb orb2"></div>
+
+    <div class="layout">
+
+        <!-- =================== LEFT PANEL =================== -->
+        <div class="left-panel">
+            <div>
+                <div class="logo-mark">
+                    <i class="ti ti-shield-check" aria-hidden="true"></i>
+                </div>
+
+                <div class="eyebrow">Universitas Haluoleo</div>
+                <h1 class="left-heading">Suara kamu<br><em>penting</em> untuk kami</h1>
+                <p class="left-desc">Laporan keluhan mahasiswa diproses secara otomatis oleh AI dan diteruskan langsung ke dinas yang berwenang.</p>
+
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <div class="step-text">
+                            <strong>Tuliskan keluhan</strong>
+                            Ceritakan masalah yang kamu hadapi secara detail
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <div class="step-text">
+                            <strong>AI menganalisis</strong>
+                            Laporan dikategorikan dan diprioritaskan secara otomatis
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <div class="step-text">
+                            <strong>Diteruskan ke dinas</strong>
+                            Keluhan sampai ke pihak terkait dalam hitungan menit
+                        </div>
+                    </div>
+                </div>
             </div>
-            <nav class="nav-links">
-                <a href="#" class="nav-link active" data-target="guest-view">Form Laporan</a>
-                <a href="#" class="nav-link" data-target="admin-view">Dashboard Admin</a>
-            </nav>
+
+            <div class="left-bottom">© 2025 Sistem Pengaduan Mahasiswa</div>
         </div>
-    </header>
 
-    <!-- Main Content Area -->
-    <main>
-        
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <h1>Smart Campus Helpdesk</h1>
-            <p>Sistem pelaporan kendala kampus berbasis NLP untuk kenyamanan belajar mengajar.</p>
-        </section>
+        <!-- =================== RIGHT PANEL =================== -->
+        <div class="right-panel">
+            <div class="form-card">
+                <div class="form-header">
+                    <div class="form-title">Buat laporan baru</div>
+                    <div class="form-sub">Semua laporan bersifat anonim dan terenkripsi</div>
+                </div>
 
-        <!-- VIEW 1: FORM PENGIRIMAN LAPORAN (GUEST VIEW) -->
-        <section id="guest-view" class="view-container active">
-            <div class="glass-card" id="form-card">
-                <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">Sampaikan Kendala Anda</h2>
-                <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem;">
-                    Ketik keluhan Anda secara bebas menggunakan bahasa sehari-hari. AI kami akan secara otomatis menentukan tujuan departemen dan tingkat urgensi masalah.
-                </p>
+                <!-- STATE: FORM -->
+                <div id="formState">
+                    <label class="flabel" for="reportText">Isi laporan / keluhan</label>
+                    <textarea
+                        id="reportText"
+                        placeholder="Ceritakan detail keluhan Anda di sini... (Contoh: Kemacetan parah di jalur protokol depan kampus setiap pagi pukul 07.00–08.30)"
+                    ></textarea>
 
-                <div class="form-group">
-                    <label for="complaint-text">Teks Laporan Keluhan</label>
-                    <div class="text-area-wrapper">
-                        <textarea id="complaint-text" placeholder="Contoh: Lampu di toilet gedung MIPA lantai 2 mati dari 3 hari lalu, gelap banget dan rawan kepeleset..."></textarea>
+                    <div class="form-meta">
+                        <span class="hint">
+                            <i class="ti ti-info-circle" aria-hidden="true"></i>
+                            Minimal 20 karakter
+                        </span>
+                        <span class="char-display"><span id="charNum">0</span> / 1000</span>
+                    </div>
+
+                    <button class="btn-submit" id="btnSubmit">
+                        <i class="ti ti-send" aria-hidden="true"></i>
+                        Kirim Pengaduan
+                    </button>
+
+                    <div class="divider">
+                        <div class="divider-line"></div>
+                        <span class="divider-text">Terjamin</span>
+                        <div class="divider-line"></div>
+                    </div>
+
+                    <div class="trust-row">
+                        <div class="trust-item"><i class="ti ti-lock" aria-hidden="true"></i> Terenkripsi</div>
+                        <div class="trust-item"><i class="ti ti-shield" aria-hidden="true"></i> Anonim</div>
+                        <div class="trust-item"><i class="ti ti-bolt" aria-hidden="true"></i> Real-time</div>
                     </div>
                 </div>
 
-                <button id="submit-btn" class="btn-primary">
-                    Kirim Laporan & Analisis AI
-                </button>
-            </div>
+                <!-- STATE: STATUS / SUKSES -->
+                <div id="statusState">
+                    <div class="spinner" id="spinnerEl">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
 
-            <!-- Loading State Animasi AI -->
-            <div class="glass-card status-container" id="status-card">
-                <div class="ai-loader"></div>
-                <h3 class="status-title" id="status-title">AI Sedang Menganalisis...</h3>
-                <p class="status-desc" id="status-desc">
-                    Laporan Anda sedang diproses oleh model IndoBERT untuk klasifikasi Kategori & Urgensi.
-                </p>
-            </div>
+                    <div class="s-icon" id="sIcon">
+                        <i class="ti ti-check" aria-hidden="true"></i>
+                    </div>
 
-            <!-- NLP Predictions Result Card -->
-            <div class="glass-card result-card" id="result-card">
-                <div class="result-header">
-                    <h3 class="result-title">⚡ Hasil Ekstraksi & Routing AI</h3>
-                    <button class="btn-primary" id="btn-reset" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
-                        Tulis Laporan Lain
+                    <p class="s-msg" id="sMsg">
+                        <strong>Menganalisis laporan...</strong>
+                        AI sedang memproses keluhan Anda
+                    </p>
+
+                    <div class="result-cards" id="resultCards">
+                        <div class="r-card">
+                            <div class="r-icon blue"><i class="ti ti-tag" aria-hidden="true"></i></div>
+                            <div>
+                                <div class="r-key">Kategori Keluhan (AI)</div>
+                                <div class="r-val" id="resKategori">—</div>
+                            </div>
+                        </div>
+                        <div class="r-card">
+                            <div class="r-icon amber"><i class="ti ti-alert-triangle" aria-hidden="true"></i></div>
+                            <div>
+                                <div class="r-key">Tingkat Prioritas</div>
+                                <div class="r-val" id="resPrioritas">—</div>
+                            </div>
+                        </div>
+                        <div class="r-card">
+                            <div class="r-icon teal"><i class="ti ti-clipboard-list" aria-hidden="true"></i></div>
+                            <div>
+                                <div class="r-key">Rekomendasi Tindakan</div>
+                                <div class="r-val" id="resTindakan">—</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn-back" id="btnBack">
+                        <i class="ti ti-arrow-left" aria-hidden="true"></i>
+                        Buat laporan baru
                     </button>
                 </div>
-
-                <div class="result-grid">
-                    <div class="grid-item">
-                        <div class="grid-label">Auto-Route Kategori</div>
-                        <div class="grid-value">
-                            <span class="badge badge-category" id="res-category">FASILITAS</span>
-                        </div>
-                        <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">
-                            Keyakinan AI: <strong style="color: var(--text-main)" id="res-score-cat">94.2%</strong>
-                        </div>
-                    </div>
-
-                    <div class="grid-item">
-                        <div class="grid-label">Tingkat Urgensi (Triage)</div>
-                        <div class="grid-value">
-                            <span class="badge badge-high" id="res-urgency">TINGGI</span>
-                        </div>
-                        <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">
-                            Keyakinan AI: <strong style="color: var(--text-main)" id="res-score-urg">89.5%</strong>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="grid-item" style="margin-bottom: 1.5rem;">
-                    <div class="grid-label">Kata Kunci Penting (Keywords)</div>
-                    <div class="keywords-container" id="res-keywords">
-                        <span class="tag">toilet</span>
-                        <span class="tag">lampu mati</span>
-                        <span class="tag">rektorat</span>
-                    </div>
-                </div>
-
-                <div style="display:flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.05); padding-top: 1rem;">
-                    <span>Sistem: <strong style="color: #2dd4bf;">Asinkron Queue (Laravel + FastAPI)</strong></span>
-                    <span>Waktu Inferensi AI: <strong style="color: var(--text-main);" id="res-latency">120 ms</strong></span>
-                </div>
             </div>
-        </section>
 
-        <!-- VIEW 2: DASHBOARD MONITORING TIKET (ADMIN VIEW) -->
-        <section id="admin-view" class="view-container">
-            <div class="glass-card">
-                <div class="dashboard-header">
-                    <div>
-                        <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem;">Manajemen Antrean Tiket</h2>
-                        <p style="color: var(--text-muted); font-size: 0.9rem;">Kelola tiket keluhan mahasiswa UHO berdasarkan prioritas AI.</p>
-                    </div>
-                    
-                    <!-- Filters -->
-                    <div class="filter-bar">
-                        <select id="filter-category">
-                            <option value="ALL">Semua Kategori</option>
-                            <option value="FASILITAS">FASILITAS</option>
-                            <option value="JARINGAN_IT">JARINGAN_IT</option>
-                            <option value="AKADEMIK">AKADEMIK</option>
-                            <option value="KEUANGAN">KEUANGAN</option>
-                            <option value="KEMAHASISWAAN">KEMAHASISWAAN</option>
-                            <option value="LAINNYA">LAINNYA</option>
-                        </select>
-                        <select id="filter-urgency">
-                            <option value="ALL">Semua Urgensi</option>
-                            <option value="RENDAH">RENDAH</option>
-                            <option value="SEDANG">SEDANG</option>
-                            <option value="TINGGI">TINGGI</option>
-                            <option value="KRITIS">KRITIS</option>
-                        </select>
-                    </div>
-                </div>
+            <a href="admin.html" class="admin-link">Masuk sebagai Admin →</a>
+        </div>
 
-                <!-- Table -->
-                <div class="table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ticket ID</th>
-                                <th>Deskripsi Keluhan</th>
-                                <th>Kategori (AI Route)</th>
-                                <th>Urgensi (AI Prioritas)</th>
-                                <th>Diterima Pada</th>
-                            </tr>
-                        </thead>
-                        <tbody id="ticket-table-body">
-                            <!-- Diisi dinamis oleh main.js -->
-                        </tbody>
-                    </table>
-                </div>
+    </div>
 
-                <!-- Lazy Load Spinner Trigger -->
-                <div class="lazy-loader" id="lazy-trigger">
-                    <div class="lazy-spinner"></div>
-                    Memuat lebih banyak tiket...
-                </div>
-            </div>
-        </section>
+    <script src="js/config.js"></script>
+    <script src="js/portal.js"></script>
 
-    </main>
+    <script>
+        /* ================================================================
+           UI Controller — sesuaikan fungsi submitLaporan() dengan API kamu
+           ================================================================ */
 
-    <!-- Core Javascript Code -->
-    <script src="js/polling.js"></script>
-    <script src="js/main.js"></script>
+        const textarea    = document.getElementById('reportText');
+        const charNum     = document.getElementById('charNum');
+        const btnSubmit   = document.getElementById('btnSubmit');
+        const btnBack     = document.getElementById('btnBack');
+        const formState   = document.getElementById('formState');
+        const statusState = document.getElementById('statusState');
+        const spinnerEl   = document.getElementById('spinnerEl');
+        const sIcon       = document.getElementById('sIcon');
+        const sMsg        = document.getElementById('sMsg');
+        const resultCards = document.getElementById('resultCards');
+
+        /* Hitung karakter */
+        textarea.addEventListener('input', () => {
+            const n = Math.min(textarea.value.length, 1000);
+            charNum.textContent = n;
+            if (textarea.classList.contains('error') && textarea.value.trim().length >= 20) {
+                textarea.classList.remove('error');
+            }
+        });
+
+        /* Submit */
+        btnSubmit.addEventListener('click', () => {
+            const val = textarea.value.trim();
+            if (val.length < 20) {
+                textarea.classList.add('error');
+                textarea.focus();
+                return;
+            }
+            textarea.classList.remove('error');
+            showLoading();
+            submitLaporan(val);
+        });
+
+        /* Kembali */
+        btnBack.addEventListener('click', resetForm);
+
+        function showLoading() {
+            formState.style.display    = 'none';
+            statusState.style.display  = 'flex';
+            spinnerEl.style.display    = 'flex';
+            sIcon.style.display        = 'none';
+            resultCards.style.display  = 'none';
+            btnBack.style.display      = 'none';
+            sMsg.innerHTML             = '<strong>Menganalisis laporan...</strong>AI sedang memproses keluhan Anda';
+        }
+
+        function showSuccess(data) {
+            spinnerEl.style.display    = 'none';
+            sIcon.style.display        = 'flex';
+            sMsg.innerHTML             = '<strong>Laporan berhasil dikirim!</strong>Hasil analisis AI tersedia di bawah';
+            document.getElementById('resKategori').textContent = data.kategori  || '—';
+            document.getElementById('resPrioritas').textContent = data.prioritas || '—';
+            document.getElementById('resTindakan').textContent  = data.tindakan  || '—';
+            resultCards.style.display  = 'flex';
+            btnBack.style.display      = 'flex';
+        }
+
+        function showError(msg) {
+            spinnerEl.style.display = 'none';
+            sMsg.innerHTML = '<strong>Terjadi Kesalahan</strong>' + (msg || 'Silakan coba beberapa saat lagi.');
+            btnBack.style.display   = 'flex';
+        }
+
+        function resetForm() {
+            textarea.value            = '';
+            charNum.textContent       = '0';
+            textarea.classList.remove('error');
+            formState.style.display   = 'block';
+            statusState.style.display = 'none';
+        }
+
+        /* ----------------------------------------------------------------
+           submitLaporan — hubungkan ke API kamu di sini.
+           Format response yang diharapkan: { kategori, prioritas, tindakan }
+        ---------------------------------------------------------------- */
+        function submitLaporan(text) {
+            // TODO: Ganti dengan fetch ke backend kamu, contoh:
+            //
+            // fetch(API_URL, {
+            //     method: 'POST',
+            //     headers: { 'Content-Type': 'application/json' },
+            //     body: JSON.stringify({ laporan: text })
+            // })
+            // .then(r => r.json())
+            // .then(data => showSuccess(data))
+            // .catch(err => showError(err.message));
+            //
+            // Simulasi (hapus jika sudah pakai API):
+            setTimeout(() => {
+                showSuccess({
+                    kategori:  'Infrastruktur & Lalu Lintas',
+                    prioritas: 'Sedang — Perlu ditindaklanjuti',
+                    tindakan:  'Koordinasi Dinas Perhubungan & Satpam Kampus'
+                });
+            }, 2400);
+        }
+    </script>
 </body>
 </html>

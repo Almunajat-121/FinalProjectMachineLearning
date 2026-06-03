@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard — Pengaduan Mahasiswa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #080a0d;
+            color: #e8e9ec;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ---- LAYOUT ---- */
+        .admin-layout {
+            display: grid;
+            grid-template-columns: 240px 1fr;
+            min-height: 100vh;
+        }
+
+        @media (max-width: 900px) {
+            .admin-layout { grid-template-columns: 1fr; }
+            .sidebar { display: none; }
+        }
+
+        /* ===================== SIDEBAR ===================== */
+        .sidebar {
+            background: #111316;
+            border-right: 0.5px solid rgba(255,255,255,0.07);
+            display: flex;
+            flex-direction: column;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        .sb-logo {
+            padding: 24px 20px 20px;
+            border-bottom: 0.5px solid rgba(255,255,255,0.06);
+        }
+
+        .sb-logomark {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sb-icon {
+            width: 32px;
+            height: 32px;
+            background: rgba(55,138,221,0.14);
+            border: 0.5px solid rgba(55,138,221,0.28);
+            border-radius: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: #85b7eb;
+            flex-shrink: 0;
+        }
+
+        .sb-brand {
+            font-size: 14px;
+            font-weight: 500;
+            color: #f0f1f3;
+        }
+
+        .sb-subbrand {
+            font-size: 11px;
+            color: rgba(232,233,236,0.32);
+            margin-top: 2px;
+        }
+
+        .sb-nav {
+            padding: 12px 12px;
+            flex: 1;
+        }
+
+        .sb-section {
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: 0.11em;
+            text-transform: uppercase;
+            color: rgba(232,233,236,0.22);
+            padding: 10px 8px 6px;
+        }
+
+        .sb-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 9px 10px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: rgba(232,233,236,0.50);
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s;
+            margin-bottom: 2px;
+            text-decoration: none;
+            border: 0.5px solid transparent;
+        }
+
+        .sb-item i { font-size: 16px; flex-shrink: 0; }
+
+        .sb-item:hover {
+            background: rgba(255,255,255,0.05);
+            color: rgba(232,233,236,0.85);
+        }
+
+        .sb-item.active {
+            background: rgba(55,138,221,0.11);
+            color: #85b7eb;
+            border-color: rgba(55,138,221,0.20);
+        }
+
+        .sb-badge {
+            margin-left: auto;
+            background: rgba(55,138,221,0.15);
+            color: #85b7eb;
+            font-size: 10px;
+            font-weight: 500;
+            padding: 2px 7px;
+            border-radius: 999px;
+        }
+
+        .sb-back {
+            margin: 0 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            color: rgba(232,233,236,0.28);
+            cursor: pointer;
+            text-decoration: none;
+            transition: color 0.15s;
+            border: 0.5px solid transparent;
+        }
+
+        .sb-back:hover { color: rgba(232,233,236,0.55); }
+        .sb-back i { font-size: 14px; }
+
+        /* ===================== MAIN CONTENT ===================== */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            background: #0d0f12;
+        }
+
+        /* ---- Header ---- */
+        .content-header {
+            padding: 28px 32px 0;
+            border-bottom: 0.5px solid rgba(255,255,255,0.06);
+        }
+
+        .header-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .header-top h1 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #f0f1f3;
+            margin: 0 0 5px;
+        }
+
+        .header-top p {
+            font-size: 13px;
+            color: rgba(232,233,236,0.36);
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 8px;
+            flex-shrink: 0;
+        }
+
+        /* ---- Buttons ---- */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+            cursor: pointer;
+            border: 0.5px solid rgba(255,255,255,0.11);
+            background: rgba(255,255,255,0.05);
+            color: rgba(232,233,236,0.60);
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .btn:hover { background: rgba(255,255,255,0.09); color: #e8e9ec; }
+        .btn i { font-size: 14px; }
+
+        .btn-primary {
+            background: #185fa5;
+            border-color: #185fa5;
+            color: #fff;
+        }
+
+        .btn-primary:hover { background: #1a72c4; color: #fff; }
+
+        /* ---- Stat Cards ---- */
+        .stat-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px 32px;
+        }
+
+        @media (max-width: 1100px) { .stat-row { grid-template-columns: repeat(2,1fr); } }
+
+        .stat-card {
+            background: rgba(255,255,255,0.04);
+            border: 0.5px solid rgba(255,255,255,0.08);
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: rgba(232,233,236,0.33);
+            margin-bottom: 7px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .stat-label i { font-size: 13px; }
+
+        .stat-val {
+            font-size: 26px;
+            font-weight: 500;
+            color: #f0f1f3;
+            line-height: 1;
+        }
+
+        .stat-sub {
+            font-size: 11px;
+            color: rgba(232,233,236,0.24);
+            margin-top: 5px;
+        }
+
+        /* ---- Table Area ---- */
+        .table-area {
+            padding: 0 32px 32px;
+            flex: 1;
+        }
+
+        .filter-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+
+        .search-box {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            background: rgba(255,255,255,0.04);
+            border: 0.5px solid rgba(255,255,255,0.10);
+            border-radius: 8px;
+            padding: 0 12px;
+            height: 36px;
+            transition: border-color 0.15s, box-shadow 0.15s;
+        }
+
+        .search-box:focus-within {
+            border-color: #378add;
+            box-shadow: 0 0 0 3px rgba(55,138,221,0.12);
+        }
+
+        .search-box i { font-size: 15px; color: rgba(232,233,236,0.28); flex-shrink: 0; }
+
+        .search-box input {
+            background: none;
+            border: none;
+            outline: none;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 13px;
+            color: #e8e9ec;
+            width: 100%;
+        }
+
+        .search-box input::placeholder { color: rgba(232,233,236,0.22); }
+
+        .filter-btn {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            height: 36px;
+            padding: 0 13px;
+            border-radius: 8px;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 12px;
+            color: rgba(232,233,236,0.48);
+            background: rgba(255,255,255,0.04);
+            border: 0.5px solid rgba(255,255,255,0.09);
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .filter-btn:hover { background: rgba(255,255,255,0.08); color: #e8e9ec; }
+        .filter-btn i { font-size: 14px; }
+
+        /* ---- Table ---- */
+        .table-container {
+            background: rgba(255,255,255,0.03);
+            border: 0.5px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        #ticketTable {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        #ticketTable col.c-id  { width: 110px; }
+        #ticketTable col.c-isi { width: auto; }
+        #ticketTable col.c-kat { width: 150px; }
+        #ticketTable col.c-pri { width: 110px; }
+        #ticketTable col.c-sta { width: 110px; }
+
+        #ticketTable thead th {
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: rgba(232,233,236,0.28);
+            text-align: left;
+            padding: 12px 16px;
+            border-bottom: 0.5px solid rgba(255,255,255,0.07);
+            background: rgba(255,255,255,0.02);
+        }
+
+        #ticketTable tbody tr {
+            border-bottom: 0.5px solid rgba(255,255,255,0.05);
+            transition: background 0.12s;
+        }
+
+        #ticketTable tbody tr:last-child { border-bottom: none; }
+        #ticketTable tbody tr:hover { background: rgba(255,255,255,0.03); }
+
+        #ticketTable td {
+            padding: 14px 16px;
+            font-size: 13px;
+            color: rgba(232,233,236,0.72);
+            vertical-align: middle;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* ---- Badges & Chips ---- */
+        .tid {
+            font-size: 11px;
+            font-family: monospace;
+            color: rgba(232,233,236,0.38);
+            background: rgba(255,255,255,0.06);
+            padding: 3px 8px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 11px;
+            font-weight: 500;
+            padding: 3px 9px;
+            border-radius: 999px;
+        }
+
+        .badge i { font-size: 11px; }
+
+        .badge-blue  { background: rgba(55,138,221,0.12); color: #85b7eb; }
+        .badge-teal  { background: rgba(29,158,117,0.12); color: #5dcaa5; }
+        .badge-amber { background: rgba(186,117,23,0.14); color: #fac775; }
+        .badge-red   { background: rgba(226,75,74,0.12); color: #f09595; }
+        .badge-gray  { background: rgba(255,255,255,0.07); color: rgba(232,233,236,0.48); }
+
+        .pri-dot {
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+
+        .dot-hi  { background: #f09595; }
+        .dot-md  { background: #fac775; }
+        .dot-lo  { background: #5dcaa5; }
+
+        /* ---- Loading / Empty state ---- */
+        .loading-trigger {
+            text-align: center;
+            padding: 28px;
+            font-size: 13px;
+            color: rgba(232,233,236,0.22);
+            border-top: 0.5px solid rgba(255,255,255,0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .loading-trigger i { font-size: 16px; }
+
+        .empty-state {
+            text-align: center;
+            padding: 48px 24px;
+        }
+
+        .empty-state i {
+            font-size: 32px;
+            color: rgba(232,233,236,0.15);
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .empty-state p {
+            font-size: 13px;
+            color: rgba(232,233,236,0.25);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="admin-layout">
+
+        <!-- =================== SIDEBAR =================== -->
+        <aside class="sidebar">
+            <div class="sb-logo">
+                <div class="sb-logomark">
+                    <div class="sb-icon">
+                        <i class="ti ti-shield-check" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <div class="sb-brand">Admin Panel</div>
+                        <div class="sb-subbrand">Pengaduan Mahasiswa</div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="sb-nav">
+                <div class="sb-section">Manajemen</div>
+                <a href="#" class="sb-item active">
+                    <i class="ti ti-ticket" aria-hidden="true"></i>
+                    Semua tiket
+                    <span class="sb-badge" id="totalBadge">0</span>
+                </a>
+                <a href="#" class="sb-item">
+                    <i class="ti ti-chart-bar" aria-hidden="true"></i>
+                    Statistik
+                </a>
+                <a href="#" class="sb-item">
+                    <i class="ti ti-bell" aria-hidden="true"></i>
+                    Notifikasi
+                </a>
+
+                <div class="sb-section" style="margin-top:8px">Pengaturan</div>
+                <a href="#" class="sb-item">
+                    <i class="ti ti-settings" aria-hidden="true"></i>
+                    Konfigurasi AI
+                </a>
+                <a href="#" class="sb-item">
+                    <i class="ti ti-users" aria-hidden="true"></i>
+                    Pengguna
+                </a>
+            </nav>
+
+            <a href="index.html" class="sb-back">
+                <i class="ti ti-arrow-left" aria-hidden="true"></i>
+                Kembali ke portal
+            </a>
+        </aside>
+
+        <!-- =================== MAIN CONTENT =================== -->
+        <main class="main-content">
+
+            <!-- Header -->
+            <header class="content-header">
+                <div class="header-top">
+                    <div>
+                        <h1>Daftar pengaduan tiket</h1>
+                        <p>Memantau hasil analisis AI dan mengelola pengaduan mahasiswa</p>
+                    </div>
+                    <div class="header-actions">
+                        <button class="btn" onclick="exportData()">
+                            <i class="ti ti-download" aria-hidden="true"></i> Ekspor
+                        </button>
+                        <button class="btn btn-primary" onclick="loadTickets()">
+                            <i class="ti ti-refresh" aria-hidden="true"></i> Refresh
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Stat Cards -->
+            <div class="stat-row">
+                <div class="stat-card">
+                    <div class="stat-label"><i class="ti ti-ticket" aria-hidden="true"></i> Total tiket</div>
+                    <div class="stat-val" id="statTotal">0</div>
+                    <div class="stat-sub">Sejak 30 hari lalu</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label"><i class="ti ti-alert-triangle" aria-hidden="true"></i> Prioritas tinggi</div>
+                    <div class="stat-val" id="statHigh">0</div>
+                    <div class="stat-sub">Perlu tindak lanjut</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label"><i class="ti ti-clock" aria-hidden="true"></i> Diproses</div>
+                    <div class="stat-val" id="statProcess">0</div>
+                    <div class="stat-sub">Sedang ditangani</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label"><i class="ti ti-check" aria-hidden="true"></i> Selesai</div>
+                    <div class="stat-val" id="statDone">0</div>
+                    <div class="stat-sub">Terselesaikan</div>
+                </div>
+            </div>
+
+            <!-- Table Area -->
+            <div class="table-area">
+                <div class="filter-row">
+                    <div class="search-box">
+                        <i class="ti ti-search" aria-hidden="true"></i>
+                        <input type="text" id="searchInput" placeholder="Cari tiket, kategori, atau isi pengaduan..." oninput="filterTable()">
+                    </div>
+                    <button class="filter-btn" id="btnFilterPriority" onclick="cycleFilter('priority')">
+                        <i class="ti ti-filter" aria-hidden="true"></i> Filter
+                    </button>
+                    <button class="filter-btn" onclick="sortTable()">
+                        <i class="ti ti-arrows-sort" aria-hidden="true"></i> Urutkan
+                    </button>
+                </div>
+
+                <div class="table-container">
+                    <table id="ticketTable">
+                        <colgroup>
+                            <col class="c-id">
+                            <col class="c-isi">
+                            <col class="c-kat">
+                            <col class="c-pri">
+                            <col class="c-sta">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>ID tiket</th>
+                                <th>Isi pengaduan</th>
+                                <th>Kategori (AI)</th>
+                                <th>Prioritas</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ticketTableBody">
+                            <!-- Diisi oleh JavaScript -->
+                        </tbody>
+                    </table>
+
+                    <div id="lazyLoadTrigger" class="loading-trigger">
+                        <i class="ti ti-loader" aria-hidden="true"></i>
+                        Memuat data riwayat...
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/admin.js"></script>
+
+    <script>
+        /* ================================================================
+           UI Helper Functions
+           Sesuaikan loadTickets() dengan data source kamu (localStorage, API, dsb.)
+           ================================================================ */
+
+        let allTickets = [];
+        let sortAsc = true;
+        let filterPriority = 'all';
+
+        function priorityBadge(p) {
+            const map = {
+                'Tinggi':  { dot: 'dot-hi', label: 'Tinggi' },
+                'Sedang':  { dot: 'dot-md', label: 'Sedang' },
+                'Rendah':  { dot: 'dot-lo', label: 'Rendah' },
+            };
+            const m = map[p] || { dot: 'dot-lo', label: p };
+            return `<span class="pri-dot ${m.dot}"></span>${m.label}`;
+        }
+
+        function statusBadge(s) {
+            const map = {
+                'Baru':      'badge-gray',
+                'Diproses':  'badge-amber',
+                'Selesai':   'badge-teal',
+                'Eskalasi':  'badge-red',
+            };
+            return `<span class="badge ${map[s] || 'badge-gray'}">${s}</span>`;
+        }
+
+        function categoryBadge(kat) {
+            const map = {
+                'Infrastruktur': { cls: 'badge-blue',  icon: 'ti-road' },
+                'Fasilitas':     { cls: 'badge-teal',  icon: 'ti-bulb' },
+                'Teknologi':     { cls: 'badge-blue',  icon: 'ti-wifi' },
+                'Parkir':        { cls: 'badge-gray',  icon: 'ti-car' },
+                'Akademik':      { cls: 'badge-blue',  icon: 'ti-school' },
+            };
+            const m = map[kat] || { cls: 'badge-gray', icon: 'ti-tag' };
+            return `<span class="badge ${m.cls}"><i class="ti ${m.icon}" aria-hidden="true"></i> ${kat}</span>`;
+        }
+
+        function renderTable(tickets) {
+            const tbody = document.getElementById('ticketTableBody');
+            if (!tickets || tickets.length === 0) {
+                tbody.innerHTML = `
+                    <tr><td colspan="5">
+                        <div class="empty-state">
+                            <i class="ti ti-inbox" aria-hidden="true"></i>
+                            <p>Belum ada pengaduan yang masuk</p>
+                        </div>
+                    </td></tr>`;
+                document.getElementById('lazyLoadTrigger').style.display = 'none';
+                return;
+            }
+
+            tbody.innerHTML = tickets.map(t => `
+                <tr>
+                    <td><span class="tid">${t.id}</span></td>
+                    <td title="${t.isi}">${t.isi}</td>
+                    <td>${categoryBadge(t.kategori)}</td>
+                    <td>${priorityBadge(t.prioritas)}</td>
+                    <td>${statusBadge(t.status)}</td>
+                </tr>
+            `).join('');
+        }
+
+        function updateStats(tickets) {
+            const total   = tickets.length;
+            const high    = tickets.filter(t => t.prioritas === 'Tinggi').length;
+            const process = tickets.filter(t => t.status === 'Diproses').length;
+            const done    = tickets.filter(t => t.status === 'Selesai').length;
+
+            document.getElementById('statTotal').textContent   = total;
+            document.getElementById('statHigh').textContent    = high;
+            document.getElementById('statProcess').textContent = process;
+            document.getElementById('statDone').textContent    = done;
+            document.getElementById('totalBadge').textContent  = total;
+        }
+
+        function filterTable() {
+            const q = document.getElementById('searchInput').value.toLowerCase();
+            let filtered = allTickets.filter(t =>
+                t.id.toLowerCase().includes(q) ||
+                t.isi.toLowerCase().includes(q) ||
+                t.kategori.toLowerCase().includes(q) ||
+                t.status.toLowerCase().includes(q)
+            );
+            if (filterPriority !== 'all') {
+                filtered = filtered.filter(t => t.prioritas === filterPriority);
+            }
+            renderTable(filtered);
+        }
+
+        function cycleFilter(type) {
+            const priorities = ['all', 'Tinggi', 'Sedang', 'Rendah'];
+            const idx = priorities.indexOf(filterPriority);
+            filterPriority = priorities[(idx + 1) % priorities.length];
+            const btn = document.getElementById('btnFilterPriority');
+            btn.innerHTML = filterPriority === 'all'
+                ? '<i class="ti ti-filter" aria-hidden="true"></i> Filter'
+                : `<i class="ti ti-filter" aria-hidden="true"></i> ${filterPriority}`;
+            filterTable();
+        }
+
+        function sortTable() {
+            allTickets.sort((a, b) => {
+                const order = { 'Tinggi': 3, 'Sedang': 2, 'Rendah': 1 };
+                return sortAsc
+                    ? (order[b.prioritas] || 0) - (order[a.prioritas] || 0)
+                    : (order[a.prioritas] || 0) - (order[b.prioritas] || 0);
+            });
+            sortAsc = !sortAsc;
+            filterTable();
+        }
+
+        function exportData() {
+            const csv = ['ID Tiket,Isi Pengaduan,Kategori,Prioritas,Status']
+                .concat(allTickets.map(t =>
+                    `${t.id},"${t.isi}",${t.kategori},${t.prioritas},${t.status}`
+                )).join('\n');
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url  = URL.createObjectURL(blob);
+            const a    = document.createElement('a');
+            a.href = url; a.download = 'pengaduan.csv'; a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        /* ----------------------------------------------------------------
+           loadTickets — hubungkan ke data source kamu di sini.
+           Saat ini membaca dari localStorage (sesuai dengan portal.js).
+           ---------------------------------------------------------------- */
+        function loadTickets() {
+            const trigger = document.getElementById('lazyLoadTrigger');
+            trigger.style.display = 'flex';
+
+            // TODO: Ganti dengan fetch API jika menggunakan backend
+            // fetch(API_URL + '/tickets').then(r => r.json()).then(data => { ... })
+
+            // Baca dari localStorage (sesuai contoh portal.js):
+            try {
+                const raw = localStorage.getItem('tickets') || '[]';
+                allTickets = JSON.parse(raw);
+            } catch(e) {
+                allTickets = [];
+            }
+
+            updateStats(allTickets);
+            filterTable();
+            trigger.style.display = allTickets.length > 0 ? 'none' : 'flex';
+        }
+
+        /* Intersection Observer untuk lazy load (Intersection Observer API) */
+        const observer = new IntersectionObserver(entries => {
+            if (entries[0].isIntersecting) {
+                loadTickets();
+            }
+        }, { threshold: 0.5 });
+
+        observer.observe(document.getElementById('lazyLoadTrigger'));
+
+        /* Initial load */
+        loadTickets();
+    </script>
+</body>
+</html>
