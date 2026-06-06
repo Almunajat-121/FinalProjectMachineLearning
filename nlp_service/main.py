@@ -29,9 +29,10 @@ URGENCY_LABELS = {
     3: 'KRITIS'
 }
 
-# Cek keberadaan model di local path
-KATEGORI_MODEL_PATH = "./models/kategori_final"
-URGENSI_MODEL_PATH = "./models/urgensi_final"
+# Cek keberadaan model di local path (menggunakan path absolut dinamis)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+KATEGORI_MODEL_PATH = os.path.join(BASE_DIR, "models", "kategori_final")
+URGENSI_MODEL_PATH = os.path.join(BASE_DIR, "models", "urgensi_final")
 
 models_loaded = False
 tok_kat, model_kat = None, None
@@ -76,6 +77,14 @@ class NLPRequest(BaseModel):
     ticket_id: str
     text: str
 
+def clean_text(text: str) -> str:
+    import re
+    # Hapus unicode mojibake khas emoji pada utf-8 yang rusak (seperti ðŸ˜, ðŸ™)
+    text = re.sub(r'ðŸ[^\s]*', '', text)
+    # Hapus spasi ganda dan trim
+    cleaned = re.sub(r'\s+', ' ', text).strip()
+    return cleaned
+
 def extract_keywords(text: str):
     # Ekstraksi kata kunci sederhana untuk pameran
     stopwords = ['di', 'dan', 'yang', 'saya', 'ini', 'ke', 'dari', 'ada', 'sudah', 'tadi', 'mau', 'bisa', 'dari', 'pada', 'untuk']
@@ -83,9 +92,18 @@ def extract_keywords(text: str):
     keywords = [w for w in words if len(w) > 3 and w not in stopwords]
     return list(set(keywords))[:5]
 
+@app.post("/predict")
 @app.post("/analyze")
 def analyze(req: NLPRequest):
     start_time = time.time()
+    
+    # 0. Proses Sanitasi (mojibake dan min 15 karakter)
+    cleaned = clean_text(req.text)
+    if len(cleaned) < 15:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Teks keluhan terlalu pendek setelah disanitasi ({len(cleaned)}/15 karakter minimal)."
+        )
     
     # 1. Mode Nyata (Jika model IndoBERT sudah di-download)
     if models_loaded:
@@ -93,7 +111,7 @@ def analyze(req: NLPRequest):
             device = "cuda" if torch.cuda.is_available() else "cpu"
             
             # Prediksi Kategori
-            kat_inputs = tok_kat(req.text, return_tensors='pt', truncation=True, max_length=128).to(device)
+            kat_inputs = tok_kat(cleaned, return_tensors='pt', truncation=True, max_length=128).to(device)
             with torch.no_grad():
                 kat_logits = model_kat(**kat_inputs).logits
             kat_probs = torch.softmax(kat_logits, dim=-1)[0]
@@ -102,7 +120,7 @@ def analyze(req: NLPRequest):
             cat_score = float(kat_probs[kat_pred_id])
             
             # Prediksi Urgensi
-            urg_inputs = tok_urg(req.text, return_tensors='pt', truncation=True, max_length=128).to(device)
+            urg_inputs = tok_urg(cleaned, return_tensors='pt', truncation=True, max_length=128).to(device)
             with torch.no_grad():
                 urg_logits = model_urg(**urg_inputs).logits
             urg_probs = torch.softmax(urg_logits, dim=-1)[0]
@@ -120,7 +138,7 @@ def analyze(req: NLPRequest):
                     "category_score": round(cat_score, 3),
                     "urgency_score": round(urg_score, 3)
                 },
-                "keywords_extracted": extract_keywords(req.text),
+                "keywords_extracted": extract_keywords(cleaned),
                 "processed_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                 "inference_ms": inference_ms,
                 "mode": "REAL_MODEL"
@@ -133,12 +151,12 @@ def analyze(req: NLPRequest):
             
     # 2. Mode Mock / Dummy (Untuk demonstrasi awal sebelum training selesai)
     else:
-        text_lower = req.text.lower()
+        text_lower = cleaned.lower()
         
         # Logika heuristic sederhana untuk mock routing (agar demo pameran terlihat nyata tanpa model)
         # Prediksi Kategori
         category = 'LAINNYA'
-        if any(w in text_lower for w in ['wc', 'ac', 'kursi', 'aula', 'meja', ' toilet', 'proyektor', 'kran', 'lampu']):
+        if any(w in text_lower for w in ['wc', 'ac', 'kursi', 'aula', 'meja', 'toilet', 'proyektor', 'kran', 'lampu']):
             category = 'FASILITAS'
         elif any(w in text_lower for w in ['wifi', 'internet', 'sinyal', 'seluler', 'hotspot', 'bandwidth', 'koneksi']):
             category = 'JARINGAN_IT'
@@ -172,8 +190,14 @@ def analyze(req: NLPRequest):
                 "category_score": 0.885,
                 "urgency_score": 0.912
             },
-            "keywords_extracted": extract_keywords(req.text),
+            "keywords_extracted": extract_keywords(cleaned),
             "processed_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
             "inference_ms": inference_ms,
             "mode": "MOCK_HEURISTIC"
         }
+
+if __name__ == "__main__":
+    import uvicorn
+    # Berpindah ke direktori file main.py agar uvicorn dapat mendeteksi modul & model dengan benar
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    uvicorn.run("main:app", host="127.0.0.1", port=8001, reload=True)

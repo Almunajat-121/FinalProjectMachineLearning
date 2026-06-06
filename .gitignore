@@ -40,25 +40,37 @@ MANIFEST
 .DS_Store
 Thumbs.db
 
-# Laravel
-/vendor/
-/node_modules/
+# Node.js
+node_modules/
 npm-debug.log
 yarn-error.log
+
+# Laravel
+vendor/
 .env
 .env.local
 .env.backup
 .phpunit.result.cache
-storage/logs/
+backend/storage/logs/
+backend/storage/framework/
+backend/bootstrap/cache/
+backend/public/build/
+backend/public/hot
 
-# ML Training
-ml_training/data/train.csv
-ml_training/data/val.csv
-ml_training/data/test.csv
+# ML Training & Data
+ml_training/data/
+dataset_ml_final.csv
+*.csv
 ml_training/models/
 *.pkl
 *.pth
+*.h5
+*.onnx
+
+# NLP Service
+nlp_service/models/
 
 # Misc
-.DS_Store
 *.log
+antigravity_history.md
+sandbox/

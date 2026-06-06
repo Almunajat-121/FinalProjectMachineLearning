@@ -9,9 +9,15 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('tickets', function (Blueprint $table) {
-            // Primary key UUID
-            $table->uuid('id')->primary();
+        $driver = Schema::connection($this->getConnection())->getConnection()->getDriverName();
+
+        Schema::create('tickets', function (Blueprint $table) use ($driver) {
+            if ($driver === 'sqlite') {
+                $table->id('cursor_id');
+                $table->uuid('id')->unique();
+            } else {
+                $table->uuid('id')->primary();
+            }
 
             // Konten keluhan
             $table->text('raw_text');
@@ -33,7 +39,7 @@ return new class extends Migration
 
             // Status lifecycle
             $table->enum('status', [
-                'PENDING_NLP', 'OPEN', 'IN_PROGRESS', 'RESOLVED', 'CLOSED'
+                'PENDING_NLP', 'OPEN', 'IN_PROGRESS', 'RESOLVED', 'CLOSED', 'FAILED'
             ])->default('PENDING_NLP');
 
             // Timestamps
@@ -48,12 +54,20 @@ return new class extends Migration
             $table->index('created_at');
         });
 
-        // Tambah cursor_id sebagai auto_increment + unique key via raw SQL
-        // karena MySQL tidak izinkan dua kolom auto_increment lewat Blueprint
-        DB::statement('ALTER TABLE tickets ADD COLUMN cursor_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE');
-        DB::statement('ALTER TABLE tickets ADD INDEX idx_status_cursor (status, cursor_id DESC)');
-        DB::statement('ALTER TABLE tickets ADD INDEX idx_urgency_cursor (urgency, cursor_id DESC)');
-        DB::statement('ALTER TABLE tickets ADD INDEX idx_category_cursor (category, cursor_id DESC)');
+        if ($driver !== 'sqlite') {
+            // Tambah cursor_id sebagai auto_increment + unique key via raw SQL
+            // karena MySQL tidak izinkan dua kolom auto_increment lewat Blueprint
+            DB::statement('ALTER TABLE tickets ADD COLUMN cursor_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE');
+            DB::statement('ALTER TABLE tickets ADD INDEX idx_status_cursor (status, cursor_id DESC)');
+            DB::statement('ALTER TABLE tickets ADD INDEX idx_urgency_cursor (urgency, cursor_id DESC)');
+            DB::statement('ALTER TABLE tickets ADD INDEX idx_category_cursor (category, cursor_id DESC)');
+        } else {
+            Schema::table('tickets', function (Blueprint $table) {
+                $table->index(['status', 'cursor_id']);
+                $table->index(['urgency', 'cursor_id']);
+                $table->index(['category', 'cursor_id']);
+            });
+        }
     }
 
     public function down(): void

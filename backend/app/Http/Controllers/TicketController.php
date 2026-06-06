@@ -54,6 +54,9 @@ class TicketController extends Controller
     // Admin — lazy load daftar tiket
     public function index(Request $request)
     {
+        $limit = $request->integer('limit', 20);
+        $limit = min(max($limit, 1), 100);
+
         $tickets = Ticket::orderByDesc('cursor_id')
             ->when($request->cursor, fn($q) =>
                 $q->where('cursor_id', '<', $request->cursor)
@@ -67,27 +70,28 @@ class TicketController extends Controller
             ->when($request->category, fn($q) =>
                 $q->where('category', $request->category)
             )
-            ->limit(20)
+            ->limit($limit)
             ->get();
 
         return response()->json([
             'data'        => $tickets,
             'next_cursor' => $tickets->last()?->cursor_id,
-            'has_more'    => $tickets->count() === 20,
+            'has_more'    => $tickets->count() === $limit,
         ]);
-        
-        }
-        // Admin — update status tiket
+    }
+    // Admin — update status tiket
     public function update(Request $request, string $id)
     {
         $request->validate([
             'status'     => 'sometimes|in:OPEN,IN_PROGRESS,RESOLVED,CLOSED',
             'admin_note' => 'sometimes|string|max:1000',
+            'category'   => 'sometimes|in:FASILITAS,AKADEMIK,JARINGAN_IT,KEUANGAN,KEMAHASISWAAN,LAINNYA',
+            'urgency'    => 'sometimes|in:RENDAH,SEDANG,TINGGI,KRITIS',
         ]);
 
         $ticket = Ticket::findOrFail($id);
 
-        $data = $request->only(['status', 'admin_note']);
+        $data = $request->only(['status', 'admin_note', 'category', 'urgency']);
 
         if (isset($data['status']) && $data['status'] === 'RESOLVED') {
             $data['resolved_at'] = now();

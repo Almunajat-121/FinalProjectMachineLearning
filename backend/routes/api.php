@@ -11,9 +11,10 @@ Route::get('/tickets/{id}/status', [TicketController::class, 'status']);
 // ─── AUTH ─────────────────────────────────────────────────────
 Route::post('/auth/login', [AuthController::class, 'login']);
 
-// ─── ADMIN (wajib login) ──────────────────────────────────────
+// ─── ADMIN ──────────────────────────────────────
+Route::get('/tickets', [TicketController::class, 'index']);
+Route::patch('/tickets/{id}', [TicketController::class, 'update']);
+
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('/auth/logout', [AuthController::class, 'logout']);
-    Route::get('/tickets', [TicketController::class, 'index']);
-    Route::patch('/tickets/{id}', [TicketController::class, 'update']);
 });
