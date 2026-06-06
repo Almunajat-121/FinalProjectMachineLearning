@@ -1,0 +1,64 @@
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Laravel
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+.env.backup
+.phpunit.result.cache
+storage/logs/
+
+# ML Training
+ml_training/data/train.csv
+ml_training/data/val.csv
+ml_training/data/test.csv
+ml_training/models/
+*.pkl
+*.pth
+
+# Misc
+.DS_Store
+*.log
