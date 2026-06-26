@@ -74,3 +74,10 @@ nlp_service/models/
 *.log
 antigravity_history.md
 sandbox/
+
+# Large Files & Models
+*.safetensors
+*.zip
+*.dll
+models_baru/
+models_lama/

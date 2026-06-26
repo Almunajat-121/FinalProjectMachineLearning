@@ -39,6 +39,7 @@ class TicketController extends Controller
     {
         $ticket = Ticket::select([
             'id',
+            'raw_text',
             'status',
             'category',
             'urgency',
